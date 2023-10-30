@@ -1,84 +1,26 @@
 {
   "ComponentIndexes": {},
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {
-    "App": 1,
-    "Body1": 23,
-    "Gallery2": 13,
-    "galleryTemplate2": 14,
-    "Host": 3,
-    "NextArrow3": 24,
-    "Rectangle3": 26,
-    "Screen1": 4,
-    "Separator3": 25,
-    "Subtitle3": 22,
-    "Title3": 21
-  },
+  "ControlUniqueIds": {},
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2023 09:22:37",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {
-    "d5e22a8e-91f5-4498-8676-f9804047fe96": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c3c6a32f554540d6ae7a57fc2575dcab\""
-  },
+  "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
-  "OrderDataSource": {
-    "CustomGallerySample": 2,
-    "IA_Invoice_Details": 0,
-    "IA_Invoice_Items": 1
-  },
+  "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {
-    "gallery": 0,
-    "icon": 2,
-    "label": 3,
-    "rectangle": 1
-  },
-  "OverridablePropertiesEntry": {
-    "App": {},
-    "Body1": {},
-    "Gallery2": {},
-    "galleryTemplate2": {},
-    "Host": {},
-    "NextArrow3": {},
-    "Rectangle3": {},
-    "Screen1": {},
-    "Separator3": {},
-    "Subtitle3": {},
-    "Title3": {}
-  },
+  "OrderXMLTemplate": {},
+  "OverridablePropertiesEntry": {},
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {
-    "App": 0,
-    "Body1": 0,
-    "Gallery2": 0,
-    "galleryTemplate2": 0,
-    "Host": 0,
-    "NextArrow3": 0,
-    "Rectangle3": 0,
-    "Screen1": 0,
-    "Separator3": 0,
-    "Subtitle3": 0,
-    "Title3": 0
-  },
-  "ResourcesJsonIndices": {
-    "Image-SampleImage": 0
-  },
+  "PublishOrderIndices": {},
+  "ResourcesJsonIndices": {},
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {},
-  "VolatileProperties": {
-    "AnalysisLoadTime": 0.0354084,
-    "ControlCount": {
-      "screen": 1
-    },
-    "DeserializationLoadTime": 0.6251535
-  },
-  "WasLocalDatabaseReferencesEmpty": true
+  "TemplateVersions": {}
 }
