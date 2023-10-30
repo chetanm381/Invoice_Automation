@@ -11,6 +11,9 @@
           "IA_Invoice_Details": {
             "tableName": "7ee93ad8-3f1c-475f-ab34-a93b8ac4048d"
           },
+          "IA_Invoice_Details_1": {
+            "tableName": "7ee93ad8-3f1c-475f-ab34-a93b8ac4048d"
+          },
           "IA_Invoice_Items": {
             "tableName": "f11071d9-a071-48fe-b068-c33a7aa99ef6"
           }
@@ -19,7 +22,8 @@
     },
     "dataSources": [
       "IA_Invoice_Details",
-      "IA_Invoice_Items"
+      "IA_Invoice_Items",
+      "IA_Invoice_Details_1"
     ],
     "dependencies": {},
     "dependents": [],

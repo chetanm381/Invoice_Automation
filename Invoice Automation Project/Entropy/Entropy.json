@@ -10,13 +10,14 @@
     "NextArrow1": 17,
     "Rectangle1": 19,
     "Screen1": 4,
+    "Screen2": 20,
     "Separator1": 18,
     "Subtitle1": 15,
     "Title1": 14
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2023 10:13:23",
+  "HeaderLastSavedDateTimeUTC": "10/30/2023 10:16:52",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5e22a8e-91f5-4498-8676-f9804047fe96": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-6cdded0d-e0f9-4ffd-b541-d103704f38a2\""
@@ -29,6 +30,7 @@
   "OrderDataSource": {
     "CustomGallerySample": 0,
     "IA_Invoice_Details": 1,
+    "IA_Invoice_Details_1": 3,
     "IA_Invoice_Items": 2
   },
   "OrderGroupControls": {},
@@ -36,8 +38,8 @@
   "OrderTemplate": {},
   "OrderXMLTemplate": {
     "gallery": 0,
-    "icon": 2,
-    "label": 3,
+    "icon": 3,
+    "label": 2,
     "rectangle": 1
   },
   "OverridablePropertiesEntry": {
@@ -49,6 +51,7 @@
     "NextArrow1": {},
     "Rectangle1": {},
     "Screen1": {},
+    "Screen2": {},
     "Separator1": {},
     "Subtitle1": {},
     "Title1": {}
@@ -57,16 +60,17 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Body1": 0,
-    "Gallery2": 5,
-    "galleryTemplate2": 6,
+    "Body1": 6,
+    "Gallery2": 0,
+    "galleryTemplate2": 1,
     "Host": 0,
-    "NextArrow1": 0,
-    "Rectangle1": 0,
+    "NextArrow1": 4,
+    "Rectangle1": 2,
     "Screen1": 3,
-    "Separator1": 0,
-    "Subtitle1": 0,
-    "Title1": 0
+    "Screen2": 0,
+    "Separator1": 7,
+    "Subtitle1": 5,
+    "Title1": 3
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0
