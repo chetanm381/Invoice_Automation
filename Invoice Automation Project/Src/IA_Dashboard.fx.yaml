@@ -7,8 +7,13 @@ IA_Dashboard As screen:
         ZIndex: =1
 
     Container1 As groupContainer.horizontalAutoLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =1229
         LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =768
         ZIndex: =1
 
