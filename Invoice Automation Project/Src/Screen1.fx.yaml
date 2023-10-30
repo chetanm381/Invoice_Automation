@@ -3,7 +3,7 @@ Screen1 As screen:
     "Gallery2 As gallery.'BrowseLayout_Vertical_ThreeTextVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =581
-        Items: =IA_Invoice_Details_1
+        Items: =IA_Invoice_Details_2
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =Navigate(Screen2)
