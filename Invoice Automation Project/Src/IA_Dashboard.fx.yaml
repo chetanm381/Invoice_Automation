@@ -8,12 +8,90 @@ IA_Dashboard As screen:
         RadiusBottomRight: =0
         RadiusTopLeft: =0
         RadiusTopRight: =0
-        Width: =768
+        Width: =Parent.Width
         ZIndex: =1
 
-    Rectangle2 As rectangle:
-        Height: =140
-        Width: =504
-        X: =264
-        ZIndex: =1
+        Container2 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(80, 65, 188, 1)
+            FillPortions: =0
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            RadiusBottomRight: =50
+            RadiusTopRight: =50
+            Width: =Parent.Width*.25
+            ZIndex: =1
+
+            Container4 As groupContainer.manualLayoutContainer:
+                Height: =40
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Width: =Parent.Width*.75
+                X: =Parent.Width*.125
+                Y: =260
+                ZIndex: =1
+
+                Rectangle4 As rectangle:
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =40
+                    OnSelect: =true
+                    PressedFill: =Color.White
+                    Width: =144
+                    ZIndex: =1
+
+                Label4 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Size: =9
+                    Text: ="Dashboard"
+                    Width: =144
+                    X: =Parent.Width*.30
+                    ZIndex: =2
+
+                Icon1 As icon.Waffle:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =15
+                    Icon: =Icon.Waffle
+                    Width: =16
+                    X: =Parent.Width*.15
+                    Y: =12
+                    ZIndex: =3
+
+            Container4_1 As groupContainer.manualLayoutContainer:
+                Height: =40
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Width: =Parent.Width*.75
+                X: =24
+                Y: =320
+                ZIndex: =2
+
+                Rectangle4_1 As rectangle:
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =40
+                    PressedFill: =Color.White
+                    Width: =144
+                    ZIndex: =1
+
+                Label4_1 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Size: =9
+                    Text: ="Notifications"
+                    Width: =144
+                    X: =Parent.Width*.30
+                    ZIndex: =2
+
+                Icon1_1 As icon.Waffle:
+                    Color: =RGBA(85, 72, 189, 1)
+                    Height: =15
+                    Icon: =Icon.Bell
+                    PressedColor: =
+                    Width: =16
+                    X: =Parent.Width*.15
+                    Y: =12
+                    ZIndex: =3
 

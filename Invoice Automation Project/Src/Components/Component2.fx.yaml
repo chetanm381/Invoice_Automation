@@ -6,3 +6,20 @@ Component2 As CanvasComponent:
     Y: =0
     ZIndex: =1
 
+    Container3 As groupContainer.manualLayoutContainer:
+        Height: =640
+        Width: =640
+        ZIndex: =1
+
+        Rectangle2 As rectangle:
+            Height: =640
+            Width: =640
+            ZIndex: =1
+
+        Label3 As label:
+            Align: =Align.Center
+            Text: ="Dashboard"
+            X: =245
+            Y: =300
+            ZIndex: =2
+
