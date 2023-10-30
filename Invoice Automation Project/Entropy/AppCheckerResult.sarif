@@ -14,6 +14,266 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "Component1.Container5.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component1.Container5.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "Component1",
+                "type": "Component1.Container5"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Manual"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Component2.Container3.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "Component2.Container3.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "Component2",
+                "type": "Component2.Container3"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Manual"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.Container1.Container2"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Manual"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.Container1.Container2.Container4"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Manual"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4_1.LayoutDirection"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4_1.LayoutDirection",
+                  "relativeAddress": 0
+                },
+                "region": {
+                  "charLength": 7,
+                  "charOffset": 15,
+                  "snippet": {
+                    "text": ".Manual"
+                  }
+                }
+              },
+              "properties": {
+                "member": "LayoutDirection",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.Container1.Container2.Container4_1"
+              }
+            }
+          ],
+          "message": {
+            "arguments": [
+              "Manual"
+            ],
+            "id": "issue"
+          },
+          "properties": {
+            "level": "High"
+          },
+          "ruleId": "app-ErrInvalidName",
+          "ruleIndex": 0
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.Rectangle4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.Rectangle4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.Container1.Container2.Container4.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.Rectangle4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.Container1.Container2.Container4.Rectangle4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.Container1.Container2.Container4.Rectangle4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "Screen1"
                 }
               ],
@@ -36,7 +296,7 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
         },
         {
           "locations": [
@@ -125,7 +385,37 @@
             "level": "Low"
           },
           "ruleId": "acc-ReadableScreenNameNeeded",
-          "ruleIndex": 0
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Ellipse 10"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Ellipse 10",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Ellipse 10",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -134,20 +424,20 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "acc-ReadableScreenNameNeeded",
+              "id": "app-ErrInvalidName",
               "messageStrings": {
                 "issue": {
-                  "text": "Revise screen name"
+                  "text": "Name isn't valid. '{0}' isn't recognized."
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                  "Remove or correct the reference to the name that isn't valid."
                 ],
-                "level": "Low",
-                "primaryCategory": "accessibility",
-                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+                "level": "High",
+                "primaryCategory": "formula",
+                "whyFix": ""
               }
             },
             {
@@ -182,6 +472,40 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
+              }
+            },
+            {
+              "id": "acc-ReadableScreenNameNeeded",
+              "messageStrings": {
+                "issue": {
+                  "text": "Revise screen name"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Give the screen  a title that describes what's on the screen or what it's used for."
+                ],
+                "level": "Low",
+                "primaryCategory": "accessibility",
+                "whyFix": "People who are blind, have low vision, or a reading disability rely on screen titles to navigate using the screen reader. "
+              }
+            },
+            {
+              "id": "app-UnusedMediaResources",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused media files"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused media file in the Media pane."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
               }
             }
           ],
