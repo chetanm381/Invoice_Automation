@@ -46,7 +46,7 @@
     "EncodeDataset": true,
     "IsSampleData": false,
     "IsWritable": true,
-    "Name": "IA_Invoice_Details",
+    "Name": "IA_Invoice_Details_2",
     "Type": "ConnectedDataSourceInfo"
   }
 ]
