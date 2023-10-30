@@ -1,26 +1,121 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 3,
+    "Component2": 4
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Body1": 12,
+    "Component1": 16,
+    "Component2": 17,
+    "Gallery2": 6,
+    "galleryTemplate2": 7,
+    "Host": 3,
+    "IA_Dashboard": 4,
+    "Label2": 20,
+    "NextArrow1": 10,
+    "Rectangle1": 8,
+    "Rectangle2": 15,
+    "Rectangle3": 19,
+    "Screen1": 5,
+    "Screen2": 14,
+    "Separator1": 13,
+    "Subtitle1": 11,
+    "Title1": 9
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/30/2023 12:12:42",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "d5e22a8e-91f5-4498-8676-f9804047fe96": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c3c6a32f554540d6ae7a57fc2575dcab\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {},
   "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "OrderComponentMetadata": {
+    "4f2a6eb125db4bffbabad7b310467715": 0,
+    "7b1aaf25e120417893fe96376d690a59": 1
+  },
+  "OrderComponentTemplate": {
+    "4f2a6eb125db4bffbabad7b310467715": 0,
+    "7b1aaf25e120417893fe96376d690a59": 1
+  },
+  "OrderDataSource": {
+    "CustomGallerySample": 0,
+    "IA_Invoice_Details": 1,
+    "IA_Invoice_Details_1": 2,
+    "IA_Invoice_Details_2": 3,
+    "IA_Invoice_Items": 4
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 1,
+    "icon": 3,
+    "label": 2,
+    "rectangle": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Body1": {},
+    "Component1": {},
+    "Component2": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
+    "Host": {},
+    "IA_Dashboard": {},
+    "Label2": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Rectangle2": {},
+    "Rectangle3": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Body1": 11,
+    "Component1": 0,
+    "Component2": 0,
+    "Gallery2": 5,
+    "galleryTemplate2": 6,
+    "Host": 0,
+    "IA_Dashboard": 3,
+    "Label2": 0,
+    "NextArrow1": 9,
+    "Rectangle1": 7,
+    "Rectangle2": 0,
+    "Rectangle3": 0,
+    "Screen1": 4,
+    "Screen2": 13,
+    "Separator1": 12,
+    "Subtitle1": 10,
+    "Title1": 8
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.1159969,
+    "ControlCount": {
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 1,
+      "label": 3,
+      "rectangle": 2,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 0.6794183
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }

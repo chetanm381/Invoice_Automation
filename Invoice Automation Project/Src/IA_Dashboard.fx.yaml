@@ -1,2 +1,8 @@
 IA_Dashboard As screen:
 
+    Rectangle2 As rectangle:
+        Height: =140
+        Width: =504
+        X: =264
+        ZIndex: =1
+

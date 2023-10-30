@@ -1,0 +1,20 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Rectangle3 As rectangle:
+        Height: =140
+        Width: =443
+        X: =195
+        ZIndex: =1
+
+    Label2 As label:
+        Text: ="Welcome"
+        X: =240
+        Y: =27
+        ZIndex: =2
+
