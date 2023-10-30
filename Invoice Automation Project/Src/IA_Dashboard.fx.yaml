@@ -1,2 +1,8 @@
 IA_Dashboard As screen:
 
+    Container1 As groupContainer.horizontalAutoLayoutContainer:
+        Height: =1229
+        LayoutMode: =LayoutMode.Auto
+        Width: =768
+        ZIndex: =1
+
