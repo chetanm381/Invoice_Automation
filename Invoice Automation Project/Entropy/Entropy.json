@@ -7,6 +7,7 @@
     "Gallery2": 5,
     "galleryTemplate2": 6,
     "Host": 3,
+    "IA_Dashboard": 14,
     "NextArrow1": 9,
     "Rectangle1": 7,
     "Screen1": 4,
@@ -17,7 +18,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2023 10:21:24",
+  "HeaderLastSavedDateTimeUTC": "10/30/2023 11:45:13",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "d5e22a8e-91f5-4498-8676-f9804047fe96": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c3c6a32f554540d6ae7a57fc2575dcab\""
@@ -49,6 +50,7 @@
     "Gallery2": {},
     "galleryTemplate2": {},
     "Host": {},
+    "IA_Dashboard": {},
     "NextArrow1": {},
     "Rectangle1": {},
     "Screen1": {},
@@ -65,6 +67,7 @@
     "Gallery2": 4,
     "galleryTemplate2": 5,
     "Host": 0,
+    "IA_Dashboard": 0,
     "NextArrow1": 8,
     "Rectangle1": 6,
     "Screen1": 3,
