@@ -12,21 +12,29 @@ IA_Dashboard As screen:
         ZIndex: =1
 
         Container2 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             Fill: =RGBA(80, 65, 188, 1)
             FillPortions: =0
+            LayoutDirection: =LayoutDirection.Manual
             LayoutMinHeight: =100
             LayoutMinWidth: =250
-            RadiusBottomRight: =50
-            RadiusTopRight: =50
+            LayoutMode: =LayoutMode.Auto
+            RadiusBottomLeft: =0
+            RadiusBottomRight: =0
+            RadiusTopLeft: =0
+            RadiusTopRight: =0
             Width: =Parent.Width*.25
             ZIndex: =1
 
             Container4 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.None
                 Height: =40
-                RadiusBottomLeft: =10
-                RadiusBottomRight: =10
-                RadiusTopLeft: =10
-                RadiusTopRight: =10
+                LayoutDirection: =LayoutDirection.Manual
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Width: =Parent.Width*.75
                 X: =Parent.Width*.125
                 Y: =260
@@ -59,11 +67,14 @@ IA_Dashboard As screen:
                     ZIndex: =3
 
             Container4_1 As groupContainer.manualLayoutContainer:
+                DropShadow: =DropShadow.None
                 Height: =40
-                RadiusBottomLeft: =10
-                RadiusBottomRight: =10
-                RadiusTopLeft: =10
-                RadiusTopRight: =10
+                LayoutDirection: =LayoutDirection.Manual
+                LayoutMode: =LayoutMode.Auto
+                RadiusBottomLeft: =0
+                RadiusBottomRight: =0
+                RadiusTopLeft: =0
+                RadiusTopRight: =0
                 Width: =Parent.Width*.75
                 X: =24
                 Y: =320

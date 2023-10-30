@@ -7,7 +7,14 @@ Component2 As CanvasComponent:
     ZIndex: =1
 
     Container3 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =640
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         Width: =640
         ZIndex: =1
 
