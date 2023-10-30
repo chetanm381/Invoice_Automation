@@ -1,11 +1,5 @@
 IA_Dashboard As screen:
 
-    Rectangle2 As rectangle:
-        Height: =140
-        Width: =504
-        X: =264
-        ZIndex: =1
-
     Container1 As groupContainer.horizontalAutoLayoutContainer:
         DropShadow: =DropShadow.None
         Height: =1229
@@ -15,5 +9,11 @@ IA_Dashboard As screen:
         RadiusTopLeft: =0
         RadiusTopRight: =0
         Width: =768
+        ZIndex: =1
+
+    Rectangle2 As rectangle:
+        Height: =140
+        Width: =504
+        X: =264
         ZIndex: =1
 
