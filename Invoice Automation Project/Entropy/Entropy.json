@@ -3,12 +3,13 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Button1": 5,
     "Host": 3,
     "Screen1": 4
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/30/2023 05:10:49",
+  "HeaderLastSavedDateTimeUTC": "10/30/2023 09:21:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -20,9 +21,12 @@
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 0
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Button1": {},
     "Host": {},
     "Screen1": {}
   },
@@ -30,6 +34,7 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Button1": 0,
     "Host": 0,
     "Screen1": 0
   },
@@ -37,11 +42,11 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.0354084,
+    "AnalysisLoadTime": 0.035567,
     "ControlCount": {
       "screen": 1
     },
-    "DeserializationLoadTime": 0.6251535
+    "DeserializationLoadTime": 1.1128021
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
