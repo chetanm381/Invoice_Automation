@@ -22,9 +22,14 @@ IA_Dashboard As screen:
             ZIndex: =1
 
             Container3 As groupContainer.verticalAutoLayoutContainer:
+                Height: =302
                 LayoutDirection: =LayoutDirection.Vertical
                 LayoutMode: =LayoutMode.Auto
                 Width: =192
-                Y: =40
+                Y: =130
                 ZIndex: =1
+
+                Rectangle2 As rectangle:
+                    Width: =Parent.Width*.80
+                    ZIndex: =1
 
