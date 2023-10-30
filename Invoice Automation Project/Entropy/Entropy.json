@@ -1,26 +1,137 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 3
+  },
   "ControlUniqueGuids": {},
-  "ControlUniqueIds": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Body1": 20,
+    "Component1": 4,
+    "Container1": 10,
+    "Container2": 11,
+    "Container3": 12,
+    "Gallery2": 14,
+    "galleryTemplate2": 15,
+    "Host": 3,
+    "IA_Dashboard": 9,
+    "Image1": 8,
+    "Label1": 6,
+    "Label2": 7,
+    "NextArrow1": 18,
+    "Rectangle1": 16,
+    "Rectangle3": 5,
+    "Screen1": 13,
+    "Screen2": 22,
+    "Separator1": 21,
+    "Subtitle1": 19,
+    "Title1": 17
+  },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "10/30/2023 12:28:44",
   "IsLegacyComponentAllowGlobalScopeCase": false,
-  "LocalConnectionIDReferences": {},
+  "LocalConnectionIDReferences": {
+    "d5e22a8e-91f5-4498-8676-f9804047fe96": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-6cdded0d-e0f9-4ffd-b541-d103704f38a2\""
+  },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
-  "OrderDataSource": {},
+  "LocalResourceFileNames": {
+    "2807609 1": "0001.png"
+  },
+  "LocalResourceRootPaths": {
+    "2807609 1": "https://docserverpwaprodweu.blob.core.windows.net/394263a3-e2ce-4ac0-8d10-6a215a060965-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-30T12%3A28%3A22Z&ske=2023-10-31T12%3A43%3A22Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-10-31T12%3A43%3A22Z&sr=b&sp=r&sig=%2FGl5CV0bnn2wupcNK0ov1SenT8l39yS9rbm6RK4qGaA%3D"
+  },
+  "OrderComponentMetadata": {
+    "e6ca62ec8d9848d3a9ed270d02ae51ad": 0
+  },
+  "OrderComponentTemplate": {
+    "e6ca62ec8d9848d3a9ed270d02ae51ad": 0
+  },
+  "OrderDataSource": {
+    "CustomGallerySample": 0,
+    "IA_Invoice_Details": 1,
+    "IA_Invoice_Details_1": 2,
+    "IA_Invoice_Details_2": 3,
+    "IA_Invoice_Items": 4
+  },
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
-  "OverridablePropertiesEntry": {},
+  "OrderXMLTemplate": {
+    "gallery": 1,
+    "groupContainer": 0,
+    "icon": 4,
+    "image": 5,
+    "label": 3,
+    "rectangle": 2
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Body1": {},
+    "Component1": {},
+    "Container1": {},
+    "Container2": {},
+    "Container3": {},
+    "Gallery2": {},
+    "galleryTemplate2": {},
+    "Host": {},
+    "IA_Dashboard": {},
+    "Image1": {},
+    "Label1": {},
+    "Label2": {},
+    "NextArrow1": {},
+    "Rectangle1": {},
+    "Rectangle3": {},
+    "Screen1": {},
+    "Screen2": {},
+    "Separator1": {},
+    "Subtitle1": {},
+    "Title1": {}
+  },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
-  "PublishOrderIndices": {},
-  "ResourcesJsonIndices": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Body1": 19,
+    "Component1": 1,
+    "Container1": 9,
+    "Container2": 10,
+    "Container3": 11,
+    "Gallery2": 13,
+    "galleryTemplate2": 14,
+    "Host": 0,
+    "IA_Dashboard": 8,
+    "Image1": 5,
+    "Label1": 3,
+    "Label2": 4,
+    "NextArrow1": 17,
+    "Rectangle1": 15,
+    "Rectangle3": 2,
+    "Screen1": 12,
+    "Screen2": 21,
+    "Separator1": 20,
+    "Subtitle1": 18,
+    "Title1": 16
+  },
+  "ResourcesJsonIndices": {
+    "Image-2807609 1": 1,
+    "Image-SampleImage": 0
+  },
   "RuleScreenIdWithoutScreen": {},
-  "TemplateVersions": {}
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.046387,
+    "ControlCount": {
+      "e6ca62ec8d9848d3a9ed270d02ae51ad": 1,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "groupContainer": 3,
+      "icon": 1,
+      "image": 1,
+      "label": 5,
+      "rectangle": 3,
+      "screen": 3
+    },
+    "DeserializationLoadTime": 0.9132447
+  },
+  "WasLocalDatabaseReferencesEmpty": true
 }
