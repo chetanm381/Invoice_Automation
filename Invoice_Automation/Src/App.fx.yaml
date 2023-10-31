@@ -1,9 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =ClearCollect(
-            colNav,
-            Table(
+        =ClearCollect(navbar,Table(
                 {
                     Title: "Dashboard",
                     
@@ -15,8 +13,7 @@ App As appinfo:
                     Icon: Icon.Bell
                 }
                 
-            )
-        );
+            ));
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

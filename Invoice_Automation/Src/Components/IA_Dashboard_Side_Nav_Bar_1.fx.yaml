@@ -10,7 +10,20 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
         DelayItemLoading: =true
         Fill: =RGBA(186, 202, 226, 1)
         Height: =504
-        Items: =CustomGallerySample
+        Items: |-
+            =Table(
+                    {
+                        Title: "Dashboard",
+                        
+                        Icon: Icon.Waffle
+                    },
+                    {
+                        Title: "Notifications",
+                        
+                        Icon: Icon.Bell
+                    }
+                    
+                );
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
@@ -27,7 +40,7 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
             PaddingLeft: =0
             PaddingRight: =0
             PaddingTop: =0
-            Text: =ThisItem.SampleHeading
+            Text: =ThisItem
             VerticalAlign: =VerticalAlign.Top
             Width: =Parent.TemplateWidth - 86
             X: =86
@@ -38,7 +51,7 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
             AccessibleLabel: =Self.Tooltip
             Color: =RGBA(80, 65, 188, 1)
             Height: =50
-            Icon: =Icon.Waffle
+            Icon: =ThisItem.Icon
             OnSelect: =Select(Parent)
             PaddingBottom: =12
             PaddingLeft: =12
