@@ -6,40 +6,24 @@ IA_Dashboard_Side_Nav_Bar As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    IA_Dashboard_Side_Nav_Bar_Container As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(80, 65, 188, 1)
-        Height: =Max(App.Height, App.MinScreenHeight)
-        RadiusBottomRight: =30
-        RadiusTopRight: =30
+    Gallery3 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =504
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =38
         Width: =192
+        X: =40
+        Y: =111
         ZIndex: =1
 
-        IA_Dashboard_Logo_Rectangle As rectangle:
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =Parent.Height*.05
-            Width: =Parent.Width
+        Icon4 As icon.Waffle:
+            Height: =19
+            Icon: =Icon.Waffle
+            OnSelect: =Select(Parent)
+            Width: =29
+            X: =15
+            Y: =9
             ZIndex: =1
-
-        Label3 As label:
-            Align: =Align.Center
-            Color: =RGBA(80, 65, 188, 1)
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Logo"
-            X: =21
-            Y: =5
-            ZIndex: =2
-
-        Container2 As groupContainer.manualLayoutContainer:
-            Height: =Parent.Height*.03
-            Width: =Parent.Width*.80
-            X: =19
-            Y: =74
-            ZIndex: =4
-
-            IA_Dashboard_User_Profile_Rectangle As rectangle:
-                Fill: =RGBA(160, 152, 219, 1)
-                Height: =Parent.Height
-                Width: =Parent.Width
-                ZIndex: =1
 
