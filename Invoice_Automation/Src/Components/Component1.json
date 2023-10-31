@@ -65,7 +65,7 @@
         "Name": "Image1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2,
+        "PublishOrderIndex": 14,
         "Rules": [
           {
             "Category": "Data",
@@ -291,7 +291,7 @@
         "Name": "Rectangle3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 3,
+        "PublishOrderIndex": 15,
         "Rules": [
           {
             "Category": "Design",
@@ -469,7 +469,7 @@
         "Name": "Image4",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 4,
+        "PublishOrderIndex": 16,
         "Rules": [
           {
             "Category": "Data",
@@ -732,7 +732,7 @@
         "Name": "Label2",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 5,
+        "PublishOrderIndex": 17,
         "Rules": [
           {
             "Category": "Data",
@@ -1077,7 +1077,7 @@
         "Name": "Label1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 6,
+        "PublishOrderIndex": 18,
         "Rules": [
           {
             "Category": "Data",
@@ -1384,7 +1384,7 @@
         "Name": "Image3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 7,
+        "PublishOrderIndex": 19,
         "Rules": [
           {
             "Category": "Data",
@@ -1621,7 +1621,7 @@
             "Name": "Container3",
             "Parent": "Container1",
             "PersistMetaDataIDKey": false,
-            "PublishOrderIndex": 9,
+            "PublishOrderIndex": 21,
             "Rules": [
               {
                 "Category": "Design",
@@ -1816,7 +1816,7 @@
         "Name": "Container1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 8,
+        "PublishOrderIndex": 20,
         "Rules": [
           {
             "Category": "Design",
