@@ -101,7 +101,7 @@
               },
               {
                 "Category": "Design",
-                "InvariantScript": "Parent.Height*.08",
+                "InvariantScript": "Parent.Height*.05",
                 "Property": "Height",
                 "RuleProviderType": "Unknown"
               },
@@ -1138,7 +1138,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638343304377759515",
+    "LastModifiedTimestamp": "638343306157786412",
     "Name": "IA_Dashboard_Side_Nav_Bar",
     "Rules": [
       {
@@ -1197,7 +1197,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638343304377759515",
+  "LastModifiedTimestamp": "638343306157786412",
   "Name": "5f5e537e2dea4c5fb392df583a23be3d",
   "OverridableProperties": {},
   "Version": "638343283257106958"

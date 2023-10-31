@@ -16,7 +16,7 @@ IA_Dashboard_Side_Nav_Bar As CanvasComponent:
 
         IA_Dashboard_Logo_Rectangle As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =Parent.Height*.08
+            Height: =Parent.Height*.05
             Width: =Parent.Width
             ZIndex: =1
 
