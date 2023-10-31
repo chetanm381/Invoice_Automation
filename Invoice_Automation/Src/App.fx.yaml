@@ -1,5 +1,22 @@
 App As appinfo:
     BackEnabled: =true
+    OnStart: |-
+        =ClearCollect(
+            colNav,
+            Table(
+                {
+                    Title: "Dashboard",
+                    
+                    Icon: Icon.Waffle
+                },
+                {
+                    Title: "Notifications",
+                    
+                    Icon: Icon.Bell
+                }
+                
+            )
+        );
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
