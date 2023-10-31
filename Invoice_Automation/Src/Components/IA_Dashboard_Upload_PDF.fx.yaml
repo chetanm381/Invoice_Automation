@@ -1,0 +1,30 @@
+IA_Dashboard_Upload_PDF As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    IA_Dashboard_Upload_file_container As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =219
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Width: =180
+        X: =40
+        Y: =30
+        ZIndex: =1
+
+        Button1 As button:
+            Fill: =RGBA(255, 128, 87, 1)
+            Height: =23
+            Size: =8
+            Text: ="Upload"
+            Width: =108
+            X: =36
+            Y: =177
+            ZIndex: =3
+

@@ -1,4 +1,4 @@
-IA_Dashboard_KPIs As CanvasComponent:
+IA_Dashboard_WelcomeBar As CanvasComponent:
     Fill: =RGBA(0, 0, 0, 0)
     Height: =640
     Width: =640

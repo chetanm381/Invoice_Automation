@@ -1,12 +1,12 @@
 {
   "ComponentAllowCustomization": true,
-  "ComponentChangedSinceFileImport": true,
+  "ComponentChangedSinceFileImport": false,
   "ComponentManifest": {
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "IA_Dashboard_Side_Nav_Bar",
-    "TemplateGuid": "5f5e537e2dea4c5fb392df583a23be3d"
+    "Name": "IA_Dashboard_WelcomeBar",
+    "TemplateGuid": "d235eb3c434b49279b958002f289ad3d"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,8 +19,9 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638343439148069924",
-  "Name": "5f5e537e2dea4c5fb392df583a23be3d",
+  "LastModifiedTimestamp": "638343455096019916",
+  "Name": "d235eb3c434b49279b958002f289ad3d",
   "OverridableProperties": {},
-  "Version": "638343283257106958"
+  "TemplateOriginalName": "f04c9a45291c418196f338704e6b0887",
+  "Version": "638342646039828616"
 }
