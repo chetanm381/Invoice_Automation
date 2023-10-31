@@ -131,8 +131,6 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
-    "Screen2",
     "IA_Dashboard"
   ]
 }
