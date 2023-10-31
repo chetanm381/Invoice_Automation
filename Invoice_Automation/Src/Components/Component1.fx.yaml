@@ -57,3 +57,17 @@ Component1 As CanvasComponent:
         Y: =84
         ZIndex: =8
 
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =98
+        Width: =640
+        Y: =161
+        ZIndex: =9
+
+        Container3 As groupContainer.horizontalAutoLayoutContainer:
+            Height: =55
+            LayoutMode: =LayoutMode.Auto
+            Width: =600
+            X: =40
+            Y: =20
+            ZIndex: =1
+
