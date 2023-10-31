@@ -413,7 +413,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_KPIs_1",
-      "ParentIndex": 0,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -820,7 +820,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Side_Nav_Bar_Container_1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1108,7 +1108,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Welcome_Comp",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
