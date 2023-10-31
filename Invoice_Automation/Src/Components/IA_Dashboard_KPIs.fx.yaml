@@ -136,12 +136,3 @@ IA_Dashboard_KPIs As CanvasComponent:
             Y: =10
             ZIndex: =3
 
-        Rectangle1_3 As rectangle:
-            BorderColor: =RGBA(149, 149, 149, 1)
-            Fill: =RGBA(202, 202, 202, 1)
-            Height: =43
-            Width: =0
-            X: =127
-            Y: =8
-            ZIndex: =4
-

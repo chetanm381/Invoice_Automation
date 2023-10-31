@@ -27,12 +27,3 @@ IA_Dashboard_Side_Nav_Bar As CanvasComponent:
             Y: =9
             ZIndex: =1
 
-        Label3 As label:
-            Align: =Align.Right
-            OnSelect: =Select(Parent)
-            PaddingRight: =10
-            Text: =ThisItem.SampleHeading
-            X: =40
-            Y: =38
-            ZIndex: =2
-
