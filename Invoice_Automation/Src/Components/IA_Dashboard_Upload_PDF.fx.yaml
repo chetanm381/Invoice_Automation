@@ -6,7 +6,7 @@ IA_Dashboard_Upload_PDF As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    Container4 As groupContainer.manualLayoutContainer:
+    IA_Dashboard_Upload_file_container As groupContainer.manualLayoutContainer:
         Fill: =RGBA(255, 255, 255, 1)
         Height: =219
         RadiusBottomLeft: =20
