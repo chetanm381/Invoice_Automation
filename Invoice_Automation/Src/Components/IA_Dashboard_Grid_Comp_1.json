@@ -1,12 +1,12 @@
 {
   "ComponentAllowCustomization": true,
-  "ComponentChangedSinceFileImport": true,
+  "ComponentChangedSinceFileImport": false,
   "ComponentManifest": {
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "IA_Dashboard_Grid_Comp",
-    "TemplateGuid": "373b2ba8bc3b4a4791a248d237783abd"
+    "Name": "IA_Dashboard_Grid_Comp_1",
+    "TemplateGuid": "de511eaf1226466e96c62490d8a1cdb3"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,8 +19,9 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638343442193172388",
-  "Name": "373b2ba8bc3b4a4791a248d237783abd",
+  "LastModifiedTimestamp": "638343444820819336",
+  "Name": "de511eaf1226466e96c62490d8a1cdb3",
   "OverridableProperties": {},
+  "TemplateOriginalName": "373b2ba8bc3b4a4791a248d237783abd",
   "Version": "638343349528947019"
 }

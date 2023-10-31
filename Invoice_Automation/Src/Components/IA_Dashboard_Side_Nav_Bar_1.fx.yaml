@@ -1,0 +1,29 @@
+IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =640
+    Width: =Max(App.Width, App.MinScreenWidth)*.25
+    X: =0
+    Y: =0
+    ZIndex: =3
+
+    Gallery3_1 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =504
+        Items: =CustomGallerySample
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =38
+        Width: =192
+        X: =40
+        Y: =111
+        ZIndex: =1
+
+        Icon4_1 As icon.Waffle:
+            Height: =19
+            Icon: =Icon.Waffle
+            OnSelect: =Select(Parent)
+            Width: =29
+            X: =15
+            Y: =9
+            ZIndex: =1
+
