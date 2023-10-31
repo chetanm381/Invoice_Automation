@@ -65,7 +65,7 @@
         "Name": "Image1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 1,
+        "PublishOrderIndex": 2,
         "Rules": [
           {
             "Category": "Data",
@@ -291,7 +291,7 @@
         "Name": "Rectangle3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 2,
+        "PublishOrderIndex": 3,
         "Rules": [
           {
             "Category": "Design",
@@ -469,7 +469,7 @@
         "Name": "Image4",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 3,
+        "PublishOrderIndex": 4,
         "Rules": [
           {
             "Category": "Data",
@@ -732,7 +732,7 @@
         "Name": "Label2",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 4,
+        "PublishOrderIndex": 5,
         "Rules": [
           {
             "Category": "Data",
@@ -1077,7 +1077,7 @@
         "Name": "Label1",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 5,
+        "PublishOrderIndex": 6,
         "Rules": [
           {
             "Category": "Data",
@@ -1384,7 +1384,7 @@
         "Name": "Image3",
         "Parent": "Component1",
         "PersistMetaDataIDKey": false,
-        "PublishOrderIndex": 6,
+        "PublishOrderIndex": 7,
         "Rules": [
           {
             "Category": "Data",
@@ -1586,7 +1586,7 @@
       "Y",
       "ZIndex"
     ],
-    "LastModifiedTimestamp": "638343280156969089",
+    "LastModifiedTimestamp": "638343290180327477",
     "Name": "Component1",
     "Rules": [
       {
@@ -1645,7 +1645,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638343280156969089",
+  "LastModifiedTimestamp": "638343290180327477",
   "Name": "f04c9a45291c418196f338704e6b0887",
   "OverridableProperties": {},
   "TemplateOriginalName": "4f2a6eb125db4bffbabad7b310467715",
