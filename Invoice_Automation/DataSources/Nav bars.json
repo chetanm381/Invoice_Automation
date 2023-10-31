@@ -1,0 +1,96 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr0f7_navbars",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr0f7_navbar",
+    "Name": "Nav bars",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr0f7_navbar_AsyncOperations": "System Jobs",
+      "cr0f7_navbar_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr0f7_navbar_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr0f7_navbar_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr0f7_navbar_ProcessSession": "Process Sessions",
+      "cr0f7_navbar_SyncErrors": "Sync Errors",
+      "cr0f7_navbarid": "Nav bar",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "new_icon": "Icon",
+      "new_id": "Id",
+      "new_topic": "topic",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Nav bars",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Nav bars (Views)",
+    "Name": "_cr0f7_navbar_views",
+    "RelatedEntityName": "Nav bars",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "09da947a-770f-42ed-92ed-c9720821c63e": "Active Nav bars",
+      "31835cc9-2615-4a84-bae7-c5d12b53c57f": "Nav bar Lookup View",
+      "7fc8b82b-8591-4272-a4f5-266a563e69c5": "Nav bar Advanced Find View",
+      "9a1ca4b0-8398-4046-87c7-2f5811a34ea8": "Inactive Nav bars",
+      "f57d45b6-bb94-40fb-aefa-81c3232f96ae": "Nav bar Associated View"
+    }
+  },
+  {
+    "DisplayName": "Status (Nav bars)",
+    "Name": "cr0f7_navbar_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Nav bars"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Nav bars",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Nav bars)",
+    "Name": "cr0f7_navbar_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Nav bars"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Nav bars",
+    "Type": "OptionSetInfo"
+  }
+]
