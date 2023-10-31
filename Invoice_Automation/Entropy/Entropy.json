@@ -1,44 +1,100 @@
 {
-  "ComponentIndexes": {},
+  "ComponentIndexes": {
+    "Component1": 1
+  },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
+    "Component1": 9,
     "Host": 3,
-    "Screen1": 4
+    "IA_Dashboard": 4,
+    "Image1": 10,
+    "Image3": 15,
+    "Image4": 12,
+    "Label1": 14,
+    "Label2": 13,
+    "Rectangle3": 11
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 05:37:47",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 05:39:23",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
-  "OrderComponentMetadata": {},
-  "OrderComponentTemplate": {},
+  "LocalResourceFileNames": {
+    "2807609 1": "3eafc335-90bc-4efc-b53e-6d3e2bb1c569.png",
+    "Ellipse 10": "253f56cf-f098-4e79-9cff-16cc3d7e0ae0.png",
+    "Ellipse 11": "f8738c45-950b-4a81-a4b2-f726f2072f6d.png",
+    "Ellipse 9": "7ae130d9-399f-415c-a486-904161933152.png",
+    "Group 10": "fcaceec0-a59d-4de8-954b-83f6df61adf2.png"
+  },
+  "LocalResourceRootPaths": {
+    "2807609 1": "https://docserverpwaprodneu.blob.core.windows.net/ee4f3a88-bbc8-4667-b947-c1c5ebeaa483-1/resource/Assets0Images00001.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A38%3A08Z&ske=2023-11-01T05%3A53%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T05%3A53%3A08Z&sr=b&sp=r&sig=wzKjaxajx00Jx8c3B9vyCtqD8saRWQ80%2BNWuzkaXJGQ%3D",
+    "Ellipse 10": "https://docserverpwaprodneu.blob.core.windows.net/ee4f3a88-bbc8-4667-b947-c1c5ebeaa483-1/resource/Assets0Images00002.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A38%3A08Z&ske=2023-11-01T05%3A53%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T05%3A53%3A08Z&sr=b&sp=r&sig=1PMG2aZF4mdfNnXv36EB2u%2BvzTphr27CxrtU0%2FBUT5g%3D",
+    "Ellipse 11": "https://docserverpwaprodneu.blob.core.windows.net/ee4f3a88-bbc8-4667-b947-c1c5ebeaa483-1/resource/Assets0Images00003.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A38%3A08Z&ske=2023-11-01T05%3A53%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T05%3A53%3A08Z&sr=b&sp=r&sig=M%2FlMOdPxWP9mBvVen9KXWZ3j%2Fug1BtThSj35nTciV44%3D",
+    "Ellipse 9": "https://docserverpwaprodneu.blob.core.windows.net/ee4f3a88-bbc8-4667-b947-c1c5ebeaa483-1/resource/Assets0Images00004.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A38%3A08Z&ske=2023-11-01T05%3A53%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T05%3A53%3A08Z&sr=b&sp=r&sig=MG50nBldEpZ7qHUjekc8ngVTnmNvhLreiE9pw44Mn58%3D",
+    "Group 10": "https://docserverpwaprodneu.blob.core.windows.net/ee4f3a88-bbc8-4667-b947-c1c5ebeaa483-1/resource/Assets0Images00005.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A38%3A08Z&ske=2023-11-01T05%3A53%3A08Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T05%3A53%3A08Z&sr=b&sp=r&sig=%2BxCaes%2FHQtI6aTkY5eO9Zm2D8Tur%2BtS1SQzhxjpzKLU%3D"
+  },
+  "OrderComponentMetadata": {
+    "f04c9a45291c418196f338704e6b0887": 0
+  },
+  "OrderComponentTemplate": {
+    "f04c9a45291c418196f338704e6b0887": 0
+  },
   "OrderDataSource": {},
   "OrderGroupControls": {},
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
-  "OrderXMLTemplate": {},
+  "OrderXMLTemplate": {
+    "image": 0,
+    "label": 2,
+    "rectangle": 1
+  },
   "OverridablePropertiesEntry": {
     "App": {},
+    "Component1": {},
     "Host": {},
-    "Screen1": {}
+    "IA_Dashboard": {},
+    "Image1": {},
+    "Image3": {},
+    "Image4": {},
+    "Label1": {},
+    "Label2": {},
+    "Rectangle3": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
+    "Component1": 1,
     "Host": 0,
-    "Screen1": 0
+    "IA_Dashboard": 0,
+    "Image1": 0,
+    "Image3": 5,
+    "Image4": 2,
+    "Label1": 4,
+    "Label2": 3,
+    "Rectangle3": 1
   },
-  "ResourcesJsonIndices": {},
+  "ResourcesJsonIndices": {
+    "Image-2807609 1": 0,
+    "Image-Ellipse 10": 1,
+    "Image-Ellipse 11": 2,
+    "Image-Ellipse 9": 3,
+    "Image-Group 10": 4,
+    "Image-SampleImage": 5
+  },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
     "AnalysisLoadTime": 0.0359494,
     "ControlCount": {
+      "6ec4b1d6f47b467f959d169583b1675b": 1,
+      "f04c9a45291c418196f338704e6b0887": 1,
+      "groupContainer": 1,
+      "image": 3,
+      "label": 3,
+      "rectangle": 2,
       "screen": 1
     },
     "DeserializationLoadTime": 0.527945
