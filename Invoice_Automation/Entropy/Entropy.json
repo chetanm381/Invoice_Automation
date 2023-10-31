@@ -1,15 +1,18 @@
 {
   "ComponentIndexes": {
     "Component1": 1,
-    "Component1_1": 1
+    "IA_Dashboard_Side_Nav_Bar": 2,
+    "IA_Dashboard_Welcome_Comp": 1
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
     "Component1": 4,
-    "Component1_1": 12,
     "Host": 3,
     "IA_Dashboard": 11,
+    "IA_Dashboard_Side_Nav_Bar": 13,
+    "IA_Dashboard_Side_Nav_Bar_Main_Container": 16,
+    "IA_Dashboard_Welcome_Comp": 12,
     "Image1": 5,
     "Image3": 10,
     "Image4": 7,
@@ -19,7 +22,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 05:47:48",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 06:03:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -38,9 +41,11 @@
     "Group 10": "https://docserverpwaprodneu.blob.core.windows.net/82f92dcc-43c4-4a57-b761-8a91e0d0f7fa-1/resource/Assets0Images0fcaceec0-a59d-4de8-954b-83f6df61adf2.png?skoid=58690ece-ec83-4ce2-9ce8-883d4d6a54ee&sktid=975f013f-7f24-47e8-a7d3-abc4752bf346&skt=2023-10-31T05%3A46%3A55Z&ske=2023-11-01T06%3A01%3A55Z&sks=b&skv=2021-12-02&sv=2021-12-02&spr=https&se=2023-11-01T06%3A01%3A55Z&sr=b&sp=r&sig=HR2iX7mkSg%2FPAm4gEnEeHTvtaFe%2BWDYXqKCdVpacPUg%3D"
   },
   "OrderComponentMetadata": {
+    "5f5e537e2dea4c5fb392df583a23be3d": 1,
     "f04c9a45291c418196f338704e6b0887": 0
   },
   "OrderComponentTemplate": {
+    "5f5e537e2dea4c5fb392df583a23be3d": 1,
     "f04c9a45291c418196f338704e6b0887": 0
   },
   "OrderDataSource": {},
@@ -48,6 +53,7 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
+    "groupContainer": 3,
     "image": 0,
     "label": 2,
     "rectangle": 1
@@ -55,9 +61,11 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Component1": {},
-    "Component1_1": {},
     "Host": {},
     "IA_Dashboard": {},
+    "IA_Dashboard_Side_Nav_Bar": {},
+    "IA_Dashboard_Side_Nav_Bar_Main_Container": {},
+    "IA_Dashboard_Welcome_Comp": {},
     "Image1": {},
     "Image3": {},
     "Image4": {},
@@ -70,9 +78,11 @@
   "PublishOrderIndices": {
     "App": 0,
     "Component1": 1,
-    "Component1_1": 0,
     "Host": 0,
     "IA_Dashboard": 0,
+    "IA_Dashboard_Side_Nav_Bar": 0,
+    "IA_Dashboard_Side_Nav_Bar_Main_Container": 7,
+    "IA_Dashboard_Welcome_Comp": 0,
     "Image1": 1,
     "Image3": 6,
     "Image4": 3,
@@ -94,6 +104,7 @@
     "AnalysisLoadTime": 0.0728465,
     "ControlCount": {
       "f04c9a45291c418196f338704e6b0887": 2,
+      "groupContainer": 1,
       "image": 3,
       "label": 2,
       "rectangle": 1,
