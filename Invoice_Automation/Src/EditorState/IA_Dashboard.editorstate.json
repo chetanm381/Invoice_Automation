@@ -495,7 +495,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_DashboardContainer",
-      "ParentIndex": 4,
+      "ParentIndex": 3,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -655,7 +655,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_DashboardContainer_1",
-      "ParentIndex": 5,
+      "ParentIndex": 4,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -797,7 +797,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_KPIs_1",
-      "ParentIndex": 2,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -884,7 +884,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Logo_Rectangle_1",
-      "ParentIndex": 1,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1016,7 +1016,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Profile_Container",
-      "ParentIndex": 3,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1204,7 +1204,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Side_Nav_Bar_Container_1",
-      "ParentIndex": 0,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1492,7 +1492,7 @@
       },
       "MetaDataIDKey": "",
       "Name": "IA_Dashboard_Welcome_Comp",
-      "ParentIndex": 1,
+      "ParentIndex": 2,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2237,7 +2237,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label3_1",
-      "ParentIndex": 2,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2476,14 +2476,7 @@
           "NameMapSourceSchema": "?"
         },
         "DisabledColor",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Self.Color",
-          "InvariantPropertyName": "PressedColor",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "PressedColor",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -2501,14 +2494,7 @@
           "NameMapSourceSchema": "?"
         },
         "DisabledFill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "Self.Fill",
-          "InvariantPropertyName": "PressedFill",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "PressedFill",
         {
           "AFDDataSourceName": "",
           "AutoRuleBindingEnabled": false,
@@ -2569,22 +2555,6 @@
           "AutoRuleBindingEnabled": false,
           "AutoRuleBindingString": "",
           "InvariantPropertyName": "PaddingRight",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "PaddingLeft",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "false",
-          "InvariantPropertyName": "OnSelect",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
         }
@@ -2795,16 +2765,6 @@
         {
           "Category": "Design",
           "PropertyName": "PaddingRight",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Design",
-          "PropertyName": "PaddingLeft",
-          "RuleProviderType": "Unknown"
-        },
-        {
-          "Category": "Behavior",
-          "PropertyName": "OnSelect",
           "RuleProviderType": "Unknown"
         }
       ],

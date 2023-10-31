@@ -110,11 +110,11 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "c8920931-aa65-420c-b4e6-0604d0a32984",
-    "Id": "8e2fcfe5-6168-4540-a402-3e32daeb405b",
+    "Id": "82edfa2e-7134-4d5f-9839-abf68a262515",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Invoice_Automation_Project",
+    "Name": "Invoice_Automation_Project.msapp",
     "OriginatingVersion": "1.335",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
