@@ -1,6 +1,6 @@
 IA_Dashboard As screen:
 
     Component1_1 As Component1:
-        Width: =626
-        X: =142
+        Height: =122
+        X: =128
 
