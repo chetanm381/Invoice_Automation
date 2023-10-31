@@ -14,26 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.Gallery2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.Gallery2.AccessibleLabel",
                   "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 38,
-                  "snippet": {
-                    "text": "RGBA"
-                  }
                 }
               },
               "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Grid_Comp",
+                "type": "IA_Dashboard_Grid_Comp.Container6.Gallery2"
               }
             }
           ],
@@ -41,9 +34,9 @@
             "id": "issue"
           },
           "properties": {
-            "level": "High"
+            "level": "Medium"
           },
-          "ruleId": "app-ErrOperatorExpected",
+          "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
         },
         {
@@ -51,214 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.Gallery2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 44,
-                  "snippet": {
-                    "text": ","
-                  }
-                }
-              },
-              "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Comma",
-              "ParenClose"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrExpectedFound-Ex-Fnd",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 1,
-                  "charOffset": 54,
-                  "snippet": {
-                    "text": ")"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrBadToken",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 2,
-                  "charOffset": 34,
-                  "snippet": {
-                    "text": ".S"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "S"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 4,
-                  "charOffset": 38,
-                  "snippet": {
-                    "text": "RGBA"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrOperatorExpected",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1.Fill",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 54,
-                  "charOffset": 0,
-                  "snippet": {
-                    "text": "If(IA_Dashboard_DashboardContainer.S  RGBA(0, 0, 0, 0)"
-                  }
-                }
-              },
-              "properties": {
-                "member": "Fill",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "If"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidArgs-Func",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar.Gallery3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar.Gallery3.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.Gallery2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "IA_Dashboard_Side_Nav_Bar",
-                "type": "IA_Dashboard_Side_Nav_Bar.Gallery3"
+                "module": "IA_Dashboard_Grid_Comp",
+                "type": "IA_Dashboard_Grid_Comp.Container6.Gallery2"
               }
             }
           ],
@@ -269,7 +67,37 @@
             "level": "Medium"
           },
           "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 5
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.TextInput5.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container6.TextInput5.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Grid_Comp",
+                "type": "IA_Dashboard_Grid_Comp.Container6.TextInput5"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 0
         },
         {
           "locations": [
@@ -299,26 +127,26 @@
             "level": "Medium"
           },
           "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleIndex": 0
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar.Gallery3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar.Gallery3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1"
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Side_Nav_Bar",
+                "type": "IA_Dashboard_Side_Nav_Bar.Gallery3"
               }
             }
           ],
@@ -328,27 +156,27 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 1
         },
         {
           "locations": [
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "App.2625766"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "App.2625766",
                   "relativeAddress": 0
                 }
               },
               "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1"
+                "member": "2625766",
+                "module": "App",
+                "type": "App"
               }
             }
           ],
@@ -358,8 +186,8 @@
           "properties": {
             "level": "Medium"
           },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 6
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -389,7 +217,37 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.Group 10"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.Group 10",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "Group 10",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -419,7 +277,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -449,7 +307,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -479,7 +337,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 7
+          "ruleIndex": 2
         }
       ],
       "tool": {
@@ -488,85 +346,20 @@
           "name": "PowerApps app checker",
           "rules": [
             {
-              "id": "app-ErrOperatorExpected",
+              "id": "acc-AccessibleLabelNeeded",
               "messageStrings": {
                 "issue": {
-                  "text": "Expected operator. We expect an operator such as +, *, or & at this point in the formula."
+                  "text": "Missing accessible label"
                 }
               },
               "properties": {
                 "componentType": "app",
                 "howToFix": [
-                  "Edit your formula so that it includes an operator between the operands."
+                  "Edit the accessible label property to describe the item."
                 ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrExpectedFound-Ex-Fnd",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. The formula contains '{0}' where '{1}' is expected."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters with an expected character."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrBadToken",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unexpected characters. Characters are used in the formula in an unexpected way."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or replace the unexpected characters."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidName",
-              "messageStrings": {
-                "issue": {
-                  "text": "Name isn't valid. '{0}' isn't recognized."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove or correct the reference to the name that isn't valid."
-                ],
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
-              }
-            },
-            {
-              "id": "app-ErrInvalidArgs-Func",
-              "messageStrings": {
-                "issue": {
-                  "text": "The function '{0}' has some invalid arguments."
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "level": "High",
-                "primaryCategory": "formula",
-                "whyFix": ""
+                "level": "Medium",
+                "primaryCategory": "accessibility",
+                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {
@@ -584,23 +377,6 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "People who use the keyboard with your app will not be able to access this element without a tab stop."
-              }
-            },
-            {
-              "id": "acc-AccessibleLabelNeeded",
-              "messageStrings": {
-                "issue": {
-                  "text": "Missing accessible label"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Edit the accessible label property to describe the item."
-                ],
-                "level": "Medium",
-                "primaryCategory": "accessibility",
-                "whyFix": "If there's no accessible text, people who can’t see the screen won't understand what’s in images and controls."
               }
             },
             {
