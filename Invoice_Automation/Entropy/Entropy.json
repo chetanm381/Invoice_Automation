@@ -12,6 +12,7 @@
   "ControlUniqueIds": {
     "App": 1,
     "Component1_1": 64,
+    "Container3": 105,
     "Container4": 18,
     "Container4_1": 87,
     "Container6": 5,
@@ -31,6 +32,7 @@
     "IA_Dashboard_Grid_Comp_1": 73,
     "IA_Dashboard_KPIs": 9,
     "IA_Dashboard_KPIs_1": 78,
+    "IA_Dashboard_leftbar": 104,
     "IA_Dashboard_Side_Nav_Bar": 25,
     "IA_Dashboard_Side_Nav_Bar_1": 94,
     "Icon4": 28,
@@ -74,7 +76,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 10:29:28",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 10:31:26",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-6cdded0d-e0f9-4ffd-b541-d103704f38a2\""
@@ -151,6 +153,7 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Component1_1": {},
+    "Container3": {},
     "Container4": {},
     "Container4_1": {},
     "Container6": {},
@@ -170,6 +173,7 @@
     "IA_Dashboard_Grid_Comp_1": {},
     "IA_Dashboard_KPIs": {},
     "IA_Dashboard_KPIs_1": {},
+    "IA_Dashboard_leftbar": {},
     "IA_Dashboard_Side_Nav_Bar": {},
     "IA_Dashboard_Side_Nav_Bar_1": {},
     "Icon4": {},
@@ -216,6 +220,7 @@
   "PublishOrderIndices": {
     "App": 0,
     "Component1_1": 1,
+    "Container3": 0,
     "Container4": 12,
     "Container4_1": 40,
     "Container6": 0,
@@ -235,6 +240,7 @@
     "IA_Dashboard_Grid_Comp_1": 10,
     "IA_Dashboard_KPIs": 15,
     "IA_Dashboard_KPIs_1": 15,
+    "IA_Dashboard_leftbar": 0,
     "IA_Dashboard_Side_Nav_Bar": 31,
     "IA_Dashboard_Side_Nav_Bar_1": 31,
     "Icon4": 21,
