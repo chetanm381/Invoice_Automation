@@ -10,12 +10,16 @@
         "dataSources": {
           "IA_Invoice_Details": {
             "tableName": "7ee93ad8-3f1c-475f-ab34-a93b8ac4048d"
+          },
+          "IA_Navlist": {
+            "tableName": "55ad3ef9-f7f1-4aac-9d34-9f9bb6cad749"
           }
         }
       }
     },
     "dataSources": [
-      "IA_Invoice_Details"
+      "IA_Invoice_Details",
+      "IA_Navlist"
     ],
     "dependencies": {},
     "dependents": [],
