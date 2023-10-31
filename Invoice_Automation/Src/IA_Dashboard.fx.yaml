@@ -104,3 +104,10 @@ IA_Dashboard As screen:
                 Y: =8
                 ZIndex: =3
 
+    IA_Dashboard_KPIs_1 As IA_Dashboard_KPIs:
+        Height: =130
+        Width: =623
+        X: =145
+        Y: =103
+        ZIndex: =3
+
