@@ -2,5 +2,10 @@ IA_Dashboard As screen:
 
     IA_Dashboard_Welcome_Comp As Component1:
         Height: =139
-        X: =128
+        Width: =576
+        X: =192
+
+    IA_Dashboard_Side_Nav_Bar_1 As IA_Dashboard_Side_Nav_Bar:
+        Height: =1024
+        ZIndex: =2
 
