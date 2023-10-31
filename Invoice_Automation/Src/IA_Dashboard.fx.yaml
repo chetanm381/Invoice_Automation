@@ -73,3 +73,9 @@ IA_Dashboard As screen:
                 Y: =89
                 ZIndex: =6
 
+        Container5 As groupContainer.manualLayoutContainer:
+            Height: =75
+            X: =244
+            Y: =178
+            ZIndex: =3
+
