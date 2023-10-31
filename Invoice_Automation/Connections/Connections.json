@@ -1,1 +1,24 @@
-{}
+{
+  "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80": {
+    "connectionRef": {
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/henryorsborn/partial-builds/asev3migrations-with-resourceTemplate/1.0.1653.3414/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline"
+    },
+    "datasets": {
+      "https://xebiagroup.sharepoint.com/sites/PowerAppsDemo": {
+        "dataSources": {
+          "IA_Invoice_Details": {
+            "tableName": "7ee93ad8-3f1c-475f-ab34-a93b8ac4048d"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "IA_Invoice_Details"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80"
+  }
+}

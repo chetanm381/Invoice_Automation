@@ -1,164 +1,346 @@
 IA_Dashboard As screen:
 
-    IA_Dashboard_Welcome_Comp As Component1:
-        Height: =139
-        Width: =576
-        X: =192
+    Container6 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(242, 242, 252, 1)
+        Height: =1024
+        Width: =767
+        ZIndex: =3
 
-    IA_Dashboard_Side_Nav_Bar_Container_1 As groupContainer.manualLayoutContainer:
-        Fill: =RGBA(80, 65, 188, 1)
-        Height: =Max(App.Height, App.MinScreenHeight)
-        RadiusBottomRight: =30
-        RadiusTopRight: =30
-        Width: =192
-        ZIndex: =2
-
-        IA_Dashboard_Logo_Rectangle_1 As rectangle:
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =Parent.Height*.05
-            Width: =Parent.Width
+        IA_Dashboard_Side_Nav_Bar_Container_1 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(80, 65, 188, 1)
+            Height: =Max(App.Height, App.MinScreenHeight)
+            RadiusBottomRight: =30
+            RadiusTopRight: =30
+            Width: =192
             ZIndex: =1
 
-        Label3_1 As label:
-            Align: =Align.Center
-            Color: =RGBA(80, 65, 188, 1)
-            FontWeight: =FontWeight.Bold
-            Size: =15
-            Text: ="Logo"
-            X: =21
-            Y: =5
-            ZIndex: =2
-
-        IA_Dashboard_Profile_Container As groupContainer.manualLayoutContainer:
-            Height: =20
-            Width: =Parent.Width*.80
-            X: =19
-            Y: =74
-            ZIndex: =4
-
-            IA_Dashboard_User_Profile_Rectangle_1 As rectangle:
-                Fill: =RGBA(160, 152, 219, 1)
-                Height: =Parent.Height
+            IA_Dashboard_Logo_Rectangle_1 As rectangle:
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =Parent.Height*.05
                 Width: =Parent.Width
                 ZIndex: =1
 
-        IA_Dashboard_DashboardContainer As groupContainer.manualLayoutContainer:
-            Height: =30
-            Width: =150
-            X: =21
-            Y: =137
-            ZIndex: =5
-
-            TextInput1 As text:
+            Label3_1 As label:
                 Align: =Align.Center
-                BorderStyle: =BorderStyle.None
-                Color: =RGBA(255, 255, 255, 1)
-                Default: ="Dashboard"
-                Fill: =RGBA(0, 0, 0, 0)
-                FontWeight: =FontWeight.Semibold
-                Height: =30
-                HoverColor: =RGBA(255, 255, 255, 1)
-                HoverFill: =RGBA(80, 65, 188, 1)
-                OnSelect: =true
-                PaddingLeft: =20
-                PressedColor: =RGBA(80, 65, 188, 1)
-                PressedFill: =Color.White
-                Size: =10
-                Width: =150
+                Color: =RGBA(80, 65, 188, 1)
+                FontWeight: =FontWeight.Bold
+                Size: =15
+                Text: ="Logo"
+                X: =21
+                Y: =5
                 ZIndex: =2
 
-            Icon1 As icon.Waffle:
-                Color: =RGBA(255, 255, 255, 1)
-                Height: =14
-                HoverColor: =RGBA(80, 65, 188, 1)
-                HoverFill: =RGBA(0, 0, 0, 0)
-                Icon: =Icon.Waffle
-                PaddingLeft: =10
-                PaddingTop: =2
-                Width: =25
-                Y: =8
-                ZIndex: =3
-
-            Button1 As button:
-                Text: ="Button"
-                Y: =30
+            IA_Dashboard_Profile_Container As groupContainer.manualLayoutContainer:
+                Height: =20
+                Width: =Parent.Width*.80
+                X: =19
+                Y: =74
                 ZIndex: =4
 
-        IA_Dashboard_DashboardContainer_1 As groupContainer.manualLayoutContainer:
-            Height: =30
-            Width: =150
-            X: =21
-            Y: =185
-            ZIndex: =6
+                IA_Dashboard_User_Profile_Rectangle_1 As rectangle:
+                    Fill: =RGBA(160, 152, 219, 1)
+                    Height: =Parent.Height
+                    Width: =Parent.Width
+                    ZIndex: =1
 
-            TextInput1_1 As text:
-                Align: =Align.Center
-                BorderStyle: =BorderStyle.None
-                Color: =RGBA(255, 255, 255, 1)
-                Default: ="Notifications"
-                Fill: =RGBA(0, 0, 0, 0)
-                FontWeight: =FontWeight.Semibold
+            IA_Dashboard_DashboardContainer As groupContainer.manualLayoutContainer:
                 Height: =30
-                Size: =10
                 Width: =150
-                ZIndex: =2
+                X: =21
+                Y: =137
+                ZIndex: =5
 
-            Icon1_1 As icon.Waffle:
-                Color: =RGBA(255, 255, 255, 1)
-                Height: =14
-                Icon: =Icon.Bell
-                PaddingLeft: =10
-                PaddingTop: =2
-                Width: =25
-                Y: =8
-                ZIndex: =3
+                TextInput1 As text:
+                    Align: =Align.Center
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(255, 255, 255, 1)
+                    Default: ="Dashboard"
+                    Fill: =RGBA(0, 0, 0, 0)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =30
+                    HoverColor: =RGBA(50, 86, 160, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    OnSelect: =true
+                    PaddingLeft: =20
+                    PressedColor: =RGBA(80, 65, 188, 1)
+                    PressedFill: =Color.White
+                    Size: =10
+                    Width: =150
+                    ZIndex: =2
 
-        Container5 As groupContainer.manualLayoutContainer:
+                Icon1 As icon.Waffle:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =30
+                    HoverColor: =RGBA(50, 86, 160, 1)
+                    HoverFill: =RGBA(255, 255, 255, 1)
+                    Icon: =Icon.Waffle
+                    PaddingLeft: =10
+                    PaddingTop: =2
+                    Width: =30
+                    ZIndex: =3
+
+            IA_Dashboard_DashboardContainer_1 As groupContainer.manualLayoutContainer:
+                Height: =30
+                Width: =150
+                X: =21
+                Y: =185
+                ZIndex: =6
+
+                TextInput1_1 As text:
+                    Align: =Align.Center
+                    BorderStyle: =BorderStyle.None
+                    Color: =RGBA(255, 255, 255, 1)
+                    Default: ="Notifications"
+                    Fill: =RGBA(0, 0, 0, 0)
+                    FontWeight: =FontWeight.Semibold
+                    Height: =30
+                    Size: =10
+                    Width: =150
+                    ZIndex: =2
+
+                Icon1_1 As icon.Waffle:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =14
+                    Icon: =Icon.Bell
+                    PaddingLeft: =10
+                    PaddingTop: =2
+                    Width: =25
+                    Y: =8
+                    ZIndex: =3
+
+            Container5 As groupContainer.manualLayoutContainer:
+                Fill: =RGBA(255, 255, 255, 1)
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Width: =151
+                X: =21
+                Y: =467
+                ZIndex: =7
+
+                IA_Dashboard_Upload_Image As image:
+                    Height: =110
+                    Image: ='2625766'
+                    Width: =113
+                    X: =19
+                    Y: =11
+                    ZIndex: =1
+
+                Label5 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    Height: =29
+                    Size: =10
+                    Text: ="Quick Extract"
+                    Width: =Parent.Width
+                    Y: =121
+                    ZIndex: =2
+
+                Button2 As button:
+                    Fill: =RGBA(255, 128, 87, 1)
+                    Height: =21
+                    HoverFill: =ColorFade(Self.Fill, -20%)
+                    PaddingBottom: =10
+                    PaddingLeft: =20
+                    PaddingRight: =20
+                    PaddingTop: =10
+                    Size: =8
+                    Text: ="Upload"
+                    Width: =105
+                    X: =23
+                    Y: =162
+                    ZIndex: =3
+
+        IA_Dashboard_Welcome_Comp As Component1:
+            Height: =139
+            Width: =576
+            X: =191
+            ZIndex: =2
+
+        Container7 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
+            Height: =78
             RadiusBottomLeft: =15
             RadiusBottomRight: =15
             RadiusTopLeft: =15
             RadiusTopRight: =15
-            Width: =140
-            X: =25
-            Y: =467
-            ZIndex: =7
+            Width: =535
+            X: =211
+            Y: =164
+            ZIndex: =3
 
-            IA_Dashboard_Upload_Image As image:
-                Height: =110
-                Image: ='To the stars-cuate'
-                Width: =113
-                X: =13
-                Y: =6
+            Image5 As image:
+                Height: =39
+                Image: ='Group 10'
+                Width: =49
+                X: =19
+                Y: =18
                 ZIndex: =1
 
-            Label5 As label:
-                Align: =Align.Center
-                FontWeight: =FontWeight.Semibold
-                Size: =12
-                Text: ="Quick Extract"
-                Width: =140
-                Y: =101
+            Label4_5 As label:
+                Color: =RGBA(172, 172, 172, 1)
+                Height: =17
+                Size: =9
+                Text: ="Approved"
+                Width: =71
+                X: =68
+                Y: =18
                 ZIndex: =2
 
-            Button2 As button:
-                Fill: =RGBA(255, 128, 87, 1)
-                Height: =21
-                PaddingBottom: =10
-                PaddingLeft: =20
-                PaddingRight: =20
-                PaddingTop: =10
-                Size: =8
-                Text: ="Upload"
-                Width: =105
-                X: =17
-                Y: =156
+            Label5_4 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =20
+                Text: ="310"
+                Width: =41
+                X: =68
+                Y: =37
                 ZIndex: =3
 
-    IA_Dashboard_KPIs_1 As IA_Dashboard_KPIs:
-        Height: =130
-        Width: =623
-        X: =145
-        Y: =103
-        ZIndex: =3
+            Rectangle1_4 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                Height: =43
+                Width: =1
+                X: =139
+                Y: =14
+                ZIndex: =4
+
+            Image5_1 As image:
+                Height: =39
+                Image: ='Group 10 (1)'
+                Width: =49
+                X: =140
+                Y: =18
+                ZIndex: =5
+
+            Label4_6 As label:
+                Color: =RGBA(172, 172, 172, 1)
+                Height: =17
+                Size: =9
+                Text: ="In Process"
+                Width: =71
+                X: =189
+                Y: =18
+                ZIndex: =6
+
+            Label5_5 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =20
+                Text: ="200"
+                Width: =41
+                X: =189
+                Y: =37
+                ZIndex: =7
+
+            Rectangle1_5 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                Height: =43
+                Width: =1
+                X: =259
+                Y: =14
+                ZIndex: =8
+
+            Image5_2 As image:
+                Height: =39
+                Image: ='Group 9'
+                Width: =49
+                X: =260
+                Y: =18
+                ZIndex: =9
+
+            Label4_7 As label:
+                Color: =RGBA(172, 172, 172, 1)
+                Height: =17
+                Size: =9
+                Text: ="Rejected"
+                Width: =71
+                X: =309
+                Y: =18
+                ZIndex: =10
+
+            Label5_6 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =20
+                Text: ="15"
+                Width: =41
+                X: =309
+                Y: =37
+                ZIndex: =11
+
+            Rectangle1_6 As rectangle:
+                BorderColor: =RGBA(149, 149, 149, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                Height: =43
+                Width: =1
+                X: =368
+                Y: =14
+                ZIndex: =12
+
+            Image5_3 As image:
+                Height: =39
+                Image: ='Group 11 (1)'
+                Width: =49
+                X: =368
+                Y: =18
+                ZIndex: =13
+
+            Label4_8 As label:
+                Color: =RGBA(172, 172, 172, 1)
+                Height: =17
+                Size: =9
+                Text: ="Total Invoice No."
+                Width: =111
+                X: =417
+                Y: =18
+                ZIndex: =14
+
+            Label5_7 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =20
+                Text: ="525"
+                Width: =41
+                X: =417
+                Y: =37
+                ZIndex: =15
+
+        Container8 As groupContainer.manualLayoutContainer:
+            Height: =208
+            Width: =535
+            X: =211
+            Y: =263
+            ZIndex: =4
+
+            CompositeLineChart1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+                Title1 As label:
+                    Align: =Align.Center
+                    Height: =25
+                    Text: ="Chart Title"
+                    Width: =530
+                    X: =3
+                    Y: =40
+                    ZIndex: =2
+
+                LineChart1 As lineChart:
+                    Height: =208
+                    Items: =IA_Invoice_Details
+                    Width: =530
+                    X: =3
+                    ZIndex: =3
+
+                Legend1 As legend:
+                    Height: =80
+                    ItemColorSet: =LineChart1.ItemColorSet
+                    Items: =LineChart1.SeriesLabels
+                    Width: =424
+                    X: =56
+                    Y: =128
+                    ZIndex: =4
 

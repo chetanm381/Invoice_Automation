@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1"
+                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer_1.TextInput1_1"
+                "type": "IA_Dashboard.Container6.IA_Dashboard_Side_Nav_Bar_Container_1.IA_Dashboard_DashboardContainer.TextInput1"
               }
             }
           ],
@@ -85,36 +85,6 @@
               },
               "properties": {
                 "member": "Ellipse 10",
-                "module": "App",
-                "type": "App"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "App.Group 10"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "App.Group 10",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "Group 10",
                 "module": "App",
                 "type": "App"
               }
@@ -175,6 +145,36 @@
               },
               "properties": {
                 "member": "Group 65",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedMediaResources",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.To the stars-cuate"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.To the stars-cuate",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "To the stars-cuate",
                 "module": "App",
                 "type": "App"
               }
