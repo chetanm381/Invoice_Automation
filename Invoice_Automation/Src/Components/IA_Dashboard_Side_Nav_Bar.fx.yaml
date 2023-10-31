@@ -8,7 +8,7 @@ IA_Dashboard_Side_Nav_Bar As CanvasComponent:
 
     IA_Dashboard_Side_Nav_Bar_Container As groupContainer.manualLayoutContainer:
         Fill: =RGBA(80, 65, 188, 1)
-        Height: =640
+        Height: =Max(App.Height, App.MinScreenHeight)
         RadiusBottomRight: =30
         RadiusTopRight: =30
         Width: =192
