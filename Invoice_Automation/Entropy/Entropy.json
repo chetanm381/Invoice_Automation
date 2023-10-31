@@ -12,10 +12,9 @@
     "Container1": 11,
     "Container3": 12,
     "Container4": 27,
-    "Container6": 14,
-    "Gallery2": 15,
+    "Container5": 41,
+    "Container8": 45,
     "Gallery3": 35,
-    "galleryTemplate2": 16,
     "galleryTemplate3": 36,
     "Host": 3,
     "IA_Dashboard": 38,
@@ -42,12 +41,11 @@
     "Label6": 26,
     "Rectangle1_1": 21,
     "Rectangle1_2": 33,
-    "Rectangle3": 6,
-    "TextInput5": 17
+    "Rectangle3": 6
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 10:12:20",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 13:32:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c3c6a32f554540d6ae7a57fc2575dcab\""
@@ -109,11 +107,10 @@
   "OrderXMLTemplate": {
     "gallery": 4,
     "groupContainer": 3,
-    "icon": 6,
+    "icon": 5,
     "image": 0,
     "label": 2,
-    "rectangle": 1,
-    "text": 5
+    "rectangle": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -121,10 +118,9 @@
     "Container1": {},
     "Container3": {},
     "Container4": {},
-    "Container6": {},
-    "Gallery2": {},
+    "Container5": {},
+    "Container8": {},
     "Gallery3": {},
-    "galleryTemplate2": {},
     "galleryTemplate3": {},
     "Host": {},
     "IA_Dashboard": {},
@@ -151,8 +147,7 @@
     "Label6": {},
     "Rectangle1_1": {},
     "Rectangle1_2": {},
-    "Rectangle3": {},
-    "TextInput5": {}
+    "Rectangle3": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PCFTemplateEntry": {},
@@ -162,10 +157,9 @@
     "Container1": 8,
     "Container3": 9,
     "Container4": 24,
-    "Container6": 11,
-    "Gallery2": 12,
+    "Container5": 0,
+    "Container8": 0,
     "Gallery3": 32,
-    "galleryTemplate2": 14,
     "galleryTemplate3": 33,
     "Host": 0,
     "IA_Dashboard": 37,
@@ -192,8 +186,7 @@
     "Label6": 23,
     "Rectangle1_1": 18,
     "Rectangle1_2": 27,
-    "Rectangle3": 3,
-    "TextInput5": 13
+    "Rectangle3": 3
   },
   "ResourcesJsonIndices": {
     "Image-2625766": 1,
@@ -221,7 +214,7 @@
       "f04c9a45291c418196f338704e6b0887": 1,
       "gallery": 2,
       "galleryTemplate": 2,
-      "groupContainer": 4,
+      "groupContainer": 5,
       "icon": 1,
       "image": 7,
       "label": 10,
