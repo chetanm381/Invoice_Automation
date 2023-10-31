@@ -1,11 +1,13 @@
 {
   "ComponentIndexes": {
-    "Component1": 1
+    "Component1": 1,
+    "Component1_1": 1
   },
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
     "Component1": 9,
+    "Component1_1": 16,
     "Host": 3,
     "IA_Dashboard": 4,
     "Image1": 10,
@@ -17,7 +19,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "10/31/2023 05:39:26",
+  "HeaderLastSavedDateTimeUTC": "10/31/2023 05:41:07",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {},
   "LocalDatabaseReferencesAsEmpty": false,
@@ -53,6 +55,7 @@
   "OverridablePropertiesEntry": {
     "App": {},
     "Component1": {},
+    "Component1_1": {},
     "Host": {},
     "IA_Dashboard": {},
     "Image1": {},
@@ -67,14 +70,15 @@
   "PublishOrderIndices": {
     "App": 0,
     "Component1": 1,
+    "Component1_1": 0,
     "Host": 0,
     "IA_Dashboard": 0,
-    "Image1": 0,
-    "Image3": 5,
-    "Image4": 2,
-    "Label1": 4,
-    "Label2": 3,
-    "Rectangle3": 1
+    "Image1": 1,
+    "Image3": 6,
+    "Image4": 3,
+    "Label1": 5,
+    "Label2": 4,
+    "Rectangle3": 2
   },
   "ResourcesJsonIndices": {
     "Image-2807609 1": 0,
@@ -90,7 +94,7 @@
     "AnalysisLoadTime": 0.0359494,
     "ControlCount": {
       "6ec4b1d6f47b467f959d169583b1675b": 1,
-      "f04c9a45291c418196f338704e6b0887": 1,
+      "f04c9a45291c418196f338704e6b0887": 2,
       "groupContainer": 1,
       "image": 3,
       "label": 3,
