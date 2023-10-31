@@ -254,49 +254,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5.FocusedBorderThickness"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Label5"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3"
               }
             }
           ],
@@ -314,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_11.Rectangle4_3"
               }
             }
           ],
@@ -338,96 +308,6 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Icon1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 0
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2.Rectangle4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 1
         },
         {
           "locations": [
@@ -788,66 +668,6 @@
           },
           "ruleId": "app-UnusedMediaResources",
           "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.unselectedcolor"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.unselectedcolor",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "unselectedcolor",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.selectedcolor"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.selectedcolor",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "selectedcolor",
-                "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "app-UnusedVariables",
-          "ruleIndex": 4
         }
       ],
       "tool": {
@@ -921,23 +741,6 @@
                 "level": "Medium",
                 "primaryCategory": "performance",
                 "whyFix": "This media file is not referenced by any control formulas so it is not needed. Removing it will improve performance."
-              }
-            },
-            {
-              "id": "app-UnusedVariables",
-              "messageStrings": {
-                "issue": {
-                  "text": "Unused variable"
-                }
-              },
-              "properties": {
-                "componentType": "app",
-                "howToFix": [
-                  "Remove the unused variable."
-                ],
-                "level": "Medium",
-                "primaryCategory": "performance",
-                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             }
           ],
