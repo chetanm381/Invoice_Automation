@@ -6,7 +6,7 @@ IA_Dashboard_Logo As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    Container1 As groupContainer.manualLayoutContainer:
+    IA_logo_container As groupContainer.manualLayoutContainer:
         Height: =62
         Width: =230
         X: =40
