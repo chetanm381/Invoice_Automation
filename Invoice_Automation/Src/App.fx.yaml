@@ -1,15 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
-        =ClearCollect(
-            Header,
-            {
-                Icon: "Icon",
-                InvoiceId: "Invoice Id",
-                BilledTo: "Billed To",
-                Status: "Pending/Completed"
-            }
-        )
+    OnStart: =
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

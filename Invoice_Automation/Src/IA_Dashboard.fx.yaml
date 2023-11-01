@@ -44,6 +44,7 @@ IA_Dashboard As screen:
                     Fill: =RGBA(255, 128, 87, 1)
                     Height: =23
                     HoverFill: =ColorFade(Self.Fill, 20%)
+                    OnSelect: =
                     Size: =8
                     Text: ="Upload"
                     Width: =108
@@ -581,15 +582,6 @@ IA_Dashboard As screen:
                 Y: =27
                 ZIndex: =1
 
-                Label12_1 As label:
-                    OnSelect: =Select(Parent)
-                    Size: =8
-                    Text: =
-                    Width: =41
-                    X: =51
-                    Y: =80
-                    ZIndex: =8
-
                 Icon3_1 As icon.DetailList:
                     Height: =20
                     Icon: =Icon.DetailList
@@ -633,18 +625,40 @@ IA_Dashboard As screen:
                     OnSelect: =Select(Parent)
                     Size: =8
                     Text: =ThisItem.'Billed To'
-                    X: =193
+                    X: =177
                     Y: =6
                     ZIndex: =13
 
-                Label2_1 As label:
-                    OnSelect: =Select(Parent)
-                    Size: =8
-                    Text: =ThisItem.Progress_Status
-                    Width: =103
+                Container4 As groupContainer.manualLayoutContainer:
+                    Height: =20
+                    RadiusBottomLeft: =15
+                    RadiusBottomRight: =15
+                    RadiusTopLeft: =15
+                    RadiusTopRight: =15
+                    Width: =87
                     X: =331
-                    Y: =6
-                    ZIndex: =14
+                    Y: =16
+                    ZIndex: =15
+
+                    Rectangle1 As rectangle:
+                        Height: =20
+                        Width: =87
+                        ZIndex: =1
+
+                    Label4 As label:
+                        Align: =Align.Center
+                        Color: =RGBA(255, 255, 255, 1)
+                        Fill: |-
+                            =
+                            Switch(
+                            ThisItem.Progress_Status,
+                            "Maker/Checker",RGBA(255, 128, 87, 1),"Manager",Color.DimGrey,Color.Green
+                            )
+                        Height: =20
+                        Size: =8
+                        Text: =ThisItem.Progress_Status
+                        Width: =87
+                        ZIndex: =2
 
             Container2_1 As groupContainer.manualLayoutContainer:
                 Height: =33
@@ -655,19 +669,20 @@ IA_Dashboard As screen:
                 ZIndex: =2
 
                 Rectangle1_1 As rectangle:
+                    Fill: =RGBA(80, 65, 188, 1)
                     Height: =33
                     Width: =500
                     ZIndex: =1
 
                 Label11_1 As label:
+                    Align: =Align.Center
                     Color: =RGBA(255, 255, 255, 1)
                     FontWeight: =FontWeight.Bold
-                    Height: =28
+                    Height: =30
                     Size: =8
-                    Text: ="Status"
-                    Width: =76
-                    X: =345
-                    Y: =2
+                    Text: ="Approval Stage"
+                    Width: =94
+                    X: =332
                     ZIndex: =3
 
                 Label6_1 As label:
