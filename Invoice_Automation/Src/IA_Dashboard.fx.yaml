@@ -444,3 +444,67 @@ IA_Dashboard As screen:
                     Y: =26
                     ZIndex: =3
 
+        Gallery1_1 As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =192
+            Items: =IA_Invoice_Details
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =325
+            Width: =532
+            X: =236
+            Y: =478
+            ZIndex: =4
+
+            Label3_1 As label:
+                OnSelect: =Select(Parent)
+                Size: =8
+                Text: =ThisItem.Title
+                Width: =57
+                X: =4
+                Y: =28
+                ZIndex: =1
+
+            Label4_1 As label:
+                OnSelect: =Select(Parent)
+                Size: =8
+                Text: =ThisItem.Invoice_ID
+                Width: =77
+                X: =61
+                Y: =28
+                ZIndex: =2
+
+            Label5_5 As label:
+                OnSelect: =Select(Parent)
+                Size: =8
+                Text: =ThisItem.Customer_Id
+                Width: =62
+                X: =129
+                Y: =28
+                ZIndex: =3
+
+            Label7_1 As label:
+                OnSelect: =Select(Parent)
+                Size: =8
+                Text: =ThisItem.Date
+                Width: =80
+                X: =196
+                Y: =28
+                ZIndex: =4
+
+            Label8_1 As label:
+                OnSelect: =Select(Parent)
+                Size: =8
+                Text: =ThisItem.'Billed To'
+                Width: =131
+                X: =261
+                Y: =28
+                ZIndex: =5
+
+            Label9_1 As label:
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Invoice_Total
+                X: =372
+                Y: =164
+                ZIndex: =6
+

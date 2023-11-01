@@ -131,6 +131,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "IA_Dashboard"
+    "IA_Dashboard",
+    "IA_Grid"
   ]
 }
