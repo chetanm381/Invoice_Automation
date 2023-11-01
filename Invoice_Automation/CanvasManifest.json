@@ -112,6 +112,7 @@
     "FileID": "c8920931-aa65-420c-b4e6-0604d0a32984",
     "Id": "51d2021c-72fc-458e-84ee-69f128cbe215",
     "InstrumentationKey": "",
+    "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
     "Name": "Invoice_Automation_Project",
     "OriginatingVersion": "1.335",
