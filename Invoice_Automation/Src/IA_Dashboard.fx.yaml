@@ -605,21 +605,3 @@ IA_Dashboard As screen:
                     Y: =120
                     ZIndex: =4
 
-        Label1 As label:
-            Text: ="Text"
-            X: =40
-            Y: =40
-            ZIndex: =5
-
-        Label2 As label:
-            Text: ="Text"
-            X: =60
-            Y: =60
-            ZIndex: =6
-
-        Label10 As label:
-            Text: ="Text"
-            X: =80
-            Y: =80
-            ZIndex: =7
-
