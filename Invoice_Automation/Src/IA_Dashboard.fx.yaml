@@ -16,7 +16,7 @@ IA_Dashboard As screen:
 
             Container4_1 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(255, 255, 255, 1)
-                Height: =219
+                Height: =309
                 RadiusBottomLeft: =20
                 RadiusBottomRight: =20
                 RadiusTopLeft: =20
@@ -48,7 +48,7 @@ IA_Dashboard As screen:
                     Text: ="Upload"
                     Width: =108
                     X: =36
-                    Y: =177
+                    Y: =262
                     ZIndex: =3
 
             Container2_9 As groupContainer.manualLayoutContainer:
@@ -193,6 +193,82 @@ IA_Dashboard As screen:
                     X: =80
                     Y: =10
                     ZIndex: =3
+
+            Container2 As groupContainer.manualLayoutContainer:
+                BorderStyle: =BorderStyle.None
+                DropShadow: =DropShadow.None
+                Height: =77
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Width: =180
+                X: =24
+                Y: =628
+                ZIndex: =8
+
+                Form2 As form:
+                    DataSource: =IA_Invoice_Details
+                    DefaultMode: =FormMode.New
+                    Fill: =RGBA(255, 255, 255, 1)
+                    Height: =114
+                    NumberOfColumns: =1
+                    Width: =180
+                    ZIndex: =1
+
+                    Attachments_DataCard3 As typedDataCard.attachmentsEditCard:
+                        BorderStyle: =BorderStyle.Solid
+                        DataField: ="{Attachments}"
+                        Default: =ThisItem.Attachments
+                        DisplayMode: =Parent.DisplayMode
+                        DisplayName: =DataSourceInfo([@IA_Invoice_Details],DataSourceInfo.DisplayName,"{Attachments}")
+                        Fill: =RGBA(0, 0, 0, 0)
+                        Height: =96
+                        Required: =false
+                        Update: =DataCardValue21.Attachments
+                        Width: =180
+                        X: =0
+                        Y: =0
+                        ZIndex: =1
+
+                        DataCardValue21 As attachments:
+                            BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                            BorderStyle: =BorderStyle.None
+                            DisplayMode: =Parent.DisplayMode
+                            Fill: =RGBA(253, 252, 255, 1)
+                            Height: =49
+                            HoverFill: =RGBA(255, 128, 87, 1)
+                            IsInDataCard: =true
+                            ItemHoverFill: =RGBA(80,65,188,1)
+                            Items: =Parent.Default
+                            MaxAttachments: =1
+                            MaxAttachmentsText: ="You have attached file."
+                            PaddingBottom: =5
+                            PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                            PaddingRight: =5
+                            PaddingTop: =5
+                            PressedFill: =RGBA(255, 104, 54, 1)
+                            Size: =5
+                            Tooltip: =Parent.DisplayName
+                            Width: =135
+                            X: =22
+                            Y: =13
+                            ZIndex: =2
+
+                        ErrorMessage21 As label:
+                            AutoHeight: =true
+                            Height: =10
+                            Live: =Live.Assertive
+                            PaddingBottom: =0
+                            PaddingLeft: =0
+                            PaddingRight: =0
+                            PaddingTop: =0
+                            Text: =Parent.Error
+                            Visible: =Parent.DisplayMode=DisplayMode.Edit
+                            Width: =Parent.Width - 60
+                            X: =30
+                            Y: =DataCardValue21.Y + DataCardValue21.Height
+                            ZIndex: =3
 
         Container1_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
