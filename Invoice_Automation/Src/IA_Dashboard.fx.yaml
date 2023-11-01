@@ -160,6 +160,11 @@ IA_Dashboard As screen:
                     Y: =3
                     ZIndex: =4
 
+            Container2 As groupContainer.manualLayoutContainer:
+                Height: =62
+                Width: =230.39999999999998
+                ZIndex: =7
+
         Container1_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             Height: =145

@@ -6,9 +6,9 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
     Y: =0
     ZIndex: =3
 
-    "'nav buttons' As groupContainer.manualLayoutContainer":
+    Dashboard_container_button As groupContainer.manualLayoutContainer:
         DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
-        Fill: =RGBA(0, 18, 107, 1)
+        Fill: =Rectangle4_2.Fill
         Height: =47
         RadiusBottomLeft: =15
         RadiusBottomRight: =15
@@ -16,27 +16,82 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
         RadiusTopRight: =15
         Width: =173
         X: =19
-        Y: =206
-        ZIndex: =1
+        Y: =138
+        ZIndex: =2
 
-        Rectangle4_5 As rectangle:
+        Rectangle4_2 As rectangle:
             Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
             Height: =47
             HoverFill: =
             OnSelect: =true;Set(selected,"Dashboard")
             PressedFill: =
-            Width: =173
+            Width: =192
             ZIndex: =1
 
-        Icon1_5 As icon.Waffle:
+        Icon1_2 As icon.Waffle:
             Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
             Height: =25
             HoverBorderColor: =
             HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
             HoverFill: =RGBA(0,0,0,0)
+            Icon: =Icon.Waffle
+            OnSelect: =Select(Rectangle4_2)
+            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            PressedFill: =
+            Width: =29
+            X: =12
+            Y: =10
+            ZIndex: =3
+
+        Label5_2 As label:
+            Align: =Align.Center
+            Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+            Fill: =RGBA(0,0,0,0)
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =
+            HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            HoverFill: =
+            OnSelect: =Select(Rectangle4_2);
+            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            PressedFill: =Rectangle4_2.PressedFill
+            Text: ="Dashboard"
+            Width: =134
+            X: =58
+            Y: =3
+            ZIndex: =4
+
+    Notification_button_container As groupContainer.manualLayoutContainer:
+        DropShadow: =If(selected="Notifications",DropShadow.Light,DropShadow.None)
+        Fill: =Rectangle4_5.Fill
+        Height: =47
+        RadiusBottomLeft: =15
+        RadiusBottomRight: =15
+        RadiusTopLeft: =15
+        RadiusTopRight: =15
+        Width: =173
+        X: =19
+        Y: =221
+        ZIndex: =3
+
+        Rectangle4_5 As rectangle:
+            BorderStyle: =BorderStyle.None
+            Fill: =If(selected="Notifications",Color.White,RGBA(80, 65, 188, 1))
+            Height: =44
+            HoverFill: =
+            OnSelect: =true;Set(selected,"Notifications")
+            PressedFill: =
+            Width: =Parent.Width
+            ZIndex: =1
+
+        Icon1_5 As icon.Waffle:
+            Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
+            Height: =25
+            HoverBorderColor: =
+            HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            HoverFill: =RGBA(0,0,0,0)
             Icon: =Icon.Bell
             OnSelect: =Select(Rectangle4_5)
-            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
             PressedFill: =
             Width: =29
             X: =12
@@ -45,14 +100,15 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
 
         Label5_4 As label:
             Align: =Align.Center
-            Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+            BorderStyle: =BorderStyle.None
+            Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
             Fill: =RGBA(0,0,0,0)
             FontWeight: =FontWeight.Semibold
             HoverBorderColor: =
-            HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
             HoverFill: =
             OnSelect: =Select(Rectangle4_5);
-            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
             PressedFill: =Rectangle4_5.PressedFill
             Text: ="Notifications"
             Width: =134
