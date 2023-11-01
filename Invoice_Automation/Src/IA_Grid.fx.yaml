@@ -64,56 +64,6 @@ IA_Grid As screen:
             Y: =34
             ZIndex: =9
 
-    Container2 As groupContainer.manualLayoutContainer:
-        Height: =44
-        RadiusBottomLeft: =30
-        RadiusBottomRight: =30
-        RadiusTopLeft: =30
-        RadiusTopRight: =30
-        Width: =391
-        ZIndex: =3
-
-        Rectangle1 As rectangle:
-            Height: =44
-            Width: =391
-            ZIndex: =1
-
-        Label11 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =32
-            Text: ="Status"
-            Width: =76
-            X: =247
-            Y: =4
-            ZIndex: =3
-
-        Label13 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =33
-            Text: ="View"
-            Width: =55
-            X: =336
-            Y: =4
-            ZIndex: =4
-
-        Label6 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Text: ="Billed To"
-            Width: =94
-            X: =142
-            ZIndex: =5
-
-        Label5 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Text: ="Invoice Id"
-            Width: =115
-            X: =27
-            ZIndex: =6
-
     Icon2 As icon.Mail:
         Height: =26
         Icon: =Icon.Mail
