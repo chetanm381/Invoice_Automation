@@ -3,13 +3,13 @@ IA_Grid As screen:
 
     Gallery1 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =170
+        Height: =132
         Items: =IA_Invoice_Details
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         TemplateSize: =159
         Width: =532
-        Y: =22
+        Y: =60
         ZIndex: =1
 
         Label3 As label:
@@ -17,7 +17,7 @@ IA_Grid As screen:
             Size: =8
             Text: =ThisItem.Title
             Width: =57
-            X: =63
+            X: =51
             Y: =28
             ZIndex: =1
 
@@ -68,23 +68,7 @@ IA_Grid As screen:
         Height: =26
         Icon: =Icon.Mail
         Width: =29
-        X: =16
-        Y: =60
-        ZIndex: =2
-
-    Label5 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Text: ="Invoice Id"
-        Width: =115
-        X: =27
+        X: =24
+        Y: =100
         ZIndex: =4
-
-    Label6 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Text: ="Billed To"
-        Width: =94
-        X: =142
-        ZIndex: =5
 

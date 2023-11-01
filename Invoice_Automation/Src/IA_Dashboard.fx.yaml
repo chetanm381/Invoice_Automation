@@ -519,55 +519,12 @@ IA_Dashboard As screen:
                     Y: =26
                     ZIndex: =3
 
-        Gallery1_1 As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =192
-            Items: =IA_Invoice_Details
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            TemplateSize: =325
-            Width: =532
-            X: =236
-            Y: =478
-            ZIndex: =4
-
-            Label3_1 As label:
-                OnSelect: =Select(Parent)
-                Size: =8
-                Text: =ThisItem.Title
-                Width: =57
-                X: =4
-                Y: =28
-                ZIndex: =1
-
-            Label5_5 As label:
-                OnSelect: =Select(Parent)
-                Size: =8
-                Text: =ThisItem.Customer_Id
-                Width: =62
-                X: =61
-                Y: =28
-                ZIndex: =3
-
-            Label7_1 As label:
-                OnSelect: =Select(Parent)
-                Size: =8
-                Text: =ThisItem.Date
-                Width: =80
-                X: =121
-                Y: =28
-                ZIndex: =4
-
-            Label8_1 As label:
-                OnSelect: =Select(Parent)
-                Size: =8
-                Text: =ThisItem.'Billed To'
-                Width: =131
-                X: =188
-                Y: =28
-                ZIndex: =5
-
         Container1 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
             X: =244
             Y: =255
             ZIndex: =5
@@ -603,4 +560,104 @@ IA_Dashboard As screen:
                     X: =80
                     Y: =120
                     ZIndex: =4
+
+        Container3 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =506
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            X: =244
+            Y: =489
+            ZIndex: =9
+
+            Gallery1_1 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Height: =479
+                Items: =IA_Invoice_Details
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                TemplateSize: =49
+                Width: =500
+                Y: =27
+                ZIndex: =1
+
+                Label12_1 As label:
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: =
+                    Width: =41
+                    X: =51
+                    Y: =80
+                    ZIndex: =8
+
+                Icon3_1 As icon.DetailList:
+                    Height: =20
+                    Icon: =Icon.DetailList
+                    OnSelect: =Select(Parent)
+                    Width: =26
+                    X: =452
+                    Y: =16
+                    ZIndex: =9
+
+                Icon3_2 As icon.DetailList:
+                    Height: =20
+                    Icon: =Icon.Mail
+                    OnSelect: =Select(Parent)
+                    Width: =26
+                    X: =25
+                    Y: =16
+                    ZIndex: =10
+
+                Rectangle2 As rectangle:
+                    Fill: =RGBA(237, 237, 237, 1)
+                    Height: =3
+                    OnSelect: =Select(Parent)
+                    Width: =488
+                    Y: =46
+                    ZIndex: =11
+
+            Container2_1 As groupContainer.manualLayoutContainer:
+                Height: =33
+                RadiusBottomLeft: =30
+                RadiusBottomRight: =30
+                RadiusTopLeft: =30
+                RadiusTopRight: =30
+                ZIndex: =2
+
+                Rectangle1_1 As rectangle:
+                    Height: =33
+                    Width: =500
+                    ZIndex: =1
+
+                Label11_1 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =28
+                    Size: =10
+                    Text: ="Status"
+                    Width: =76
+                    X: =333
+                    Y: =2
+                    ZIndex: =3
+
+                Label13_1 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =28
+                    Size: =10
+                    Text: ="View"
+                    Width: =55
+                    X: =445
+                    Y: =2
+                    ZIndex: =4
+
+                Label6_1 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =10
+                    Text: ="Billed To"
+                    Width: =94
+                    X: =203
+                    ZIndex: =5
 
