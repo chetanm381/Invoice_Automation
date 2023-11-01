@@ -85,7 +85,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/01/2023 06:13:00",
+  "HeaderLastSavedDateTimeUTC": "11/01/2023 06:13:38",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-6cdded0d-e0f9-4ffd-b541-d103704f38a2\""
@@ -243,8 +243,8 @@
     "App": 0,
     "Button1": 55,
     "Button1_1": 14,
-    "Circle1": 59,
-    "Circle2": 0,
+    "Circle1": 60,
+    "Circle2": 59,
     "Container1": 58,
     "Container1_1": 15,
     "Container2": 2,
@@ -286,7 +286,7 @@
     "Image6_15": 29,
     "Image6_16": 35,
     "Image6_17": 39,
-    "Label1": 0,
+    "Label1": 61,
     "Label1_2": 20,
     "Label1_3": 13,
     "Label2_2": 19,
