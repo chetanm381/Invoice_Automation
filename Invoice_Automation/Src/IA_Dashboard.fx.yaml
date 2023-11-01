@@ -11,7 +11,7 @@ IA_Dashboard As screen:
             Height: =1024
             RadiusBottomRight: =40
             RadiusTopRight: =40
-            Width: =220
+            Width: =Parent.Width*.30
             ZIndex: =1
 
             Container4_1 As groupContainer.manualLayoutContainer:
@@ -22,8 +22,8 @@ IA_Dashboard As screen:
                 RadiusTopLeft: =20
                 RadiusTopRight: =20
                 Width: =180
-                X: =17
-                Y: =455
+                X: =24
+                Y: =456
                 ZIndex: =2
 
                 Image1_3 As image:
@@ -53,7 +53,7 @@ IA_Dashboard As screen:
 
             Container2_9 As groupContainer.manualLayoutContainer:
                 DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
-                Fill: =RGBA(0, 18, 107, 1)
+                Fill: =Rectangle4_1.Fill
                 Height: =47
                 RadiusBottomLeft: =15
                 RadiusBottomRight: =15
@@ -105,8 +105,8 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
             Container2_12 As groupContainer.manualLayoutContainer:
-                DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
-                Fill: =RGBA(0, 18, 107, 1)
+                DropShadow: =If(selected="Notifications",DropShadow.Light,DropShadow.None)
+                Fill: =Rectangle4_4.Fill
                 Height: =47
                 RadiusBottomLeft: =15
                 RadiusBottomRight: =15
@@ -114,20 +114,21 @@ IA_Dashboard As screen:
                 RadiusTopRight: =15
                 Width: =173
                 X: =24
-                Y: =206
+                Y: =221
                 ZIndex: =6
 
                 Rectangle4_4 As rectangle:
-                    Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
-                    Height: =47
+                    BorderStyle: =BorderStyle.None
+                    Fill: =If(selected="Notifications",Color.White,RGBA(80, 65, 188, 1))
+                    Height: =44
                     HoverFill: =
                     OnSelect: =true;Set(selected,"Notifications")
                     PressedFill: =
-                    Width: =173
+                    Width: =Parent.Width
                     ZIndex: =1
 
                 Icon1_4 As icon.Waffle:
-                    Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                    Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
                     Height: =25
                     HoverBorderColor: =
                     HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
@@ -143,7 +144,8 @@ IA_Dashboard As screen:
 
                 Label5_3 As label:
                     Align: =Align.Center
-                    Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                    BorderStyle: =BorderStyle.None
+                    Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
                     Fill: =RGBA(0,0,0,0)
                     FontWeight: =FontWeight.Semibold
                     HoverBorderColor: =
@@ -159,9 +161,10 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
         Container1_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
             Height: =145
-            Width: =548
-            X: =220
+            Width: =Parent.Width*.70
+            X: =230
             ZIndex: =2
 
             Rectangle3_2 As rectangle:
@@ -172,10 +175,11 @@ IA_Dashboard As screen:
                 ZIndex: =1
 
             Image4_2 As image:
+                Height: =107
                 Image: ='Ellipse 11'
                 ImagePosition: =ImagePosition.Stretch
                 Width: =51
-                Y: =37
+                Y: =30
                 ZIndex: =2
 
             Label2_2 As label:
