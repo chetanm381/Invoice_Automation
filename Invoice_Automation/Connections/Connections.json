@@ -20,5 +20,57 @@
     "dependencies": {},
     "dependents": [],
     "id": "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80"
+  },
+  "114fd3fb-c325-41f0-8257-4c43b7800bf4": {
+    "connectionRef": {
+      "displayName": "Logic flows",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
+      "parameterHints": {
+        "5045039d-454a-4c72-a4d7-31ae88a75f27": {
+          "value": "shared_commondataserviceforapps"
+        },
+        "workflowEntityId": {
+          "value": "45667a57-ad78-ee11-8179-6045bdf5407f"
+        },
+        "workflowName": {
+          "value": "4886e2b7-d114-4fde-9ada-171335a72a78"
+        }
+      },
+      "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "5045039d-454a-4c72-a4d7-31ae88a75f27"
+        },
+        "workflowEntityId": {
+          "value": "45667a57-ad78-ee11-8179-6045bdf5407f"
+        },
+        "workflowName": {
+          "value": "4886e2b7-d114-4fde-9ada-171335a72a78"
+        }
+      }
+    },
+    "datasets": {},
+    "dataSources": [
+      "ReadinformationfrominvoicesfromPowerApps"
+    ],
+    "dependencies": {
+      "shared_commondataserviceforapps": "5045039d-454a-4c72-a4d7-31ae88a75f27"
+    },
+    "dependents": [],
+    "id": "114fd3fb-c325-41f0-8257-4c43b7800bf4"
+  },
+  "5045039d-454a-4c72-a4d7-31ae88a75f27": {
+    "connectionRef": {
+      "displayName": "Microsoft Dataverse",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/commondataserviceforapps/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_commondataserviceforapps"
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "114fd3fb-c325-41f0-8257-4c43b7800bf4"
+    ],
+    "id": "5045039d-454a-4c72-a4d7-31ae88a75f27"
   }
 }

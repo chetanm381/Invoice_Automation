@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "7760c629-7f55-46c9-b4eb-091edf96e94a",
+    "Name": "ReadinformationfrominvoicesfromPowerApps",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": "45667a57-ad78-ee11-8179-6045bdf5407f"
+  }
+]
