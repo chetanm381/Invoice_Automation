@@ -6,36 +6,10 @@ IA_Dashboard_Logo As CanvasComponent:
     Y: =0
     ZIndex: =1
 
-    Container1 As groupContainer.manualLayoutContainer:
+    IA_logo_container As groupContainer.manualLayoutContainer:
         Height: =62
         Width: =230
         X: =40
         Y: =40
         ZIndex: =1
-
-        Circle1 As circle:
-            Fill: =RGBA(255, 127, 87, 1)
-            Height: =30
-            Width: =34
-            X: =24
-            Y: =20
-            ZIndex: =1
-
-        Circle2 As circle:
-            Fill: =RGBA(255, 198, 41, 1)
-            Height: =40
-            Width: =45
-            X: =40
-            Y: =15
-            ZIndex: =2
-
-        Label1 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            Font: =Font.'Lato Light'
-            FontWeight: =FontWeight.Bold
-            Height: =50
-            Text: ="Invoice "
-            X: =50
-            Y: =10
-            ZIndex: =3
 
