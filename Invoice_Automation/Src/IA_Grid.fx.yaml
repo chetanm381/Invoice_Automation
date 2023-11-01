@@ -1,13 +1,24 @@
 IA_Grid As screen:
+    OnVisible: |-
+        =ClearCollect(
+            Header,
+            {
+                Icon: "Icon",
+                InvoiceId: "Invoice Id",
+                BilledTo: "Billed To",
+                Status: "Pending/Completed"
+            }
+        )
 
     Gallery1 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =192
+        Height: =148
         Items: =IA_Invoice_Details
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =325
+        TemplateSize: =142
         Width: =532
+        Y: =44
         ZIndex: =1
 
         Label3 As label:
@@ -15,34 +26,16 @@ IA_Grid As screen:
             Size: =8
             Text: =ThisItem.Title
             Width: =57
-            X: =4
+            X: =51
             Y: =28
             ZIndex: =1
-
-        Label4 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =ThisItem.Invoice_ID
-            Width: =77
-            X: =61
-            Y: =28
-            ZIndex: =2
-
-        Label5 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =ThisItem.Customer_Id
-            Width: =62
-            X: =129
-            Y: =28
-            ZIndex: =3
 
         Label7 As label:
             OnSelect: =Select(Parent)
             Size: =8
-            Text: =ThisItem.Date
-            Width: =80
-            X: =196
+            Text: =ThisItem.Progress_Status
+            Width: =96
+            X: =239
             Y: =28
             ZIndex: =4
 
@@ -51,7 +44,7 @@ IA_Grid As screen:
             Size: =8
             Text: =ThisItem.'Billed To'
             Width: =131
-            X: =261
+            X: =108
             Y: =28
             ZIndex: =5
 
@@ -61,4 +54,41 @@ IA_Grid As screen:
             X: =576
             Y: =164
             ZIndex: =6
+
+        Label12 As label:
+            OnSelect: =Select(Parent)
+            Size: =8
+            Text: =
+            Width: =41
+            X: =51
+            Y: =80
+            ZIndex: =8
+
+        Icon3 As icon.DetailList:
+            Height: =28
+            Icon: =Icon.DetailList
+            OnSelect: =Select(Parent)
+            Width: =35
+            X: =335
+            Y: =34
+            ZIndex: =9
+
+    Icon2 As icon.Mail:
+        Height: =26
+        Icon: =Icon.Mail
+        Width: =29
+        X: =16
+        Y: =80
+        ZIndex: =2
+
+    Gallery2 As gallery.galleryVertical:
+        DelayItemLoading: =true
+        Height: =137
+        Items: =Header
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplateSize: =48
+        Width: =384
+        Y: =1
+        ZIndex: =3
 

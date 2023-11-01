@@ -465,21 +465,12 @@ IA_Dashboard As screen:
                 Y: =28
                 ZIndex: =1
 
-            Label4_1 As label:
-                OnSelect: =Select(Parent)
-                Size: =8
-                Text: =ThisItem.Invoice_ID
-                Width: =77
-                X: =61
-                Y: =28
-                ZIndex: =2
-
             Label5_5 As label:
                 OnSelect: =Select(Parent)
                 Size: =8
                 Text: =ThisItem.Customer_Id
                 Width: =62
-                X: =129
+                X: =61
                 Y: =28
                 ZIndex: =3
 
@@ -488,7 +479,7 @@ IA_Dashboard As screen:
                 Size: =8
                 Text: =ThisItem.Date
                 Width: =80
-                X: =196
+                X: =121
                 Y: =28
                 ZIndex: =4
 
@@ -497,14 +488,25 @@ IA_Dashboard As screen:
                 Size: =8
                 Text: =ThisItem.'Billed To'
                 Width: =131
-                X: =261
+                X: =188
                 Y: =28
                 ZIndex: =5
 
-            Label9_1 As label:
-                OnSelect: =Select(Parent)
-                Text: =ThisItem.Invoice_Total
-                X: =372
-                Y: =164
-                ZIndex: =6
+        Label1 As label:
+            Text: ="Text"
+            X: =40
+            Y: =40
+            ZIndex: =5
+
+        Label2 As label:
+            Text: ="Text"
+            X: =60
+            Y: =60
+            ZIndex: =6
+
+        Label10 As label:
+            Text: ="Text"
+            X: =80
+            Y: =80
+            ZIndex: =7
 
