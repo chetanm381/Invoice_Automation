@@ -617,16 +617,19 @@ IA_Dashboard As screen:
                     ZIndex: =11
 
                 Label1 As label:
+                    Italic: =true
                     OnSelect: =Select(Parent)
                     Size: =8
                     Text: |-
                         ="Invoice#"&ThisItem.Title
+                    Underline: =true
                     Width: =101
                     X: =72
                     Y: =6
                     ZIndex: =12
 
                 Label2 As label:
+                    FontWeight: =FontWeight.Semibold
                     OnSelect: =Select(Parent)
                     Size: =8
                     Text: =ThisItem.'Billed To'
