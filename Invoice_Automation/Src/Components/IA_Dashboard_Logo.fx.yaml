@@ -29,13 +29,13 @@ IA_Dashboard_Logo As CanvasComponent:
             Y: =15
             ZIndex: =2
 
-    Label1 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.'Lato Light'
-        FontWeight: =FontWeight.Bold
-        Height: =50
-        Text: ="Invoice "
-        X: =93
-        Y: =50
-        ZIndex: =2
+        Label1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Lato Light'
+            FontWeight: =FontWeight.Bold
+            Height: =50
+            Text: ="Invoice "
+            X: =50
+            Y: =10
+            ZIndex: =3
 
