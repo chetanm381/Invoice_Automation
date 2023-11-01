@@ -110,7 +110,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "c8920931-aa65-420c-b4e6-0604d0a32984",
-    "Id": "8742ee7d-a570-4965-8d11-a96b82d1d7b3",
+    "Id": "caae4e03-0ad4-45cd-bef6-7b6c0b3eaf59",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
@@ -131,6 +131,7 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "IA_Dashboard"
+    "IA_Dashboard",
+    "IA_Grid"
   ]
 }
