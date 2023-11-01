@@ -60,8 +60,8 @@ IA_Dashboard As screen:
                 RadiusTopLeft: =15
                 RadiusTopRight: =15
                 Width: =173
-                X: =18
-                Y: =309
+                X: =24
+                Y: =138
                 ZIndex: =4
 
                 Rectangle4_1 As rectangle:
@@ -77,11 +77,11 @@ IA_Dashboard As screen:
                     Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
                     Height: =25
                     HoverBorderColor: =
-                    HoverColor: =
-                    HoverFill: =
+                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    HoverFill: =RGBA(0,0,0,0)
                     Icon: =Icon.Waffle
-                    OnSelect: =
-                    PressedColor: =
+                    OnSelect: =Select(Rectangle4_1)
+                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =
                     Width: =29
                     X: =12
@@ -93,10 +93,10 @@ IA_Dashboard As screen:
                     Fill: =RGBA(0,0,0,0)
                     FontWeight: =FontWeight.Semibold
                     HoverBorderColor: =
-                    HoverColor: =
+                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     HoverFill: =
-                    OnSelect: =
-                    PressedColor: =RGBA(80, 65, 188, 1)
+                    OnSelect: =Select(Rectangle4_1);
+                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =Rectangle4_1.PressedFill
                     Text: ="Dashboard"
                     Width: =134
@@ -150,6 +150,59 @@ IA_Dashboard As screen:
                     PressedColor: =RGBA(80, 65, 188, 1)
                     PressedFill: =Rectangle4_2.PressedFill
                     Text: ="Notifications"
+                    Width: =134
+                    X: =39
+                    Y: =3
+                    ZIndex: =4
+
+            Container2_12 As groupContainer.manualLayoutContainer:
+                DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
+                Fill: =RGBA(0, 18, 107, 1)
+                Height: =47
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Width: =173
+                X: =40
+                Y: =40
+                ZIndex: =6
+
+                Rectangle4_4 As rectangle:
+                    Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
+                    Height: =47
+                    HoverFill: =
+                    OnSelect: =true;Set(selected,"Dashboard")
+                    PressedFill: =
+                    Width: =173
+                    ZIndex: =1
+
+                Icon1_4 As icon.Waffle:
+                    Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                    Height: =25
+                    HoverBorderColor: =
+                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    HoverFill: =RGBA(0,0,0,0)
+                    Icon: =Icon.Waffle
+                    OnSelect: =Select(Rectangle4_4)
+                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    PressedFill: =
+                    Width: =29
+                    X: =12
+                    Y: =10
+                    ZIndex: =3
+
+                Label5_3 As label:
+                    Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                    Fill: =RGBA(0,0,0,0)
+                    FontWeight: =FontWeight.Semibold
+                    HoverBorderColor: =
+                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    HoverFill: =
+                    OnSelect: =Select(Rectangle4_4);
+                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    PressedFill: =Rectangle4_4.PressedFill
+                    Text: ="Dashboard"
                     Width: =134
                     X: =39
                     Y: =3
