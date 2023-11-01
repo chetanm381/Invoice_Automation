@@ -595,7 +595,7 @@ IA_Dashboard As screen:
                     Icon: =Icon.DetailList
                     OnSelect: =Select(Parent)
                     Width: =26
-                    X: =452
+                    X: =445
                     Y: =16
                     ZIndex: =9
 
@@ -616,6 +616,33 @@ IA_Dashboard As screen:
                     Y: =46
                     ZIndex: =11
 
+                Label1 As label:
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: |-
+                        ="Invoice#"&ThisItem.Title
+                    Width: =101
+                    X: =72
+                    Y: =6
+                    ZIndex: =12
+
+                Label2 As label:
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: =ThisItem.'Billed To'
+                    X: =193
+                    Y: =6
+                    ZIndex: =13
+
+                Label2_1 As label:
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: =ThisItem.Progress_Status
+                    Width: =103
+                    X: =331
+                    Y: =6
+                    ZIndex: =14
+
             Container2_1 As groupContainer.manualLayoutContainer:
                 Height: =33
                 RadiusBottomLeft: =30
@@ -633,31 +660,30 @@ IA_Dashboard As screen:
                     Color: =RGBA(255, 255, 255, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =28
-                    Size: =10
+                    Size: =8
                     Text: ="Status"
                     Width: =76
-                    X: =333
+                    X: =345
                     Y: =2
                     ZIndex: =3
-
-                Label13_1 As label:
-                    Color: =RGBA(255, 255, 255, 1)
-                    FontWeight: =FontWeight.Bold
-                    Height: =28
-                    Size: =10
-                    Text: ="View"
-                    Width: =55
-                    X: =445
-                    Y: =2
-                    ZIndex: =4
 
                 Label6_1 As label:
                     Color: =RGBA(255, 255, 255, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =32
-                    Size: =10
+                    Size: =8
                     Text: ="Billed To"
                     Width: =94
                     X: =203
                     ZIndex: =5
+
+                Label6_3 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =8
+                    Text: ="Invoice Id"
+                    Width: =94
+                    X: =74
+                    ZIndex: =6
 
