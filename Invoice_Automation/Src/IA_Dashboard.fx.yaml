@@ -121,7 +121,7 @@ IA_Dashboard As screen:
                     Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
                     Height: =47
                     HoverFill: =
-                    OnSelect: =true;Set(selected,"Dashboard")
+                    OnSelect: =true;Set(selected,"Notifications")
                     PressedFill: =
                     Width: =173
                     ZIndex: =1
@@ -130,11 +130,11 @@ IA_Dashboard As screen:
                     Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
                     Height: =25
                     HoverBorderColor: =
-                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     HoverFill: =RGBA(0,0,0,0)
                     Icon: =Icon.Bell
                     OnSelect: =Select(Rectangle4_4)
-                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =
                     Width: =29
                     X: =12
@@ -147,10 +147,10 @@ IA_Dashboard As screen:
                     Fill: =RGBA(0,0,0,0)
                     FontWeight: =FontWeight.Semibold
                     HoverBorderColor: =
-                    HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     HoverFill: =
                     OnSelect: =Select(Rectangle4_4);
-                    PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                    PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =Rectangle4_4.PressedFill
                     Text: ="Notifications"
                     Width: =134

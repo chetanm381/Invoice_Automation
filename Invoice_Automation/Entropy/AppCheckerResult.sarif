@@ -14,19 +14,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5"
               }
             }
           ],
@@ -44,19 +44,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Rectangle4_5"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Rectangle4_5"
               }
             }
           ],
@@ -74,19 +74,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4"
               }
             }
           ],
@@ -104,19 +104,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4.FocusedBorderThickness"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4.FocusedBorderThickness"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4.FocusedBorderThickness",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4.FocusedBorderThickness",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "FocusedBorderThickness",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Label5_4"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Label5_4"
               }
             }
           ],
@@ -284,19 +284,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5"
               }
             }
           ],
@@ -314,19 +314,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard_Side_Nav_Bar_1",
-                "type": "IA_Dashboard_Side_Nav_Bar_1.Container2_13.Icon1_5"
+                "type": "IA_Dashboard_Side_Nav_Bar_1.'nav buttons'.Icon1_5"
               }
             }
           ],

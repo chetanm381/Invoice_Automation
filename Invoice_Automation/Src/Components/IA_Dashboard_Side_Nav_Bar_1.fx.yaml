@@ -6,7 +6,7 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
     Y: =0
     ZIndex: =3
 
-    Container2_13 As groupContainer.manualLayoutContainer:
+    "'nav buttons' As groupContainer.manualLayoutContainer":
         DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
         Fill: =RGBA(0, 18, 107, 1)
         Height: =47
