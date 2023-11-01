@@ -236,7 +236,7 @@ IA_Dashboard As screen:
                             BorderStyle: =BorderStyle.None
                             DisplayMode: =Parent.DisplayMode
                             Fill: =RGBA(253, 252, 255, 1)
-                            Height: =49
+                            Height: =71
                             HoverFill: =RGBA(255, 128, 87, 1)
                             IsInDataCard: =true
                             ItemHoverFill: =RGBA(80,65,188,1)
@@ -248,11 +248,10 @@ IA_Dashboard As screen:
                             PaddingRight: =5
                             PaddingTop: =5
                             PressedFill: =RGBA(255, 104, 54, 1)
-                            Size: =5
+                            Size: =8
                             Tooltip: =Parent.DisplayName
-                            Width: =135
+                            Width: =158
                             X: =22
-                            Y: =13
                             ZIndex: =2
 
                         ErrorMessage21 As label:
