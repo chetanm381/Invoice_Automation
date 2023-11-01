@@ -44,11 +44,7 @@ IA_Dashboard As screen:
                     Fill: =RGBA(255, 128, 87, 1)
                     Height: =23
                     HoverFill: =ColorFade(Self.Fill, 20%)
-                    OnSelect: |-
-                        =SubmitForm(Form2);
-                        ReadinformationfrominvoicesfromPowerApps.Run(Form2.LastSubmit.ID);
-                        Notify("Invoice Successfully Uploaded");
-                        ResetForm(Form2);
+                    OnSelect: =SubmitForm(Form2);
                     Size: =8
                     Text: ="Upload"
                     Width: =108
