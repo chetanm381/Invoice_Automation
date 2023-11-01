@@ -6,72 +6,7 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
     Y: =0
     ZIndex: =3
 
-    "Gallery1 As gallery.'BrowseLayout_Vertical_OneTextVariant_ver5.0'":
-        DelayItemLoading: =true
-        Height: =173
-        Items: |-
-            =Table(
-                    {
-                        Title: "Dashboard",
-                        
-                        Icon: Icon.Waffle
-                    },
-                    {
-                        Title: "Notifications",
-                        
-                        Icon: Icon.Bell
-                    }
-                    
-                )
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplatePadding: =0
-        TemplateSize: =50
-        Transition: =Transition.Pop
-        X: =40
-        Y: =40
-        ZIndex: =1
-
-        Title3 As label:
-            Color: =If(ThisItem.IsSelected,RGBA(80, 65, 188, 1),RGBA(255, 255, 255, 1))
-            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
-            Height: =Self.Size * 1.8
-            OnSelect: =Select(Parent)
-            PaddingBottom: =0
-            PaddingLeft: =0
-            PaddingRight: =0
-            PaddingTop: =0
-            Size: =10
-            Text: =ThisItem.Title
-            VerticalAlign: =VerticalAlign.Top
-            Width: =Parent.TemplateWidth - 86
-            X: =66
-            Y: =16
-            ZIndex: =1
-
-        NextArrow3 As icon.ChevronRight:
-            AccessibleLabel: =Self.Tooltip
-            Color: =If(ThisItem.IsSelected,RGBA(80, 65, 188, 1),RGBA(255, 255, 255, 1))
-            Height: =50
-            Icon: =ThisItem.Icon
-            OnSelect: =Select(Parent)
-            PaddingBottom: =12
-            PaddingLeft: =12
-            PaddingRight: =12
-            PaddingTop: =12
-            Tooltip: ="View item details"
-            Width: =40
-            X: =15
-            ZIndex: =2
-
-        Separator3 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =3
-
-    Container2_11 As groupContainer.manualLayoutContainer:
+    Container2_13 As groupContainer.manualLayoutContainer:
         DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
         Fill: =RGBA(0, 18, 107, 1)
         Height: =47
@@ -80,31 +15,48 @@ IA_Dashboard_Side_Nav_Bar_1 As CanvasComponent:
         RadiusTopLeft: =15
         RadiusTopRight: =15
         Width: =173
-        X: =18
-        Y: =309
-        ZIndex: =3
+        X: =19
+        Y: =206
+        ZIndex: =1
 
-        Rectangle4_3 As rectangle:
+        Rectangle4_5 As rectangle:
             Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
             Height: =47
             HoverFill: =
             OnSelect: =true;Set(selected,"Dashboard")
             PressedFill: =
-            Width: =192
+            Width: =173
             ZIndex: =1
 
-        Icon1_3 As icon.Waffle:
+        Icon1_5 As icon.Waffle:
             Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
             Height: =25
             HoverBorderColor: =
-            HoverColor: =
-            HoverFill: =
-            Icon: =Icon.Waffle
-            OnSelect: =
-            PressedColor: =
+            HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            HoverFill: =RGBA(0,0,0,0)
+            Icon: =Icon.Bell
+            OnSelect: =Select(Rectangle4_5)
+            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
             PressedFill: =
             Width: =29
             X: =12
             Y: =10
             ZIndex: =3
+
+        Label5_4 As label:
+            Align: =Align.Center
+            Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+            Fill: =RGBA(0,0,0,0)
+            FontWeight: =FontWeight.Semibold
+            HoverBorderColor: =
+            HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            HoverFill: =
+            OnSelect: =Select(Rectangle4_5);
+            PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+            PressedFill: =Rectangle4_5.PressedFill
+            Text: ="Notifications"
+            Width: =134
+            X: =39
+            Y: =3
+            ZIndex: =4
 
