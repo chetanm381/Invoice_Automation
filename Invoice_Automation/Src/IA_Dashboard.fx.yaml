@@ -53,9 +53,11 @@ IA_Dashboard As screen:
                         contentBytes:First(DataCardValue21.Attachments).Value,
                         name:First(DataCardValue21.Attachments).Name
                         }
+                        }
                         
-                        
-                        )
+                        );
+                        Notify("Invoice Successfully Uploaded");
+                        ResetForm(Form2)
                     Size: =8
                     Text: ="Upload"
                     Width: =108
