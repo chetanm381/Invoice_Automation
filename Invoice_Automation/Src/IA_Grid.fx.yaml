@@ -1,14 +1,5 @@
 IA_Grid As screen:
-    OnVisible: |-
-        =ClearCollect(
-            Header,
-            {
-                Icon: "Icon",
-                InvoiceId: "Invoice Id",
-                BilledTo: "Billed To",
-                Status: "Pending/Completed"
-            }
-        )
+    OnVisible: =
 
     Gallery1 As gallery.galleryVertical:
         DelayItemLoading: =true
@@ -26,7 +17,7 @@ IA_Grid As screen:
             Size: =8
             Text: =ThisItem.Title
             Width: =57
-            X: =51
+            X: =63
             Y: =28
             ZIndex: =1
 
@@ -81,14 +72,58 @@ IA_Grid As screen:
         Y: =80
         ZIndex: =2
 
-    Gallery2 As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =137
-        Items: =Header
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =48
-        Width: =384
-        Y: =1
+    Container2 As groupContainer.manualLayoutContainer:
+        Height: =44
+        RadiusBottomLeft: =30
+        RadiusBottomRight: =30
+        RadiusTopLeft: =30
+        RadiusTopRight: =30
+        Width: =391
         ZIndex: =3
+
+        Rectangle1 As rectangle:
+            Height: =44
+            Width: =391
+            ZIndex: =1
+
+        Label4 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
+            Height: =35
+            Text: ="Icon"
+            Width: =61
+            X: =11
+            ZIndex: =2
+
+        Label11 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =31
+            Text: ="Status"
+            Width: =65
+            X: =252
+            Y: =4
+            ZIndex: =3
+
+        Label13 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =33
+            Text: ="View"
+            Width: =55
+            X: =336
+            Y: =4
+            ZIndex: =4
+
+    Label5 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Text: ="Id"
+        Width: =57
+        X: =74
+        ZIndex: =4
+
+    Label6 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        Text: ="Billed To"
+        Width: =82
+        X: =142
+        ZIndex: =5
 
