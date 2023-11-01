@@ -111,7 +111,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "11/01/2023 09:44:04",
+  "HeaderLastSavedDateTimeUTC": "11/01/2023 09:45:15",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "0923bc41-8d7b-4c4f-a0e6-6a2a705a4f80": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/c3c6a32f554540d6ae7a57fc2575dcab\""
@@ -173,8 +173,7 @@
     "Nav bars": 8,
     "Nav bars\\cr0f7_navbar_statecode": 0,
     "Nav bars\\cr0f7_navbar_statuscode": 1,
-    "Nav bars\\default.cds_cr0f7_navbar_views": 2,
-    "navbar": 10
+    "Nav bars\\default.cds_cr0f7_navbar_views": 2
   },
   "OrderGroupControls": {
     "CompositeLineChart1": {

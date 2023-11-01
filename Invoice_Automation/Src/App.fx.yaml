@@ -1,19 +1,15 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: |-
-        =ClearCollect(navbar,Table(
-                {
-                    Title: "Dashboard",
-                    
-                    Icon: Icon.Waffle
-                },
-                {
-                    Title: "Notifications",
-                    
-                    Icon: Icon.Bell
-                }
-                
-            ));
+        =ClearCollect(
+            Header,
+            {
+                Icon: "Icon",
+                InvoiceId: "Invoice Id",
+                BilledTo: "Billed To",
+                Status: "Pending/Completed"
+            }
+        )
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
