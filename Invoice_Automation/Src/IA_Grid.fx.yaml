@@ -3,13 +3,13 @@ IA_Grid As screen:
 
     Gallery1 As gallery.galleryVertical:
         DelayItemLoading: =true
-        Height: =148
+        Height: =170
         Items: =IA_Invoice_Details
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =142
+        TemplateSize: =159
         Width: =532
-        Y: =44
+        Y: =22
         ZIndex: =1
 
         Label3 As label:
@@ -69,7 +69,7 @@ IA_Grid As screen:
         Icon: =Icon.Mail
         Width: =29
         X: =16
-        Y: =80
+        Y: =60
         ZIndex: =2
 
     Container2 As groupContainer.manualLayoutContainer:
@@ -86,26 +86,19 @@ IA_Grid As screen:
             Width: =391
             ZIndex: =1
 
-        Label4 As label:
-            Color: =RGBA(255, 255, 255, 1)
-            FontWeight: =FontWeight.Bold
-            Height: =35
-            Text: ="Icon"
-            Width: =61
-            X: =11
-            ZIndex: =2
-
         Label11 As label:
             Color: =RGBA(255, 255, 255, 1)
-            Height: =31
+            FontWeight: =FontWeight.Bold
+            Height: =32
             Text: ="Status"
-            Width: =65
-            X: =252
+            Width: =76
+            X: =247
             Y: =4
             ZIndex: =3
 
         Label13 As label:
             Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Bold
             Height: =33
             Text: ="View"
             Width: =55
@@ -115,15 +108,17 @@ IA_Grid As screen:
 
     Label5 As label:
         Color: =RGBA(255, 255, 255, 1)
-        Text: ="Id"
-        Width: =57
-        X: =74
+        FontWeight: =FontWeight.Bold
+        Text: ="Invoice Id"
+        Width: =115
+        X: =27
         ZIndex: =4
 
     Label6 As label:
         Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
         Text: ="Billed To"
-        Width: =82
+        Width: =94
         X: =142
         ZIndex: =5
 
