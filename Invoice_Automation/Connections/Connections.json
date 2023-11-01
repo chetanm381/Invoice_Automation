@@ -27,6 +27,9 @@
       "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1664/1.0.1664.3477/logicflows/icon.png",
       "id": "/providers/microsoft.powerapps/apis/shared_logicflows",
       "parameterHints": {
+        "a5bbbcd4-f14c-43af-82e8-29455062c4b0": {
+          "value": "shared_commondataserviceforapps"
+        },
         "workflowEntityId": {
           "value": "45667a57-ad78-ee11-8179-6045bdf5407f"
         },
@@ -35,6 +38,9 @@
         }
       },
       "parameterHintsV2": {
+        "shared_commondataserviceforapps": {
+          "value": "a5bbbcd4-f14c-43af-82e8-29455062c4b0"
+        },
         "workflowEntityId": {
           "value": "45667a57-ad78-ee11-8179-6045bdf5407f"
         },
