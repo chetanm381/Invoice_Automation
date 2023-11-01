@@ -114,13 +114,13 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Invoice_Automation_Project -444",
+    "Name": "Invoice_Automation_Project",
     "OriginatingVersion": "1.335",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Invoice_Automation_Project -444",
+    "AppName": "Invoice_Automation_Project",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
