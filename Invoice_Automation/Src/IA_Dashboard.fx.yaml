@@ -46,15 +46,7 @@ IA_Dashboard As screen:
                     HoverFill: =ColorFade(Self.Fill, 20%)
                     OnSelect: |-
                         =SubmitForm(Form2);
-                        ReadinformationfrominvoicesfromPowerApps.Run(
-                            Form2.LastSubmit.ID,
-                           {
-                                
-                                 name: First(DataCardValue21.Attachments).Name, 
-                                 contentBytes: First(DataCardValue21.Attachments).Value
-                             }
-                        );
-                        
+                        ReadinformationfrominvoicesfromPowerApps.Run(Form2.LastSubmit.ID);
                         Notify("Invoice Successfully Uploaded");
                         ResetForm(Form2);
                     Size: =8
