@@ -33,6 +33,7 @@
       "Editor": "Modified By",
       "Editor#Claims": "Modified By Claims",
       "GSTN": "GSTN ",
+      "Icon": "Icon",
       "ID": "ID",
       "Invoice_ID": "Invoice_ID",
       "Invoice_Total": "Invoice_Total",
@@ -40,6 +41,7 @@
       "OData__ColorTag": "Color Tag",
       "PANNo_x002e_": "PAN No.",
       "Progress_Status": "Progress_Status",
+      "Status": "Status ",
       "Sub_Total": "Sub_Total",
       "Tax": "Tax",
       "Title": "Title"

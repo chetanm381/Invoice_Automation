@@ -578,7 +578,7 @@ IA_Dashboard As screen:
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
                 Height: =479
-                Items: =IA_Invoice_Details
+                Items: =Filter(IA_Invoice_Details,'Status '="Active")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateSize: =49
