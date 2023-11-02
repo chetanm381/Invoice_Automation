@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =
+    OnStart: =Set(selected,"Dashboard")
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:

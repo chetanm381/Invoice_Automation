@@ -66,7 +66,7 @@ IA_Dashboard As screen:
                 RadiusTopRight: =15
                 Width: =173
                 X: =24
-                Y: =138
+                Y: =159
                 ZIndex: =4
 
                 Rectangle4_1 As rectangle:
@@ -119,7 +119,7 @@ IA_Dashboard As screen:
                 RadiusTopRight: =15
                 Width: =173
                 X: =24
-                Y: =221
+                Y: =224
                 ZIndex: =6
 
                 Rectangle4_4 As rectangle:
@@ -274,6 +274,47 @@ IA_Dashboard As screen:
                             Y: =DataCardValue21.Y + DataCardValue21.Height
                             ZIndex: =3
 
+            Container6 As groupContainer.manualLayoutContainer:
+                Fill: =RGBA(179, 175, 227, 1)
+                Height: =22
+                RadiusBottomLeft: =25
+                RadiusBottomRight: =25
+                RadiusTopLeft: =25
+                RadiusTopRight: =25
+                Width: =173
+                X: =24
+                Y: =99
+                ZIndex: =9
+
+                Image1 As image:
+                    Height: =22
+                    Image: =User().Image
+                    RadiusBottomLeft: =20
+                    RadiusBottomRight: =20
+                    RadiusTopLeft: =20
+                    RadiusTopRight: =20
+                    Width: =22
+                    ZIndex: =2
+
+                Label6 As label:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =22
+                    PaddingLeft: =10
+                    Size: =8
+                    Text: =User().FullName
+                    Width: =123
+                    X: =22
+                    ZIndex: =3
+
+                Icon1 As icon.Person:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =15
+                    Icon: =Icon.Person
+                    Width: =15
+                    X: =150
+                    Y: =3
+                    ZIndex: =4
+
         Container1_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             Height: =145
@@ -349,8 +390,11 @@ IA_Dashboard As screen:
             ZIndex: =3
 
             Container2_5 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
                 Width: =110
                 X: =10
                 Y: =162
@@ -391,8 +435,11 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
             Container2_6 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
                 Width: =115
                 X: =40
                 Y: =162
@@ -433,8 +480,11 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
             Container2_7 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
                 Width: =115
                 X: =40
                 Y: =162
@@ -475,8 +525,11 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
             Container2_8 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
                 DropShadow: =DropShadow.None
                 Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
                 Width: =120
                 X: =40
                 Y: =162
