@@ -714,10 +714,11 @@ IA_Dashboard As screen:
                 BorderColor: =RGBA(80, 65, 188, 1)
                 BorderThickness: =.25
                 Color: =RGBA(80, 65, 188, 1)
-                Default: ="Search"
+                Default: =""
                 Fill: =RGBA(245, 243, 255, 1)
                 FocusedBorderThickness: =1
                 Height: =25
+                HintText: ="Search"
                 HoverBorderColor: =RGBA(80, 65, 188, 1)
                 HoverColor: =Self.Color
                 HoverFill: =Self.Fill
