@@ -582,7 +582,7 @@ IA_Dashboard As screen:
 
                 Icon3_2 As icon.DetailList:
                     Height: =20
-                    Icon: =Icon.Mail
+                    Icon: =If(ThisItem.Icon="Mail",Icon.Mail,Icon.Document)
                     OnSelect: =Select(Parent)
                     Width: =26
                     X: =25
