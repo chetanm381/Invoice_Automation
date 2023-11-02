@@ -654,19 +654,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
               }
             }
           ],
@@ -714,19 +714,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
               }
             }
           ],
@@ -774,19 +774,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
               }
             }
           ],
@@ -834,19 +834,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
               }
             }
           ],
@@ -894,19 +894,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
               }
             }
           ],
@@ -954,36 +954,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21.AccessibleLabel"
                 }
               ],
@@ -1008,6 +978,36 @@
           },
           "ruleId": "acc-AccessibleLabelNeeded",
           "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 2
         },
         {
           "locations": [
@@ -1044,19 +1044,49 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard",
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 1
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.Container3.Gallery1_1"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
               }
             }
           ],
