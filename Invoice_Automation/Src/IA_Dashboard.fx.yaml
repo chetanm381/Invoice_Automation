@@ -563,7 +563,7 @@ IA_Dashboard As screen:
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
                 Height: =479
-                Items: =Filter(IA_Invoice_Details,'Status '="Active")
+                Items: =Search(Filter(IA_Invoice_Details,'Status '="Active"),TextInput1_1.Text,"BilledTo")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 TemplateSize: =49
