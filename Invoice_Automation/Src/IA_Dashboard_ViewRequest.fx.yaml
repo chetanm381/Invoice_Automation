@@ -1066,3 +1066,75 @@ IA_Dashboard_ViewRequest As screen:
         ZIndex: =2
         Zoom: =Zoom.FitHeight
 
+    DataTable1 As dataTable.datatable:
+        BorderStyle: =BorderStyle.Solid
+        DisplayMode: =DisplayMode.Edit
+        Fill: =RGBA(0, 0, 0, 0)
+        HeadingSize: =10
+        Height: =333
+        Items: =Filter(IA_Invoice_Items,Invoice_Id="13467")
+        Size: |
+            =10
+        Width: =529
+        X: |+
+            =239
+            
+        Y: =686
+        ZIndex: =3
+
+        Quantity_Column1 As dataTableColumn.numberColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Quantity"
+            FieldName: ="Quantity"
+            FieldVariantName: ="numberColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =4
+            Text: =ThisItem.Quantity
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =13
+
+        Unit_price_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Unit_price"
+            FieldName: ="Unit_price"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =5
+            Text: =ThisItem.Unit_price
+            Width: =100
+            X: =0
+            Y: =0
+            ZIndex: =14
+
+        Total_Column1 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Total"
+            FieldName: ="Total"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =6
+            Text: =ThisItem.Total
+            Width: =50
+            X: =369
+            Y: =0
+            ZIndex: =15
+
+        Item_Name_Column2 As dataTableColumn.textualColumn:
+            DisplayMode: =DisplayMode.Edit
+            FieldDisplayName: ="Item Name"
+            FieldName: ="Item_Name"
+            FieldVariantName: ="textualColumn"
+            Height: =Parent.Height
+            LayoutHeight: =Parent.Height
+            Order: =7
+            Text: =ThisItem.Item_Name
+            Width: =100
+            X: =188
+            Y: =0
+            ZIndex: =16
+
