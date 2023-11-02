@@ -277,9 +277,9 @@ IA_Dashboard As screen:
             Container6 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(179, 175, 227, 1)
                 Height: =22
-                RadiusBottomLeft: =25
+                RadiusBottomLeft: =30
                 RadiusBottomRight: =25
-                RadiusTopLeft: =25
+                RadiusTopLeft: =30
                 RadiusTopRight: =25
                 Width: =173
                 X: =24
@@ -287,13 +287,14 @@ IA_Dashboard As screen:
                 ZIndex: =9
 
                 Image1 As image:
-                    Height: =22
+                    Height: =21
                     Image: =User().Image
                     RadiusBottomLeft: =20
                     RadiusBottomRight: =20
                     RadiusTopLeft: =20
                     RadiusTopRight: =20
-                    Width: =22
+                    Width: =21
+                    Y: =1
                     ZIndex: =2
 
                 Label6 As label:
@@ -314,6 +315,35 @@ IA_Dashboard As screen:
                     X: =150
                     Y: =3
                     ZIndex: =4
+
+                Circle1 As circle:
+                    Height: =22
+                    Width: =22
+                    ZIndex: =5
+
+                Label10 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =Circle1.Height
+                    Size: =5
+                    Text: |-
+                        =With(
+                                {
+                                    // get the user record
+                                    varRecordUser: If(
+                                        !IsBlank(User().Image),
+                                        Office365Users.UserProfileV2(User().Email)
+                                    )
+                                },
+                                // find the user initials
+                                Concatenate(
+                                    Left(varRecordUser.givenName, 1),
+                                    Left(varRecordUser.surname, 1)
+                                )
+                            )
+                    Width: =Circle1.Width
+                    ZIndex: =6
 
         Container1_1 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
