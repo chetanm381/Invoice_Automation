@@ -1,12 +1,12 @@
 {
   "ComponentAllowCustomization": true,
-  "ComponentChangedSinceFileImport": false,
+  "ComponentChangedSinceFileImport": true,
   "ComponentManifest": {
     "AllowAccessToGlobals": false,
     "AllowCustomization": true,
     "Description": "",
-    "Name": "IA_Dashboard_WelcomeBar",
-    "TemplateGuid": "d235eb3c434b49279b958002f289ad3d"
+    "Name": "IA_Edit_Form",
+    "TemplateGuid": "1c8e99206eb347658e42b57a21ffb4f0"
   },
   "ComponentType": "CanvasComponent",
   "CustomGroupControlTemplateName": "",
@@ -19,9 +19,8 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "638345213765036521",
-  "Name": "d235eb3c434b49279b958002f289ad3d",
+  "LastModifiedTimestamp": "638345225441501645",
+  "Name": "1c8e99206eb347658e42b57a21ffb4f0",
   "OverridableProperties": {},
-  "TemplateOriginalName": "f04c9a45291c418196f338704e6b0887",
-  "Version": "638342646039828616"
+  "Version": "638345225164665528"
 }
