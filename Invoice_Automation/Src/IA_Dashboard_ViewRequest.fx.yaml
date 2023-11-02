@@ -1070,7 +1070,8 @@ IA_Dashboard_ViewRequest As screen:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
-        HeadingSize: =10
+        HeadingSize: |
+            =12
         Height: =333
         Items: =Filter(IA_Invoice_Items,Invoice_Id="13467")
         Size: |
@@ -1083,6 +1084,7 @@ IA_Dashboard_ViewRequest As screen:
         ZIndex: =3
 
         Quantity_Column1 As dataTableColumn.numberColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Quantity"
             FieldName: ="Quantity"
@@ -1091,12 +1093,13 @@ IA_Dashboard_ViewRequest As screen:
             LayoutHeight: =Parent.Height
             Order: =4
             Text: =ThisItem.Quantity
-            Width: =100
+            Width: =99
             X: =0
             Y: =0
             ZIndex: =13
 
         Unit_price_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Unit_price"
             FieldName: ="Unit_price"
@@ -1105,12 +1108,13 @@ IA_Dashboard_ViewRequest As screen:
             LayoutHeight: =Parent.Height
             Order: =5
             Text: =ThisItem.Unit_price
-            Width: =100
+            Width: =117
             X: =0
             Y: =0
             ZIndex: =14
 
         Total_Column1 As dataTableColumn.textualColumn:
+            AutoWidth: =false
             DisplayMode: =DisplayMode.Edit
             FieldDisplayName: ="Total"
             FieldName: ="Total"
@@ -1119,7 +1123,7 @@ IA_Dashboard_ViewRequest As screen:
             LayoutHeight: =Parent.Height
             Order: =6
             Text: =ThisItem.Total
-            Width: =50
+            Width: =113
             X: =369
             Y: =0
             ZIndex: =15
