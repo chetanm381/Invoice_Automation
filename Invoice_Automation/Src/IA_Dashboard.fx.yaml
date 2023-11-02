@@ -293,6 +293,7 @@ IA_Dashboard As screen:
                     RadiusBottomRight: =20
                     RadiusTopLeft: =20
                     RadiusTopRight: =20
+                    Visible: =If(IsBlank(User().Image),false,true)
                     Width: =21
                     Y: =1
                     ZIndex: =2
@@ -317,7 +318,9 @@ IA_Dashboard As screen:
                     ZIndex: =4
 
                 Circle1 As circle:
+                    Fill: =RGBA(255, 198, 41, 1)
                     Height: =22
+                    Visible: =If(IsBlank(User().Image),true,false)
                     Width: =22
                     ZIndex: =5
 
@@ -342,6 +345,7 @@ IA_Dashboard As screen:
                                     Left(varRecordUser.surname, 1)
                                 )
                             )
+                    Visible: =If(IsBlank(User().Image),true,false)
                     Width: =Circle1.Width
                     ZIndex: =6
 
