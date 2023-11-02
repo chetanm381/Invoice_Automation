@@ -394,7 +394,7 @@ IA_Dashboard As screen:
                 DropShadow: =DropShadow.None
                 Height: =56
                 LayoutMinHeight: =100
-                LayoutMinWidth: =250
+                LayoutMinWidth: =110
                 Width: =110
                 X: =10
                 Y: =162
@@ -439,7 +439,7 @@ IA_Dashboard As screen:
                 DropShadow: =DropShadow.None
                 Height: =56
                 LayoutMinHeight: =100
-                LayoutMinWidth: =250
+                LayoutMinWidth: =115
                 Width: =115
                 X: =40
                 Y: =162
@@ -449,6 +449,7 @@ IA_Dashboard As screen:
                     Height: =37
                     Image: ='Group 10 (1)'
                     Width: =40
+                    X: =2
                     Y: =9
                     ZIndex: =1
 
@@ -458,7 +459,7 @@ IA_Dashboard As screen:
                     Size: =8
                     Text: ="In Process"
                     Width: =73
-                    X: =40
+                    X: =42
                     Y: =9
                     ZIndex: =2
 
@@ -467,7 +468,7 @@ IA_Dashboard As screen:
                     Height: =20
                     Text: ="200"
                     Width: =41
-                    X: =40
+                    X: =42
                     Y: =26
                     ZIndex: =3
 
@@ -484,7 +485,7 @@ IA_Dashboard As screen:
                 DropShadow: =DropShadow.None
                 Height: =56
                 LayoutMinHeight: =100
-                LayoutMinWidth: =250
+                LayoutMinWidth: =120
                 Width: =115
                 X: =40
                 Y: =162
@@ -494,6 +495,7 @@ IA_Dashboard As screen:
                     Height: =37
                     Image: ='Group 9'
                     Width: =40
+                    X: =1
                     Y: =9
                     ZIndex: =1
 
@@ -503,7 +505,7 @@ IA_Dashboard As screen:
                     Size: =8
                     Text: ="Rejected"
                     Width: =73
-                    X: =40
+                    X: =41
                     Y: =9
                     ZIndex: =2
 
@@ -512,7 +514,7 @@ IA_Dashboard As screen:
                     Height: =20
                     Text: ="100"
                     Width: =41
-                    X: =40
+                    X: =41
                     Y: =26
                     ZIndex: =3
 
@@ -520,7 +522,7 @@ IA_Dashboard As screen:
                     Fill: =RGBA(237, 237, 237, 1)
                     Height: =40
                     Width: =1
-                    X: =112
+                    X: =113
                     Y: =7
                     ZIndex: =4
 
