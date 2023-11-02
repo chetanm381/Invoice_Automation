@@ -131,7 +131,8 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "IA_Dashboard",
-    "IA_Grid"
+    "IA_Dashboard_Maker/Checker_Screen",
+    "IA_Grid",
+    "IA_Dashboard_ViewRequest"
   ]
 }

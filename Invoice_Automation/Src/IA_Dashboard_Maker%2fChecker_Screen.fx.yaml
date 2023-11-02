@@ -1,4 +1,4 @@
-IA_Dashboard As screen:
+"'IA_Dashboard_Maker/Checker_Screen' As screen":
 
     IA_Dashboard_Background_Container As groupContainer.manualLayoutContainer:
         Fill: =RGBA(245, 245, 245, 1)
@@ -628,7 +628,6 @@ IA_Dashboard As screen:
                     Height: =200
                     Items: =IA_Invoice_Details
                     Width: =416
-                    X: =24
                     ZIndex: =3
 
                 Legend1 As legend:
