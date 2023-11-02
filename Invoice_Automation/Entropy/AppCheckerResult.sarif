@@ -1044,19 +1044,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
                 "module": "IA_Dashboard",
-                "type": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1"
+                "type": "IA_Dashboard.IA_Dashboard_Background_Container.Container5.TextInput1_1"
               }
             }
           ],

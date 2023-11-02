@@ -710,17 +710,25 @@ IA_Dashboard As screen:
                 Width: =195
                 ZIndex: =1
 
-            TextInput1 As text:
+            TextInput1_1 As text:
+                BorderColor: =RGBA(80, 65, 188, 1)
+                BorderThickness: =.25
                 Color: =RGBA(80, 65, 188, 1)
-                Default: =" Search"
+                Default: ="Search"
                 Fill: =RGBA(245, 243, 255, 1)
-                Height: =28
+                FocusedBorderThickness: =1
+                Height: =25
+                HoverBorderColor: =RGBA(80, 65, 188, 1)
+                HoverColor: =Self.Color
+                HoverFill: =Self.Fill
+                PressedBorderColor: =RGBA(80, 65, 188, 1)
                 RadiusBottomLeft: =15
                 RadiusBottomRight: =15
                 RadiusTopLeft: =15
                 RadiusTopRight: =15
-                Width: =226
-                X: =265
-                Y: =5
-                ZIndex: =2
+                Size: =8
+                Width: =182
+                X: =317
+                Y: =7
+                ZIndex: =3
 
