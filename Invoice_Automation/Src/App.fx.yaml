@@ -1,6 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: =Set(selected,"Dashboard")
+    StartScreen: =IA_Dashboard_ViewRequest
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
