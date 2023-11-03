@@ -5,20 +5,20 @@ App As appinfo:
         ClearCollect(chartdata,
         Table(
             {
-                Year: Year(Now()),
+                Year: Year(Now())-4,
                 Count: CountRows(
                     Filter(
                         IA_Invoice_Details,
-                        Year(Date) = Year(Now())
+                        Year(Date) = Year(Now())-4
                     )
                 )
             },
             {
-                Year: Year(Now()) - 1,
+                Year: Year(Now()) - 3,
                 Count: CountRows(
                     Filter(
                         IA_Invoice_Details,
-                        Year(Date) = Year(Now()) - 1
+                        Year(Date) = Year(Now()) - 3
                     )
                 )
             },
@@ -32,14 +32,24 @@ App As appinfo:
                 )
             },
             {
-                Year: Year(Now()) - 3,
+                Year: Year(Now()) -1,
                 Count: CountRows(
                     Filter(
                         IA_Invoice_Details,
-                        Year(Date) = Year(Now()) - 3
+                        Year(Date) = Year(Now()) - 1
+                    )
+                )
+            },
+            {
+                Year: Year(Now()),
+                Count: CountRows(
+                    Filter(
+                        IA_Invoice_Details,
+                        Year(Date) = Year(Now()) 
                     )
                 )
             }
+        
         )
         );
     StartScreen: ='IA_Dashboard_Maker/Checker_Screen'
