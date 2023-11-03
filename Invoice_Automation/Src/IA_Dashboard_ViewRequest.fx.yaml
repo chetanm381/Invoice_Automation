@@ -78,6 +78,21 @@ IA_Dashboard_ViewRequest As screen:
                 X: =19
                 ZIndex: =2
 
+            Button3 As button:
+                BorderStyle: =BorderStyle.None
+                Color: =RGBA(255, 128, 87, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =21
+                HoverColor: =RGBA(255, 128, 87, 1)
+                HoverFill: =ColorFade(Self.Fill, -5%)
+                OnSelect: =SubmitForm(Form1);Back(ScreenTransition.Cover)
+                Size: =10
+                Text: ="Save"
+                Width: =79
+                X: =462
+                Y: =8
+                ZIndex: =3
+
         IA_Dashboard_leftbar_1 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(80, 65, 188, 1)
             Height: =1024
@@ -1064,30 +1079,38 @@ IA_Dashboard_ViewRequest As screen:
         Document: =First(selecteditem.Attachments).Value
         Fill: =RGBA(255, 255, 255, 1)
         Height: =254
-        Width: =508
+        Width: =349
         X: =246
         Y: =144
         ZIndex: =2
         Zoom: =Zoom.FitBoth
 
-    Button2 As button:
+    IA_Reject_btn As button:
         Color: =RGBA(255, 61, 0, 1)
         Fill: =RGBA(255, 255, 255, 1)
         Height: =35
-        Text: ="Cancel"
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Text: ="Reject"
         Width: =120
         X: =246
-        Y: =938
+        Y: =925
         ZIndex: =4
 
-    Button2_1 As button:
+    IA_Approve_btn As button:
         Color: =RGBA(0, 172, 79, 1)
         Fill: =RGBA(217, 255, 234, 1)
         Height: =35
-        Text: ="Submit"
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Text: ="Approve "
         Width: =120
-        X: =594
-        Y: =938
+        X: =595
+        Y: =925
         ZIndex: =5
 
     DataTable1 As dataTable.datatable:
@@ -1095,13 +1118,13 @@ IA_Dashboard_ViewRequest As screen:
         DisplayMode: =DisplayMode.Edit
         Fill: =RGBA(0, 0, 0, 0)
         HeadingSize: =10
-        Height: =213
+        Height: =191
         Items: =Filter(IA_Invoice_Items,Invoice_Id=selecteditem.Invoice_ID)
         Size: |
             =10
         Width: =529
-        X: =235
-        Y: =685
+        X: =239
+        Y: =701
         ZIndex: =7
 
         Quantity_Column1 As dataTableColumn.numberColumn:
