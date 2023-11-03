@@ -1,6 +1,47 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: =Set(selected,"Dashboard")
+    OnStart: |-
+        =Set(selected,"Dashboard");
+        ClearCollect(chartdata,
+        Table(
+            {
+                Year: Year(Now()),
+                Count: CountRows(
+                    Filter(
+                        IA_Invoice_Details,
+                        Year(Date) = Year(Now())
+                    )
+                )
+            },
+            {
+                Year: Year(Now()) - 1,
+                Count: CountRows(
+                    Filter(
+                        IA_Invoice_Details,
+                        Year(Date) = Year(Now()) - 1
+                    )
+                )
+            },
+            {
+                Year: Year(Now()) - 2,
+                Count: CountRows(
+                    Filter(
+                        IA_Invoice_Details,
+                        Year(Date) = Year(Now()) - 2
+                    )
+                )
+            },
+            {
+                Year: Year(Now()) - 3,
+                Count: CountRows(
+                    Filter(
+                        IA_Invoice_Details,
+                        Year(Date) = Year(Now()) - 3
+                    )
+                )
+            }
+        )
+        );
     StartScreen: ='IA_Dashboard_Maker/Checker_Screen'
     Theme: =PowerAppsTheme
 

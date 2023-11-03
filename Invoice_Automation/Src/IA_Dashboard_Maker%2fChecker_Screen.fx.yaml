@@ -615,28 +615,18 @@
                 Y: =40
                 ZIndex: =1
 
-                Title1 As label:
-                    Align: =Align.Center
-                    Height: =25
-                    Text: ="Chart Title"
-                    Width: =400
-                    X: =40
-                    Y: =40
-                    ZIndex: =2
-
-                IA_Dashboard_Chart As lineChart:
+                LineChart1 As lineChart:
                     Height: =200
-                    Items: |
-                        =
-                    Width: =440
+                    Items: =chartdata
+                    Width: =483
+                    X: =16
                     ZIndex: =3
 
                 Legend1 As legend:
                     Height: =80
-                    ItemColorSet: =IA_Dashboard_Chart.ItemColorSet
-                    Items: =IA_Dashboard_Chart.SeriesLabels
-                    Width: =320
-                    X: =80
+                    ItemColorSet: =
+                    Width: =389
+                    X: =64
                     Y: =120
                     ZIndex: =4
 

@@ -72,3 +72,15 @@ IA_Grid As screen:
         Y: =100
         ZIndex: =4
 
+    Label19 As label:
+        Text: |-
+            =CountRows(
+                        Filter(
+                            IA_Invoice_Details,
+                            Year(Date) = Year(Now()) -4
+                        )
+                    )
+        X: =75
+        Y: =270
+        ZIndex: =5
+
