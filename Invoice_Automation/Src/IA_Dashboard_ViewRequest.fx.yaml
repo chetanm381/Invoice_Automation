@@ -1073,6 +1073,52 @@ IA_Dashboard_ViewRequest As screen:
                         Y: =DataCardKey11.Y
                         ZIndex: =4
 
+        Container10 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =251
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =135
+            X: =620
+            Y: =150
+            ZIndex: =7
+
+            Label14 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Fill: =RGBA(255, 128, 87, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =25
+                PaddingTop: =10
+                Size: =8
+                Text: ="Data for Validation "
+                Width: =135
+                ZIndex: =1
+
+            Label15 As label:
+                Height: =21
+                Size: =5
+                Text: ="** Customer Details Corresponding to Invoice Customer"
+                Width: =135
+                Y: =230
+                ZIndex: =2
+
+            Label16 As label:
+                Height: =17
+                Size: =5
+                Text: ="Customer Name"
+                Width: =135
+                Y: =25
+                ZIndex: =3
+
+            Label17 As label:
+                Height: =16
+                Size: =8
+                Text: =
+                Width: =135
+                Y: =40
+                ZIndex: =4
+
     PdfViewer2 As pdfViewer:
         BorderColor: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
@@ -1081,7 +1127,7 @@ IA_Dashboard_ViewRequest As screen:
         Height: =254
         Width: =349
         X: =246
-        Y: =144
+        Y: =150
         ZIndex: =2
         Zoom: =Zoom.FitBoth
 
