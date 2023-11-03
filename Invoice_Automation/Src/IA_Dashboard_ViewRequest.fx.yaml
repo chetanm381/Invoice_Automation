@@ -432,6 +432,7 @@ IA_Dashboard_ViewRequest As screen:
             Form1 As form:
                 DataSource: =IA_Invoice_Details
                 Height: =213
+                Item: =selecteditem
                 Width: =508
                 ZIndex: =1
 
@@ -1095,7 +1096,7 @@ IA_Dashboard_ViewRequest As screen:
         Fill: =RGBA(0, 0, 0, 0)
         HeadingSize: =10
         Height: =213
-        Items: =Filter(IA_Invoice_Items,Invoice_Id="13467")
+        Items: =Filter(IA_Invoice_Items,Invoice_Id=selecteditem.Invoice_ID)
         Size: |
             =10
         Width: =529
