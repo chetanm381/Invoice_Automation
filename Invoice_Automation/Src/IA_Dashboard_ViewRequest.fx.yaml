@@ -449,6 +449,7 @@ IA_Dashboard_ViewRequest As screen:
                 Height: =213
                 Item: =selecteditem
                 Width: =508
+                X: =12
                 ZIndex: =1
 
                 Customer_Id_DataCard1 As typedDataCard.textualEditCard:
@@ -468,13 +469,12 @@ IA_Dashboard_ViewRequest As screen:
                     ZIndex: =2
 
                     DataCardKey2 As label:
-                        Height: =14
+                        Height: =32
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Customer ID"
                         Width: =153
                         Wrap: =false
-                        X: =15
-                        Y: =10
+                        X: =16
                         ZIndex: =1
 
                     DataCardValue2 As text:
@@ -486,15 +486,15 @@ IA_Dashboard_ViewRequest As screen:
                         LineHeight: =1
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
-                        Size: =10
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =18
-                        Y: =36
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
 
                     ErrorMessage2 As label:
@@ -539,31 +539,14 @@ IA_Dashboard_ViewRequest As screen:
 
                     DataCardKey3 As label:
                         AutoHeight: =true
-                        Height: =34
+                        Height: =28
                         Size: =10
-                        Text: =Parent.DisplayName
-                        Width: =Parent.Width - 60
+                        Text: ="Invoice Date"
+                        Width: =109
                         Wrap: =false
                         X: =19
                         Y: =5
                         ZIndex: =1
-
-                    DataCardValue3 As datepicker:
-                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
-                        DefaultDate: =Parent.Default
-                        DisplayMode: =Parent.DisplayMode
-                        EndYear: =Year(Today())+100
-                        Height: =25
-                        IsEditable: =true
-                        PaddingBottom: =0
-                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
-                        Size: =8
-                        StartYear: =1899
-                        Tooltip: =Parent.DisplayName
-                        Width: =Parent.Width - 60
-                        X: =19
-                        Y: =33
-                        ZIndex: =2
 
                     ErrorMessage3 As label:
                         AutoHeight: =true
@@ -578,7 +561,7 @@ IA_Dashboard_ViewRequest As screen:
                         Width: =Parent.Width - 60
                         X: =30
                         Y: =DataCardValue3.Y + DataCardValue3.Height
-                        ZIndex: =3
+                        ZIndex: =2
 
                     StarVisible3 As label:
                         Align: =Align.Center
@@ -588,7 +571,38 @@ IA_Dashboard_ViewRequest As screen:
                         Width: =30
                         Wrap: =false
                         Y: =DataCardKey3.Y
+                        ZIndex: =3
+
+                    DataCardValue3 As datepicker:
+                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        DefaultDate: =DateTimeValue(TextInput1.Text)
+                        DisplayMode: =Parent.DisplayMode
+                        EndYear: =Year(Today())+100
+                        Height: =25
+                        IsEditable: =true
+                        PaddingBottom: =0
+                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                        Size: =8
+                        StartYear: =1899
+                        Tooltip: =Parent.DisplayName
+                        Visible: =false
+                        Width: =50
+                        X: =89
+                        Y: =33
                         ZIndex: =4
+
+                    TextInput1 As text:
+                        Default: =Parent.Default
+                        Height: =25
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
+                        Width: =109
+                        X: =19
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 5
+                        ZIndex: =5
 
                 "'Billed To_DataCard1' As typedDataCard.textualEditCard":
                     BorderStyle: =BorderStyle.Solid
@@ -608,12 +622,13 @@ IA_Dashboard_ViewRequest As screen:
 
                     DataCardKey4 As label:
                         AutoHeight: =true
-                        Height: =34
+                        Height: =28
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Billed to"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =30
+                        Y: =5
                         ZIndex: =1
 
                     DataCardValue4 As text:
@@ -624,14 +639,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =30
-                        Y: =33
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
 
                     ErrorMessage4 As label:
@@ -679,7 +695,7 @@ IA_Dashboard_ViewRequest As screen:
                         AutoHeight: =true
                         Height: =34
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Invoice total"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =17
@@ -693,10 +709,11 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =17
@@ -748,7 +765,7 @@ IA_Dashboard_ViewRequest As screen:
                         AutoHeight: =true
                         Height: =33
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Sub-total"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =19
@@ -762,14 +779,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =19
-                        Y: =30
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
 
                     ErrorMessage6 As label:
@@ -817,7 +835,7 @@ IA_Dashboard_ViewRequest As screen:
                         AutoHeight: =true
                         Height: =34
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Tax"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =30
@@ -831,14 +849,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =30
-                        Y: =28
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
 
                     ErrorMessage7 As label:
@@ -873,7 +892,7 @@ IA_Dashboard_ViewRequest As screen:
                     DisplayMode: =Parent.DisplayMode
                     DisplayName: =DataSourceInfo([@IA_Invoice_Details],DataSourceInfo.DisplayName,"Invoice_ID")
                     Fill: =RGBA(0, 0, 0, 0)
-                    Height: =50
+                    Height: =68
                     MaxLength: =DataSourceInfo([@IA_Invoice_Details], DataSourceInfo.MaxLength, "Invoice_ID")
                     Required: =false
                     Update: =DataCardValue9.Text
@@ -886,10 +905,11 @@ IA_Dashboard_ViewRequest As screen:
                         AutoHeight: =true
                         Height: =34
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="Invoice ID"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =16
+                        Y: =5
                         ZIndex: =1
 
                     DataCardValue9 As text:
@@ -900,14 +920,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =16
-                        Y: =DataCardKey9.Y + DataCardKey9.Height + 5
+                        Y: =DataCardKey9.Y + DataCardKey9.Height + 3
                         ZIndex: =2
 
                     ErrorMessage9 As label:
@@ -955,7 +976,7 @@ IA_Dashboard_ViewRequest As screen:
                         AutoHeight: =true
                         Height: =34
                         Size: =10
-                        Text: =Parent.DisplayName
+                        Text: ="GSTN"
                         Width: =Parent.Width - 60
                         Wrap: =false
                         X: =16
@@ -969,14 +990,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =16
-                        Y: =33
+                        Y: =DataCardKey5.Y + DataCardKey5.Height + 8
                         ZIndex: =2
 
                     ErrorMessage10 As label:
@@ -1038,14 +1060,15 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
-                        RadiusBottomLeft: =0
-                        RadiusBottomRight: =0
-                        RadiusTopLeft: =0
-                        RadiusTopRight: =0
+                        RadiusBottomLeft: =15
+                        RadiusBottomRight: =15
+                        RadiusTopLeft: =15
+                        RadiusTopRight: =15
+                        Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
                         X: =30
-                        Y: =DataCardKey11.Y + DataCardKey11.Height + 5
+                        Y: =DataCardKey11.Y + DataCardKey11.Height + 8
                         ZIndex: =2
 
                     ErrorMessage11 As label:
@@ -1162,15 +1185,17 @@ IA_Dashboard_ViewRequest As screen:
     DataTable1 As dataTable.datatable:
         BorderStyle: =BorderStyle.Solid
         DisplayMode: =DisplayMode.Edit
-        Fill: =RGBA(0, 0, 0, 0)
+        Fill: =RGBA(255, 255, 255, 1)
+        HeadingFill: =RGBA(80, 65, 188, 1)
+        HeadingFontWeight: =FontWeight.Semibold
         HeadingSize: =10
         Height: =191
         Items: =Filter(IA_Invoice_Items,Invoice_Id=selecteditem.Invoice_ID)
-        Size: |
-            =10
-        Width: =529
-        X: =239
-        Y: =701
+        SelectedFill: =RGBA(255, 255, 255, 1)
+        Size: =8
+        Width: =490
+        X: =246
+        Y: =696
         ZIndex: =7
 
         Quantity_Column1 As dataTableColumn.numberColumn:
