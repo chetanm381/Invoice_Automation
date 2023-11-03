@@ -1155,6 +1155,19 @@ IA_Dashboard_ViewRequest As screen:
                 Y: =40
                 ZIndex: =4
 
+        Button2 As button:
+            Fill: =RGBA(80, 65, 188, 1)
+            Height: =24
+            HoverColor: =RGBA(80, 65, 188, 1)
+            HoverFill: =Color.White
+            OnSelect: =Back(ScreenTransition.Cover)
+            Size: =10
+            Text: ="Back"
+            Width: =59
+            X: =696
+            Y: =40
+            ZIndex: =8
+
     PdfViewer2 As pdfViewer:
         BorderColor: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
