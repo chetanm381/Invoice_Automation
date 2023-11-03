@@ -27,7 +27,7 @@ IA_Dashboard_ViewRequest As screen:
                 FontWeight: =FontWeight.Semibold
                 Height: =33
                 Text: |-
-                    ="Invoice#12345"
+                    ="#"&selecteditem.Invoice_ID
                 Width: =167
                 X: =17
                 ZIndex: =2
@@ -1060,13 +1060,14 @@ IA_Dashboard_ViewRequest As screen:
     PdfViewer2 As pdfViewer:
         BorderColor: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
+        Document: =First(selecteditem.Attachments).Value
         Fill: =RGBA(255, 255, 255, 1)
         Height: =254
         Width: =508
         X: =246
         Y: =144
         ZIndex: =2
-        Zoom: =Zoom.FitHeight
+        Zoom: =Zoom.FitBoth
 
     Button2 As button:
         Color: =RGBA(255, 61, 0, 1)
