@@ -5210,7 +5210,7 @@
       "Properties": [
         {
           "Category": "Data",
-          "NameMap": "{\"Labels\":\"BilledTo\",\"Series1\":\"ID\",\"Series2\":\"ID\",\"Series3\":\"ID\",\"Series4\":\"ID\",\"Series5\":\"ID\",\"Series6\":\"ID\",\"Series7\":\"ID\",\"Series8\":\"ID\",\"Series9\":\"ID\"}",
+          "NameMap": "{\"Series1\":\"Year\",\"Series2\":\"Year\",\"Series3\":\"Year\",\"Series4\":\"Year\",\"Series5\":\"Year\",\"Series6\":\"Year\",\"Series7\":\"Year\",\"Series8\":\"Year\",\"Series9\":\"Year\",\"Labels\":\"Year\"}",
           "PropertyName": "Items",
           "RuleProviderType": "Unknown"
         },

@@ -626,8 +626,9 @@
 
                 IA_Dashboard_Chart As lineChart:
                     Height: =200
-                    Items: =IA_Invoice_Details
-                    Width: =416
+                    Items: |
+                        =
+                    Width: =440
                     ZIndex: =3
 
                 Legend1 As legend:
