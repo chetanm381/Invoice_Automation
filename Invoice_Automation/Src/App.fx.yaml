@@ -1,7 +1,7 @@
 App As appinfo:
     BackEnabled: =true
     OnStart: =Set(selected,"Dashboard")
-    StartScreen: =IA_Dashboard_ViewRequest
+    StartScreen: ='IA_Dashboard_Maker/Checker_Screen'
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
