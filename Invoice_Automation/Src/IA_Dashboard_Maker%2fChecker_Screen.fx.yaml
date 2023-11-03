@@ -733,7 +733,7 @@
                             "Maker/Checker",RGBA(255, 128, 87, 1),"Manager",Color.DimGrey,Color.Green
                             )
                         Height: =20
-                        Size: =8
+                        Size: =6
                         Text: =ThisItem.Progress_Status
                         Width: =87
                         ZIndex: =2
