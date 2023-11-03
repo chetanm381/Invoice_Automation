@@ -80,7 +80,7 @@
 
                 Icon1_1 As icon.Waffle:
                     Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
-                    Height: =25
+                    Height: =17
                     HoverBorderColor: =
                     HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     HoverFill: =RGBA(0,0,0,0)
@@ -88,9 +88,9 @@
                     OnSelect: =Select(Rectangle4_1)
                     PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =
-                    Width: =29
-                    X: =12
-                    Y: =10
+                    Width: =25
+                    X: =15
+                    Y: =15
                     ZIndex: =3
 
                 Label5_1 As label:
@@ -134,7 +134,7 @@
 
                 Icon1_4 As icon.Waffle:
                     Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
-                    Height: =25
+                    Height: =17
                     HoverBorderColor: =
                     HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     HoverFill: =RGBA(0,0,0,0)
@@ -142,9 +142,9 @@
                     OnSelect: =Select(Rectangle4_4)
                     PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
                     PressedFill: =
-                    Width: =29
-                    X: =12
-                    Y: =10
+                    Width: =25
+                    X: =14
+                    Y: =14
                     ZIndex: =3
 
                 Label5_3 As label:
@@ -654,7 +654,7 @@
                 Items: =Search(Filter(IA_Invoice_Details,'Status '="Active"),TextInput1_1.Text,"BilledTo")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
-                OnSelect: =Set(selecteditem,ThisItem);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
+                OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
                 TemplateSize: =49
                 Width: =500
                 Y: =27
@@ -687,6 +687,7 @@
                     ZIndex: =11
 
                 Label1 As label:
+                    Align: =Align.Center
                     Italic: =true
                     OnSelect: =Select(Parent)
                     Size: =8
@@ -699,6 +700,7 @@
                     ZIndex: =12
 
                 Label2 As label:
+                    Align: =Align.Center
                     FontWeight: =FontWeight.Semibold
                     OnSelect: =Select(Parent)
                     Size: =8
@@ -764,23 +766,25 @@
                     ZIndex: =3
 
                 Label6_1 As label:
+                    Align: =Align.Center
                     Color: =RGBA(255, 255, 255, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =32
                     Size: =8
                     Text: ="Billed To"
                     Width: =94
-                    X: =203
+                    X: =214
                     ZIndex: =5
 
                 Label6_3 As label:
+                    Align: =Align.Center
                     Color: =RGBA(255, 255, 255, 1)
                     FontWeight: =FontWeight.Bold
                     Height: =32
                     Size: =8
                     Text: ="Invoice Id"
                     Width: =94
-                    X: =74
+                    X: =82
                     ZIndex: =6
 
         Container5 As groupContainer.manualLayoutContainer:

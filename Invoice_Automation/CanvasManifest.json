@@ -11,7 +11,7 @@
   },
   "Properties": {
     "AppCreationSource": "AppFromScratch",
-    "AppDescription": "Latest 11.00 pm , 3/11/23 edit",
+    "AppDescription": "Latest 16.20 pm , 3/11/23 edit",
     "AppPreviewFlagsMap": {
       "aibuilderserviceenrollment": false,
       "allowmultiplescreensincanvaspages": false,
@@ -110,17 +110,17 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "c8920931-aa65-420c-b4e6-0604d0a32984",
-    "Id": "8ad942fb-4cd8-48ff-95ba-d2d52875b73a",
+    "Id": "2bf2403f-decb-43be-8fd3-2cbd8f7969b2",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Invoice_Automation_Project - Latest 121",
+    "Name": "Invoice_Automation_Project%2B-%2BLatest%2B121.msapp",
     "OriginatingVersion": "1.335",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Invoice_Automation_Project - Latest 121",
+    "AppName": "Invoice_Automation_Project",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",

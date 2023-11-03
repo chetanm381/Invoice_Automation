@@ -85,9 +85,10 @@ IA_Dashboard_ViewRequest As screen:
                 Height: =21
                 HoverColor: =RGBA(255, 128, 87, 1)
                 HoverFill: =ColorFade(Self.Fill, -5%)
-                OnSelect: =SubmitForm(Form1);Back(ScreenTransition.Cover)
+                OnSelect: =SubmitForm(Form1);Notify("Values updated , You can Proceed further.")
                 Size: =10
                 Text: ="Save"
+                Visible: =If(request_status="Maker/Checker",true,false)
                 Width: =79
                 X: =462
                 Y: =8
@@ -447,6 +448,7 @@ IA_Dashboard_ViewRequest As screen:
 
             Form1 As form:
                 DataSource: =IA_Invoice_Details
+                DefaultMode: =If(request_status="Maker/Checker",FormMode.Edit,FormMode.View)
                 Height: =213
                 Item: =selecteditem
                 Width: =508
@@ -483,6 +485,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         LineHeight: =1
                         MaxLength: =Parent.MaxLength
@@ -593,7 +596,9 @@ IA_Dashboard_ViewRequest As screen:
                         ZIndex: =4
 
                     TextInput1 As text:
+                        BorderStyle: =If(request_status="Maker/Checker",BorderStyle.Solid,BorderStyle.None)
                         Default: =Parent.Default
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -637,6 +642,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -707,6 +713,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -777,6 +784,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -847,6 +855,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -918,6 +927,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -988,6 +998,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
@@ -1058,6 +1069,7 @@ IA_Dashboard_ViewRequest As screen:
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
+                        Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
                         PaddingLeft: =5
