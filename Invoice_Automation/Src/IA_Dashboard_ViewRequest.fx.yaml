@@ -181,6 +181,7 @@ IA_Dashboard_ViewRequest As screen:
                     ZIndex: =3
 
                 Label5_5 As label:
+                    Align: =Align.Center
                     Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
                     Fill: =RGBA(0,0,0,0)
                     FontWeight: =FontWeight.Semibold
