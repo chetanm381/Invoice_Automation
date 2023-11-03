@@ -94,66 +94,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Grid_Comp",
-                "type": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Grid_Comp",
-                "type": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "IA_Dashboard_Grid_Comp_1.Container6_1.TextInput5_1.AccessibleLabel"
                 }
               ],
@@ -604,19 +544,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.AccessibleLabel"
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.AccessibleLabel"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.AccessibleLabel",
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.AccessibleLabel",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
+                "module": "IA_Dashboard_Grid_Comp",
+                "type": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2"
               }
             }
           ],
@@ -634,439 +574,19 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex"
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.TabIndex"
                 }
               ],
               "physicalLocation": {
                 "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex",
+                  "fullyQualifiedName": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2.TabIndex",
                   "relativeAddress": 0
                 }
               },
               "properties": {
                 "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.FocusedBorderThickness"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.FocusedBorderThickness",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "FocusedBorderThickness",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-FocusBorderShouldBeVisible",
-          "ruleIndex": 4
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
-          "ruleIndex": 3
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.AccessibleLabel"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.AccessibleLabel",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "AccessibleLabel",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1"
-              }
-            }
-          ],
-          "message": {
-            "id": "issue"
-          },
-          "properties": {
-            "level": "Medium"
-          },
-          "ruleId": "acc-AccessibleLabelNeeded",
-          "ruleIndex": 2
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex",
-                  "relativeAddress": 0
-                }
-              },
-              "properties": {
-                "member": "TabIndex",
-                "module": "IA_Dashboard_Maker/Checker_Screen",
-                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1"
+                "module": "IA_Dashboard_Grid_Comp",
+                "type": "IA_Dashboard_Grid_Comp.Container3_1.Gallery1_2"
               }
             }
           ],
@@ -1804,6 +1324,576 @@
             {
               "logicalLocations": [
                 {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Rectangle4_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Label5_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_9.Icon1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Rectangle4_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.FocusedBorderThickness"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.FocusedBorderThickness",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "FocusedBorderThickness",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-FocusBorderShouldBeVisible",
+          "ruleIndex": 4
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Label5_3"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2_12.Icon1_4"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.IA_Dashboard_leftbar.Container2.Form2.Attachments_DataCard3.DataCardValue21"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container5.TextInput1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1.AccessibleLabel"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1.AccessibleLabel",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "AccessibleLabel",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-AccessibleLabelNeeded",
+          "ruleIndex": 2
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1.TabIndex"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1.TabIndex",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "TabIndex",
+                "module": "IA_Dashboard_Maker/Checker_Screen",
+                "type": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container3.Gallery1_1.Icon3_1"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "acc-TabIndexShouldBeDefinedForInteractiveControl",
+          "ruleIndex": 3
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "App.selecteditem"
+                }
+              ],
+              "physicalLocation": {
+                "address": {
+                  "fullyQualifiedName": "App.selecteditem",
+                  "relativeAddress": 0
+                }
+              },
+              "properties": {
+                "member": "selecteditem",
+                "module": "App",
+                "type": "App"
+              }
+            }
+          ],
+          "message": {
+            "id": "issue"
+          },
+          "properties": {
+            "level": "Medium"
+          },
+          "ruleId": "app-UnusedVariables",
+          "ruleIndex": 5
+        },
+        {
+          "locations": [
+            {
+              "logicalLocations": [
+                {
                   "fullyQualifiedName": "App.Ellipse 10"
                 }
               ],
@@ -1827,7 +1917,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1857,7 +1947,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1887,7 +1977,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
+          "ruleIndex": 6
         },
         {
           "locations": [
@@ -1917,7 +2007,7 @@
             "level": "Medium"
           },
           "ruleId": "app-UnusedMediaResources",
-          "ruleIndex": 5
+          "ruleIndex": 6
         }
       ],
       "tool": {
@@ -2010,6 +2100,23 @@
                 "level": "Medium",
                 "primaryCategory": "accessibility",
                 "whyFix": "If the focus isn't visible, people who don't use a mouse won't be able to see it when they're interacting with the app."
+              }
+            },
+            {
+              "id": "app-UnusedVariables",
+              "messageStrings": {
+                "issue": {
+                  "text": "Unused variable"
+                }
+              },
+              "properties": {
+                "componentType": "app",
+                "howToFix": [
+                  "Remove the unused variable."
+                ],
+                "level": "Medium",
+                "primaryCategory": "performance",
+                "whyFix": "This variable is declared but is not referenced by any control, so it is not needed."
               }
             },
             {

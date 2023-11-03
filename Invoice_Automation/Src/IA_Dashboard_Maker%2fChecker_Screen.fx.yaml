@@ -650,10 +650,11 @@
 
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
-                Height: =479
+                Height: =415
                 Items: =Search(Filter(IA_Invoice_Details,'Status '="Active"),TextInput1_1.Text,"BilledTo")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
+                OnSelect: =Set(selecteditem,ThisItem);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
                 TemplateSize: =49
                 Width: =500
                 Y: =27
@@ -662,7 +663,7 @@
                 Icon3_1 As icon.DetailList:
                     Height: =20
                     Icon: =Icon.DetailList
-                    OnSelect: =Select(Parent)
+                    OnSelect: =Select(Parent);
                     Width: =26
                     X: =445
                     Y: =16

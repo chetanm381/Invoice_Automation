@@ -1057,11 +1057,6 @@ IA_Dashboard_ViewRequest As screen:
                         Y: =DataCardKey11.Y
                         ZIndex: =4
 
-        Container12 As groupContainer.manualLayoutContainer:
-            X: =40
-            Y: =40
-            ZIndex: =6
-
     PdfViewer2 As pdfViewer:
         BorderColor: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
