@@ -651,7 +651,7 @@
             Gallery1_1 As gallery.galleryVertical:
                 DelayItemLoading: =true
                 Height: =415
-                Items: =Search(Filter(IA_Invoice_Details,'Status '="Active"),TextInput1_1.Text,"BilledTo")
+                Items: =Search(Sort(Filter(IA_Invoice_Details,'Status '="Active"),Created,SortOrder.Descending),TextInput1_1.Text,"BilledTo")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
                 OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
