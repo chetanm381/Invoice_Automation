@@ -1,6 +1,6 @@
 App As appinfo:
     BackEnabled: =true
-    OnStart: |-
+    OnStart: |+
         =Set(selected,"Dashboard");
         ClearCollect(chartdata,
         Table(
@@ -52,6 +52,27 @@ App As appinfo:
         
         )
         );
+        
+        
+        
+        
+        ClearCollect(
+            RandomCountsTable,
+            Table({Month:"Jan", Count: RoundUp(Rand() * (120 - 70) + 70,0)})
+        );
+        ForAll(
+            Split("Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec", ","),
+            Collect(
+                RandomCountsTable,
+                {Count:RoundUp(Rand() * (120 - 70) + 70,0),Month:Value}
+                )
+            )
+        ;
+        
+        
+        
+        
+        
     StartScreen: ='IA_Dashboard_Maker/Checker_Screen'
     Theme: =PowerAppsTheme
 

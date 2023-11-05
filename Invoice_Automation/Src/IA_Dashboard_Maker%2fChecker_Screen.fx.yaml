@@ -6,6 +6,497 @@
         Width: =768
         ZIndex: =1
 
+        Container1_1 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =145
+            Width: =Parent.Width*.70
+            X: =230
+            ZIndex: =1
+
+            Rectangle3_2 As rectangle:
+                Fill: =RGBA(111, 99, 204, 1)
+                Height: =115
+                Width: =548
+                Y: =30
+                ZIndex: =1
+
+            Image4_2 As image:
+                Height: =107
+                Image: ='Ellipse 11'
+                ImagePosition: =ImagePosition.Stretch
+                Width: =51
+                Y: =30
+                ZIndex: =2
+
+            Label2_2 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =44
+                Size: =18
+                Text: ="Welcome,"
+                X: =86
+                Y: =51
+                ZIndex: =3
+
+            Label1_2 As label:
+                Color: =RGBA(255, 191, 0, 1)
+                Font: =Font.'Segoe UI'
+                FontWeight: =FontWeight.Bold
+                Height: =51
+                PaddingTop: =10
+                Size: =18
+                Text: =User().FullName
+                Width: =229
+                X: =86
+                Y: =74
+                ZIndex: =4
+
+            Image1_2 As image:
+                Height: =140
+                Image: ='2807609 1'
+                ImagePosition: =ImagePosition.Stretch
+                Width: =160
+                X: =294
+                Y: =3
+                ZIndex: =5
+
+            Image3_2 As image:
+                Height: =56
+                Image: ='Ellipse 9'
+                Width: =83
+                X: =465
+                Y: =89
+                ZIndex: =6
+
+        IA_Dashboard_Kpi_container As groupContainer.horizontalAutoLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =56
+            LayoutMode: =LayoutMode.Auto
+            PaddingLeft: =10
+            RadiusBottomLeft: =30
+            RadiusBottomRight: =30
+            RadiusTopLeft: =30
+            RadiusTopRight: =30
+            X: =244
+            Y: =176
+            ZIndex: =2
+
+            Container2_5 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =110
+                Width: =110
+                X: =10
+                Y: =162
+                ZIndex: =1
+
+                Image6_14 As image:
+                    Height: =37
+                    Image: ='Group 10'
+                    Width: =40
+                    Y: =9
+                    ZIndex: =1
+
+                Label4_15 As label:
+                    Color: =RGBA(172, 172, 172, 1)
+                    Height: =17
+                    Size: =8
+                    Text: ="Approved"
+                    Width: =73
+                    X: =40
+                    Y: =9
+                    ZIndex: =2
+
+                Label5_11 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =20
+                    Text: ="310"
+                    Width: =41
+                    X: =40
+                    Y: =26
+                    ZIndex: =3
+
+                Rectangle1_6 As rectangle:
+                    Fill: =RGBA(237, 237, 237, 1)
+                    Height: =40
+                    Width: =1
+                    X: =109
+                    Y: =9
+                    ZIndex: =4
+
+            Container2_6 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =115
+                Width: =115
+                X: =40
+                Y: =162
+                ZIndex: =2
+
+                Image6_15 As image:
+                    Height: =37
+                    Image: ='Group 10 (1)'
+                    Width: =40
+                    X: =2
+                    Y: =9
+                    ZIndex: =1
+
+                Label4_16 As label:
+                    Color: =RGBA(172, 172, 172, 1)
+                    Height: =17
+                    Size: =8
+                    Text: ="In Process"
+                    Width: =73
+                    X: =42
+                    Y: =9
+                    ZIndex: =2
+
+                Label5_12 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =20
+                    Text: ="200"
+                    Width: =41
+                    X: =42
+                    Y: =26
+                    ZIndex: =3
+
+                Rectangle1_7 As rectangle:
+                    Fill: =RGBA(237, 237, 237, 1)
+                    Height: =40
+                    Width: =1
+                    X: =110
+                    Y: =9
+                    ZIndex: =4
+
+            Container2_7 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =120
+                Width: =115
+                X: =40
+                Y: =162
+                ZIndex: =3
+
+                Image6_16 As image:
+                    Height: =37
+                    Image: ='Group 9'
+                    Width: =40
+                    X: =1
+                    Y: =9
+                    ZIndex: =1
+
+                Label4_17 As label:
+                    Color: =RGBA(172, 172, 172, 1)
+                    Height: =17
+                    Size: =8
+                    Text: ="Rejected"
+                    Width: =73
+                    X: =41
+                    Y: =9
+                    ZIndex: =2
+
+                Label5_13 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =20
+                    Text: ="100"
+                    Width: =41
+                    X: =41
+                    Y: =26
+                    ZIndex: =3
+
+                Rectangle1_8 As rectangle:
+                    Fill: =RGBA(237, 237, 237, 1)
+                    Height: =40
+                    Width: =1
+                    X: =113
+                    Y: =7
+                    ZIndex: =4
+
+            Container2_8 As groupContainer.manualLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                DropShadow: =DropShadow.None
+                Height: =56
+                LayoutMinHeight: =100
+                LayoutMinWidth: =250
+                Width: =120
+                X: =40
+                Y: =162
+                ZIndex: =4
+
+                Image6_17 As image:
+                    Height: =37
+                    Image: ='Group 11 (1)'
+                    Width: =40
+                    Y: =9
+                    ZIndex: =1
+
+                Label4_18 As label:
+                    Align: =Align.Right
+                    Color: =RGBA(172, 172, 172, 1)
+                    Height: =17
+                    Size: =8
+                    Text: ="Total Invoice No."
+                    Width: =93
+                    X: =40
+                    Y: =9
+                    ZIndex: =2
+
+                Label5_14 As label:
+                    FontWeight: =FontWeight.Bold
+                    Height: =20
+                    Text: ="310"
+                    Width: =41
+                    X: =40
+                    Y: =26
+                    ZIndex: =3
+
+        Container1 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            X: =244
+            Y: =255
+            ZIndex: =3
+
+            CompositeColumnChart1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+                Title1 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(80, 65, 188, 1)
+                    Height: =22
+                    PaddingLeft: =10
+                    Size: =10
+                    Text: ="No. of Invoices received throughout Year"
+                    Width: =497
+                    X: =2
+                    Y: =2
+                    ZIndex: =2
+
+                ColumnChart1 As barChart:
+                    Color: =RGBA(80, 65, 188, 1)
+                    Height: =159
+                    ItemColorSet: =
+                    Items: =RandomCountsTable
+                    Width: =497
+                    X: =2
+                    Y: =39
+                    ZIndex: =3
+
+        Container3 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =442
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            X: =244
+            Y: =552
+            ZIndex: =4
+
+            Gallery1_1 As gallery.galleryVertical:
+                DelayItemLoading: =true
+                Height: =415
+                Items: =Search(Sort(Filter(IA_Invoice_Details,'Status '="Active"),Created,SortOrder.Descending),TextInput1_1.Text,"BilledTo")
+                Layout: =Layout.Vertical
+                LoadingSpinner: =LoadingSpinner.Data
+                OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
+                TemplateSize: =49
+                Width: =500
+                Y: =27
+                ZIndex: =1
+
+                Icon3_1 As icon.DetailList:
+                    Height: =20
+                    Icon: =Icon.DetailList
+                    OnSelect: =Select(Parent);
+                    Width: =26
+                    X: =445
+                    Y: =16
+                    ZIndex: =9
+
+                Icon3_2 As icon.DetailList:
+                    Height: =20
+                    Icon: =If(ThisItem.Icon="Mail",Icon.Mail,Icon.Document)
+                    OnSelect: =Select(Parent)
+                    Width: =26
+                    X: =25
+                    Y: =16
+                    ZIndex: =10
+
+                Rectangle2 As rectangle:
+                    Fill: =RGBA(237, 237, 237, 1)
+                    Height: =3
+                    OnSelect: =Select(Parent)
+                    Width: =488
+                    Y: =46
+                    ZIndex: =11
+
+                Label1 As label:
+                    Align: =Align.Center
+                    Italic: =true
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: |-
+                        ="Invoice#"&ThisItem.Title
+                    Underline: =true
+                    Width: =101
+                    X: =72
+                    Y: =6
+                    ZIndex: =12
+
+                Label2 As label:
+                    Align: =Align.Center
+                    FontWeight: =FontWeight.Semibold
+                    OnSelect: =Select(Parent)
+                    Size: =8
+                    Text: =ThisItem.'Billed To'
+                    X: =177
+                    Y: =6
+                    ZIndex: =13
+
+                Container4 As groupContainer.manualLayoutContainer:
+                    Height: =20
+                    RadiusBottomLeft: =15
+                    RadiusBottomRight: =15
+                    RadiusTopLeft: =15
+                    RadiusTopRight: =15
+                    Width: =87
+                    X: =331
+                    Y: =16
+                    ZIndex: =15
+
+                    Rectangle1 As rectangle:
+                        Height: =20
+                        Width: =87
+                        ZIndex: =1
+
+                    Label4 As label:
+                        Align: =Align.Center
+                        Color: |-
+                            =
+                            Switch(
+                            ThisItem.Progress_Status,
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-30%),"Manager Approval",ColorFade(RGBA(255, 153, 0, 1),-10%),"Approved",ColorFade(RGBA(133, 250, 110, 1),-30%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-30%)
+                            )
+                        Fill: |-
+                            =
+                            Switch(
+                            ThisItem.Progress_Status,
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Approved",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
+                            )
+                        FontWeight: =FontWeight.Semibold
+                        Height: =20
+                        Size: =6
+                        Text: =ThisItem.Progress_Status
+                        Width: =87
+                        ZIndex: =2
+
+            Container2_1 As groupContainer.manualLayoutContainer:
+                Height: =33
+                RadiusBottomLeft: =30
+                RadiusBottomRight: =30
+                RadiusTopLeft: =30
+                RadiusTopRight: =30
+                ZIndex: =2
+
+                Rectangle1_1 As rectangle:
+                    Fill: =RGBA(80, 65, 188, 1)
+                    Height: =33
+                    Width: =500
+                    ZIndex: =1
+
+                Label11_1 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =30
+                    Size: =8
+                    Text: ="Approval Stage"
+                    Width: =94
+                    X: =332
+                    ZIndex: =3
+
+                Label6_1 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =8
+                    Text: ="Billed To"
+                    Width: =94
+                    X: =214
+                    ZIndex: =5
+
+                Label6_3 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(255, 255, 255, 1)
+                    FontWeight: =FontWeight.Bold
+                    Height: =32
+                    Size: =8
+                    Text: ="Invoice Id"
+                    Width: =94
+                    X: =82
+                    ZIndex: =6
+
+                Icon2 As icon.Reload:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =20
+                    Icon: =Icon.Reload
+                    OnSelect: =Refresh(IA_Invoice_Details);
+                    Width: =26
+                    X: =450
+                    Y: =6
+                    ZIndex: =7
+
+        Container5 As groupContainer.manualLayoutContainer:
+            DropShadow: =DropShadow.None
+            Height: =41
+            X: =244
+            Y: =500
+            ZIndex: =5
+
+            Label5 As label:
+                Color: =RGBA(80, 65, 188, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =39
+                Size: =15
+                Text: ="Invoice Details"
+                Width: =195
+                ZIndex: =1
+
+            TextInput1_1 As text:
+                BorderColor: =RGBA(80, 65, 188, 1)
+                BorderThickness: =.25
+                Color: =RGBA(80, 65, 188, 1)
+                Default: =""
+                Fill: =RGBA(245, 243, 255, 1)
+                FocusedBorderThickness: =1
+                Height: =25
+                HintText: ="🔍︎  Search"
+                HoverBorderColor: =RGBA(80, 65, 188, 1)
+                HoverColor: =Self.Color
+                HoverFill: =Self.Fill
+                PressedBorderColor: =RGBA(80, 65, 188, 1)
+                RadiusBottomLeft: =15
+                RadiusBottomRight: =15
+                RadiusTopLeft: =15
+                RadiusTopRight: =15
+                Size: =8
+                Width: =182
+                X: =317
+                Y: =7
+                ZIndex: =3
+
         IA_Dashboard_leftbar As groupContainer.manualLayoutContainer:
             Fill: =RGBA(80, 65, 188, 1)
             Height: =1024
@@ -13,7 +504,7 @@
             RadiusTopRight: =40
             Width: =Parent.Width*.30
             X: =7
-            ZIndex: =1
+            ZIndex: =6
 
             Container4_1 As groupContainer.manualLayoutContainer:
                 Fill: =RGBA(255, 255, 255, 1)
@@ -366,479 +857,4 @@
                     Visible: =If(IsBlank(User().Image),true,false)
                     Width: =Circle1.Width
                     ZIndex: =6
-
-        Container1_1 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.None
-            Height: =145
-            Width: =Parent.Width*.70
-            X: =230
-            ZIndex: =2
-
-            Rectangle3_2 As rectangle:
-                Fill: =RGBA(111, 99, 204, 1)
-                Height: =115
-                Width: =548
-                Y: =30
-                ZIndex: =1
-
-            Image4_2 As image:
-                Height: =107
-                Image: ='Ellipse 11'
-                ImagePosition: =ImagePosition.Stretch
-                Width: =51
-                Y: =30
-                ZIndex: =2
-
-            Label2_2 As label:
-                Color: =RGBA(255, 255, 255, 1)
-                Height: =44
-                Size: =18
-                Text: ="Welcome,"
-                X: =86
-                Y: =51
-                ZIndex: =3
-
-            Label1_2 As label:
-                Color: =RGBA(255, 191, 0, 1)
-                Font: =Font.'Segoe UI'
-                FontWeight: =FontWeight.Bold
-                Height: =51
-                PaddingTop: =10
-                Size: =18
-                Text: =User().FullName
-                Width: =229
-                X: =86
-                Y: =74
-                ZIndex: =4
-
-            Image1_2 As image:
-                Height: =140
-                Image: ='2807609 1'
-                ImagePosition: =ImagePosition.Stretch
-                Width: =160
-                X: =294
-                Y: =3
-                ZIndex: =5
-
-            Image3_2 As image:
-                Height: =56
-                Image: ='Ellipse 9'
-                Width: =83
-                X: =465
-                Y: =89
-                ZIndex: =6
-
-        IA_Dashboard_Kpi_container As groupContainer.horizontalAutoLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =56
-            LayoutMode: =LayoutMode.Auto
-            PaddingLeft: =10
-            RadiusBottomLeft: =30
-            RadiusBottomRight: =30
-            RadiusTopLeft: =30
-            RadiusTopRight: =30
-            X: =244
-            Y: =176
-            ZIndex: =3
-
-            Container2_5 As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                Height: =56
-                LayoutMinHeight: =100
-                LayoutMinWidth: =110
-                Width: =110
-                X: =10
-                Y: =162
-                ZIndex: =1
-
-                Image6_14 As image:
-                    Height: =37
-                    Image: ='Group 10'
-                    Width: =40
-                    Y: =9
-                    ZIndex: =1
-
-                Label4_15 As label:
-                    Color: =RGBA(172, 172, 172, 1)
-                    Height: =17
-                    Size: =8
-                    Text: ="Approved"
-                    Width: =73
-                    X: =40
-                    Y: =9
-                    ZIndex: =2
-
-                Label5_11 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =20
-                    Text: ="310"
-                    Width: =41
-                    X: =40
-                    Y: =26
-                    ZIndex: =3
-
-                Rectangle1_6 As rectangle:
-                    Fill: =RGBA(237, 237, 237, 1)
-                    Height: =40
-                    Width: =1
-                    X: =109
-                    Y: =9
-                    ZIndex: =4
-
-            Container2_6 As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                Height: =56
-                LayoutMinHeight: =100
-                LayoutMinWidth: =115
-                Width: =115
-                X: =40
-                Y: =162
-                ZIndex: =2
-
-                Image6_15 As image:
-                    Height: =37
-                    Image: ='Group 10 (1)'
-                    Width: =40
-                    X: =2
-                    Y: =9
-                    ZIndex: =1
-
-                Label4_16 As label:
-                    Color: =RGBA(172, 172, 172, 1)
-                    Height: =17
-                    Size: =8
-                    Text: ="In Process"
-                    Width: =73
-                    X: =42
-                    Y: =9
-                    ZIndex: =2
-
-                Label5_12 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =20
-                    Text: ="200"
-                    Width: =41
-                    X: =42
-                    Y: =26
-                    ZIndex: =3
-
-                Rectangle1_7 As rectangle:
-                    Fill: =RGBA(237, 237, 237, 1)
-                    Height: =40
-                    Width: =1
-                    X: =110
-                    Y: =9
-                    ZIndex: =4
-
-            Container2_7 As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                Height: =56
-                LayoutMinHeight: =100
-                LayoutMinWidth: =120
-                Width: =115
-                X: =40
-                Y: =162
-                ZIndex: =3
-
-                Image6_16 As image:
-                    Height: =37
-                    Image: ='Group 9'
-                    Width: =40
-                    X: =1
-                    Y: =9
-                    ZIndex: =1
-
-                Label4_17 As label:
-                    Color: =RGBA(172, 172, 172, 1)
-                    Height: =17
-                    Size: =8
-                    Text: ="Rejected"
-                    Width: =73
-                    X: =41
-                    Y: =9
-                    ZIndex: =2
-
-                Label5_13 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =20
-                    Text: ="100"
-                    Width: =41
-                    X: =41
-                    Y: =26
-                    ZIndex: =3
-
-                Rectangle1_8 As rectangle:
-                    Fill: =RGBA(237, 237, 237, 1)
-                    Height: =40
-                    Width: =1
-                    X: =113
-                    Y: =7
-                    ZIndex: =4
-
-            Container2_8 As groupContainer.manualLayoutContainer:
-                AlignInContainer: =AlignInContainer.SetByContainer
-                DropShadow: =DropShadow.None
-                Height: =56
-                LayoutMinHeight: =100
-                LayoutMinWidth: =250
-                Width: =120
-                X: =40
-                Y: =162
-                ZIndex: =4
-
-                Image6_17 As image:
-                    Height: =37
-                    Image: ='Group 11 (1)'
-                    Width: =40
-                    Y: =9
-                    ZIndex: =1
-
-                Label4_18 As label:
-                    Align: =Align.Right
-                    Color: =RGBA(172, 172, 172, 1)
-                    Height: =17
-                    Size: =8
-                    Text: ="Total Invoice No."
-                    Width: =93
-                    X: =40
-                    Y: =9
-                    ZIndex: =2
-
-                Label5_14 As label:
-                    FontWeight: =FontWeight.Bold
-                    Height: =20
-                    Text: ="310"
-                    Width: =41
-                    X: =40
-                    Y: =26
-                    ZIndex: =3
-
-        Container1 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
-            RadiusBottomLeft: =15
-            RadiusBottomRight: =15
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            X: =244
-            Y: =255
-            ZIndex: =5
-
-            LineChart1 As lineChart:
-                Color: |
-                    =RGBA(0, 0, 0, 1)
-                DisabledBorderColor: =RGBA(80, 65, 188, 1)
-                Height: =Parent.Height
-                HoverBorderColor: =RGBA(80, 65, 188, 1)
-                ItemColorSet: =RGBA(80, 65, 188, 1)
-                Items: =chartdata
-                PressedBorderColor: =RGBA(80, 65, 188, 1)
-                Width: =Parent.Width
-                X: =10
-                ZIndex: =3
-
-        Container3 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =442
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            X: =244
-            Y: =552
-            ZIndex: =9
-
-            Gallery1_1 As gallery.galleryVertical:
-                DelayItemLoading: =true
-                Height: =415
-                Items: =Search(Sort(Filter(IA_Invoice_Details,'Status '="Active"),Created,SortOrder.Descending),TextInput1_1.Text,"BilledTo")
-                Layout: =Layout.Vertical
-                LoadingSpinner: =LoadingSpinner.Data
-                OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
-                TemplateSize: =49
-                Width: =500
-                Y: =27
-                ZIndex: =1
-
-                Icon3_1 As icon.DetailList:
-                    Height: =20
-                    Icon: =Icon.DetailList
-                    OnSelect: =Select(Parent);
-                    Width: =26
-                    X: =445
-                    Y: =16
-                    ZIndex: =9
-
-                Icon3_2 As icon.DetailList:
-                    Height: =20
-                    Icon: =If(ThisItem.Icon="Mail",Icon.Mail,Icon.Document)
-                    OnSelect: =Select(Parent)
-                    Width: =26
-                    X: =25
-                    Y: =16
-                    ZIndex: =10
-
-                Rectangle2 As rectangle:
-                    Fill: =RGBA(237, 237, 237, 1)
-                    Height: =3
-                    OnSelect: =Select(Parent)
-                    Width: =488
-                    Y: =46
-                    ZIndex: =11
-
-                Label1 As label:
-                    Align: =Align.Center
-                    Italic: =true
-                    OnSelect: =Select(Parent)
-                    Size: =8
-                    Text: |-
-                        ="Invoice#"&ThisItem.Title
-                    Underline: =true
-                    Width: =101
-                    X: =72
-                    Y: =6
-                    ZIndex: =12
-
-                Label2 As label:
-                    Align: =Align.Center
-                    FontWeight: =FontWeight.Semibold
-                    OnSelect: =Select(Parent)
-                    Size: =8
-                    Text: =ThisItem.'Billed To'
-                    X: =177
-                    Y: =6
-                    ZIndex: =13
-
-                Container4 As groupContainer.manualLayoutContainer:
-                    Height: =20
-                    RadiusBottomLeft: =15
-                    RadiusBottomRight: =15
-                    RadiusTopLeft: =15
-                    RadiusTopRight: =15
-                    Width: =87
-                    X: =331
-                    Y: =16
-                    ZIndex: =15
-
-                    Rectangle1 As rectangle:
-                        Height: =20
-                        Width: =87
-                        ZIndex: =1
-
-                    Label4 As label:
-                        Align: =Align.Center
-                        Color: |-
-                            =
-                            Switch(
-                            ThisItem.Progress_Status,
-                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-30%),"Manager Approval",ColorFade(RGBA(255, 153, 0, 1),-10%),"Approved",ColorFade(RGBA(133, 250, 110, 1),-30%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-30%)
-                            )
-                        Fill: |-
-                            =
-                            Switch(
-                            ThisItem.Progress_Status,
-                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Approved",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
-                            )
-                        FontWeight: =FontWeight.Semibold
-                        Height: =20
-                        Size: =6
-                        Text: =ThisItem.Progress_Status
-                        Width: =87
-                        ZIndex: =2
-
-            Container2_1 As groupContainer.manualLayoutContainer:
-                Height: =33
-                RadiusBottomLeft: =30
-                RadiusBottomRight: =30
-                RadiusTopLeft: =30
-                RadiusTopRight: =30
-                ZIndex: =2
-
-                Rectangle1_1 As rectangle:
-                    Fill: =RGBA(80, 65, 188, 1)
-                    Height: =33
-                    Width: =500
-                    ZIndex: =1
-
-                Label11_1 As label:
-                    Align: =Align.Center
-                    Color: =RGBA(255, 255, 255, 1)
-                    FontWeight: =FontWeight.Bold
-                    Height: =30
-                    Size: =8
-                    Text: ="Approval Stage"
-                    Width: =94
-                    X: =332
-                    ZIndex: =3
-
-                Label6_1 As label:
-                    Align: =Align.Center
-                    Color: =RGBA(255, 255, 255, 1)
-                    FontWeight: =FontWeight.Bold
-                    Height: =32
-                    Size: =8
-                    Text: ="Billed To"
-                    Width: =94
-                    X: =214
-                    ZIndex: =5
-
-                Label6_3 As label:
-                    Align: =Align.Center
-                    Color: =RGBA(255, 255, 255, 1)
-                    FontWeight: =FontWeight.Bold
-                    Height: =32
-                    Size: =8
-                    Text: ="Invoice Id"
-                    Width: =94
-                    X: =82
-                    ZIndex: =6
-
-                Icon2 As icon.Reload:
-                    Color: =RGBA(255, 255, 255, 1)
-                    Height: =20
-                    Icon: =Icon.Reload
-                    OnSelect: =Refresh(IA_Invoice_Details);
-                    Width: =26
-                    X: =450
-                    Y: =6
-                    ZIndex: =7
-
-        Container5 As groupContainer.manualLayoutContainer:
-            DropShadow: =DropShadow.None
-            Height: =41
-            X: =244
-            Y: =500
-            ZIndex: =10
-
-            Label5 As label:
-                Color: =RGBA(80, 65, 188, 1)
-                FontWeight: =FontWeight.Semibold
-                Height: =39
-                Size: =15
-                Text: ="Invoice Details"
-                Width: =195
-                ZIndex: =1
-
-            TextInput1_1 As text:
-                BorderColor: =RGBA(80, 65, 188, 1)
-                BorderThickness: =.25
-                Color: =RGBA(80, 65, 188, 1)
-                Default: =""
-                Fill: =RGBA(245, 243, 255, 1)
-                FocusedBorderThickness: =1
-                Height: =25
-                HintText: ="🔍︎  Search"
-                HoverBorderColor: =RGBA(80, 65, 188, 1)
-                HoverColor: =Self.Color
-                HoverFill: =Self.Fill
-                PressedBorderColor: =RGBA(80, 65, 188, 1)
-                RadiusBottomLeft: =15
-                RadiusBottomRight: =15
-                RadiusTopLeft: =15
-                RadiusTopRight: =15
-                Size: =8
-                Width: =182
-                X: =317
-                Y: =7
-                ZIndex: =3
 
