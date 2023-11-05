@@ -86,7 +86,13 @@ IA_Dashboard_ViewRequest As screen:
                 Height: =20
                 HoverColor: =RGBA(255, 128, 87, 1)
                 HoverFill: =ColorFade(Self.Fill, -5%)
-                OnSelect: =SubmitForm(Form1);Notify("Values updated , You can Proceed further.")
+                OnSelect: |
+                    =SubmitForm(Form1);
+                    
+                    Patch(IA_Invoice_Items,ShowColumns(colupdatedRows,"ID","Item_Name","Quantity","Unit_price","Total"));
+                    Clear(colupdatedRows);
+                    
+                    Notify("Values updated , You can Proceed further.",NotificationType.Success,500);
                 Size: =8
                 Text: ="Save"
                 Visible: =If(request_status="Maker/Checker",true,false)
