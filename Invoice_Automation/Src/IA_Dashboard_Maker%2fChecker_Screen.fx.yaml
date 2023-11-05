@@ -731,7 +731,7 @@
                             =
                             Switch(
                             ThisItem.Progress_Status,
-                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-10%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),-10%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),-10%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-10%)
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-10%),"Manager Approval",ColorFade(RGBA(255, 153, 0, 1),-10%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),-10%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-10%)
                             )
                         Fill: |-
                             =
@@ -739,6 +739,7 @@
                             ThisItem.Progress_Status,
                             "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
                             )
+                        FontWeight: =FontWeight.Semibold
                         Height: =20
                         Size: =6
                         Text: =ThisItem.Progress_Status
@@ -816,7 +817,7 @@
                 Fill: =RGBA(245, 243, 255, 1)
                 FocusedBorderThickness: =1
                 Height: =25
-                HintText: ="Search"
+                HintText: ="🔍︎  Search"
                 HoverBorderColor: =RGBA(80, 65, 188, 1)
                 HoverColor: =Self.Color
                 HoverFill: =Self.Fill
