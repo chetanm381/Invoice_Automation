@@ -248,6 +248,21 @@
                             Items: =Parent.Default
                             MaxAttachments: =1
                             MaxAttachmentsText: ="You have attached file."
+                            OnAddFile: |-
+                                =If(
+                                    Not(
+                                        EndsWith(
+                                            First(Self.Attachments).Name,
+                                            ".pdf"
+                                        )
+                                    ) 
+                                    ,
+                                    Notify(
+                                        "Only Pdf files are allowed",
+                                        NotificationType.Error
+                                    );
+                                    Reset(Self)
+                                );
                             PaddingBottom: =5
                             PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
                             PaddingRight: =5
