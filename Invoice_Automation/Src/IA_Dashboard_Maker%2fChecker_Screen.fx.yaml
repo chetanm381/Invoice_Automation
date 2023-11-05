@@ -793,6 +793,16 @@
                     X: =82
                     ZIndex: =6
 
+                Icon2 As icon.Reload:
+                    Color: =RGBA(255, 255, 255, 1)
+                    Height: =20
+                    Icon: =Icon.Reload
+                    OnSelect: =Refresh(IA_Invoice_Details);
+                    Width: =26
+                    X: =450
+                    Y: =6
+                    ZIndex: =7
+
         Container5 As groupContainer.manualLayoutContainer:
             DropShadow: =DropShadow.None
             Height: =41
