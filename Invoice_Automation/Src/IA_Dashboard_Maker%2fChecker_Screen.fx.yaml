@@ -12,6 +12,7 @@
             RadiusBottomRight: =40
             RadiusTopRight: =40
             Width: =Parent.Width*.30
+            X: =7
             ZIndex: =1
 
             Container4_1 As groupContainer.manualLayoutContainer:
@@ -244,7 +245,9 @@
                             Height: =71
                             HoverFill: =RGBA(255, 128, 87, 1)
                             IsInDataCard: =true
-                            ItemHoverFill: =RGBA(80,65,188,1)
+                            ItemColor: =RGBA(0, 0, 0, 0)
+                            ItemFill: =RGBA(0, 0, 0, 0)
+                            ItemHoverFill: =RGBA(0, 0, 0, 0)
                             Items: =Parent.Default
                             MaxAttachments: =1
                             MaxAttachmentsText: ="You have attached file."
@@ -724,12 +727,17 @@
 
                     Label4 As label:
                         Align: =Align.Center
-                        Color: =RGBA(255, 255, 255, 1)
+                        Color: |-
+                            =
+                            Switch(
+                            ThisItem.Progress_Status,
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-10%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),-10%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),-10%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-10%)
+                            )
                         Fill: |-
                             =
                             Switch(
                             ThisItem.Progress_Status,
-                            "Maker/Checker",RGBA(255, 128, 87, 1),"Manager",Color.DimGrey,Color.Green
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
                             )
                         Height: =20
                         Size: =6
