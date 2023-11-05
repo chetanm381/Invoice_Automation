@@ -259,7 +259,7 @@
                                     ,
                                     Notify(
                                         "Only Pdf files are allowed",
-                                        NotificationType.Error,200
+                                        NotificationType.Error,300
                                     );
                                     Reset(Self)
                                 );
