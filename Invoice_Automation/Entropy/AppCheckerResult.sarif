@@ -454,46 +454,6 @@
             {
               "logicalLocations": [
                 {
-                  "fullyQualifiedName": "IA_Dashboard_ViewRequest.Container9.Gallery1.TextInput5.DisplayMode"
-                }
-              ],
-              "physicalLocation": {
-                "address": {
-                  "fullyQualifiedName": "IA_Dashboard_ViewRequest.Container9.Gallery1.TextInput5.DisplayMode",
-                  "relativeAddress": 0
-                },
-                "region": {
-                  "charLength": 3,
-                  "charOffset": 11,
-                  "snippet": {
-                    "text": ".Ed"
-                  }
-                }
-              },
-              "properties": {
-                "member": "DisplayMode",
-                "module": "IA_Dashboard_ViewRequest",
-                "type": "IA_Dashboard_ViewRequest.Container9.Gallery1.TextInput5"
-              }
-            }
-          ],
-          "message": {
-            "arguments": [
-              "Ed"
-            ],
-            "id": "issue"
-          },
-          "properties": {
-            "level": "High"
-          },
-          "ruleId": "app-ErrInvalidName",
-          "ruleIndex": 1
-        },
-        {
-          "locations": [
-            {
-              "logicalLocations": [
-                {
                   "fullyQualifiedName": "'IA_Dashboard_Maker/Checker_Screen'.IA_Dashboard_Background_Container.Container1.LineChart1.ItemColorSet"
                 }
               ],
