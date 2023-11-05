@@ -1,69 +1,6 @@
 IA_Grid As screen:
     OnVisible: =
 
-    Container9 As groupContainer.manualLayoutContainer:
-        Height: =300
-        Width: =490
-        X: =172
-        Y: =84
-        ZIndex: =2
-
-        Gallery1 As gallery.galleryVertical:
-            DelayItemLoading: =true
-            Height: =200
-            Items: =Filter(IA_Invoice_Items,Invoice_Id=selecteditem.Invoice_ID)
-            Layout: =Layout.Vertical
-            LoadingSpinner: =LoadingSpinner.Data
-            OnSelect: |+
-                =If(
-                    IsBlank(LookUp(colupdatedRows,ID=ThisItem.ID)),Collect(colupdatedRows,{ID:ThisItem.ID,Item_Name:ThisItem.Item_Name,Quantity:ThisItem.Quantity,Unit_price:ThisItem.Unit_price,Total:ThisItem.Total})
-                );
-                UpdateIf(colupdatedRows,ID=ThisItem.ID,{Item_Name:TextInput2.Text,Quantity:Value(TextInput3.Text),Unit_price:TextInput4.Text,Total:TextInput5.Text})
-                
-                
-            TemplateSize: =41
-            Width: =490
-            ZIndex: =1
-
-            TextInput2 As text:
-                Default: =ThisItem.Item_Name
-                Height: =28
-                OnSelect: =Select(Parent)
-                Width: =173
-                ZIndex: =1
-
-            TextInput3 As text:
-                Align: =Align.Center
-                Default: =ThisItem.Quantity
-                Height: =28
-                OnSelect: =Select(Parent)
-                Width: =56
-                X: =204
-                ZIndex: =2
-
-            TextInput4 As text:
-                Default: =ThisItem.Unit_price
-                Height: =28
-                OnSelect: =Select(Parent)
-                Width: =78
-                X: =291
-                ZIndex: =3
-
-            TextInput5 As text:
-                Default: =ThisItem.Total
-                Height: =28
-                OnSelect: =Select(Parent)
-                Width: =88
-                X: =382
-                ZIndex: =4
-
-            Rectangle5 As rectangle:
-                Height: =1
-                OnSelect: =Select(Parent)
-                Width: =480
-                Y: =39
-                ZIndex: =5
-
     Button5 As button:
         OnSelect: |-
             =Patch(IA_Invoice_Items,ShowColumns(colupdatedRows,"ID","Item_Name","Quantity","Unit_price","Total"));
@@ -71,7 +8,6 @@ IA_Grid As screen:
             Set(varset,false);
             Set(varset,true);
         Text: ="Button"
-        X: =502
-        Y: =28
+        X: =520
         ZIndex: =3
 
