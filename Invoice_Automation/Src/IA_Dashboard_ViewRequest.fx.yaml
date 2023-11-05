@@ -102,14 +102,51 @@ IA_Dashboard_ViewRequest As screen:
                 HoverColor: =Button3.HoverColor
                 HoverFill: =Button3.HoverFill
                 OnSelect: |-
-                    =ClearCollect(datavalidation,Search(IA_Invoice_Users,Customer_Id_DataCard1.Default,"Title"));
-                    
-                    
-                    If(First(datavalidation).Customer_GSTN='GSTN _DataCard1'.Default,Set(gstnValid,true),Set(gstnValid,false));
-                    If(First(datavalidation).Customer_Pan='PAN No._DataCard1'.Default,Set(panValid,true),Set(panValid,false));
-                    If(gstnValid And panValid ,Notify("Customer GSTN and Pan Are Valid.",NotificationType.Success,300))
+                    =ClearCollect(
+                        datavalidation,
+                        Search(
+                            IA_Invoice_Users,
+                            DataCardValue2.Text,
+                            "Title"
+                        )
+                    );
+                    Set(
+                        check,
+                        First(datavalidation).Customer_GSTN
+                    );
+                    If(
+                        check = DataCardValue10.Text,
+                        Set(
+                            gstnValid,
+                            true
+                        ),
+                        Set(
+                            gstnValid,
+                            false
+                        )
+                    );
+                    If(
+                        First(datavalidation).Customer_Pan = DataCardValue11.Text,
+                        Set(
+                            panValid,
+                            true
+                        ),
+                        Set(
+                            panValid,
+                            false
+                        )
+                    );
+                    If(
+                        gstnValid And panValid,
+                        Notify(
+                            "Customer GSTN and Pan Are Valid.",
+                            NotificationType.Success,
+                            300
+                        )
+                    )
                 Size: =8
                 Text: ="Validate"
+                Visible: =If(request_status="Maker/Checker",true,false)
                 Width: =79
                 X: =395
                 Y: =9
@@ -1070,7 +1107,7 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =21
                         Icon: =If(gstnValid, Icon.CheckBadge,Icon.CancelBadge)
                         OnSelect: =gstnValid
-                        Visible: =
+                        Visible: =If(IsBlank(gstnValid),false,true)
                         Width: =16
                         X: =7
                         Y: =38
@@ -1159,12 +1196,12 @@ IA_Dashboard_ViewRequest As screen:
 
                     Icon5 As icon.CheckBadge:
                         Color: |-
-                            =If(gstnValid, Color.Green, Color.Red)
+                            =If(panValid, Color.Green, Color.Red)
                             
                             //If(IsBlank(Parent.Error), Parent.BorderColor,
                         Height: =21
                         Icon: |-
-                            =If(gstnValid, Icon.CheckBadge,Icon.CancelBadge)
+                            =If(panValid, Icon.CheckBadge,Icon.CancelBadge)
                             
                             //If(IsBlank(Parent.Error), Parent.BorderColor,
                         Visible: =If(IsBlank(panValid),false,true)
@@ -1223,8 +1260,19 @@ IA_Dashboard_ViewRequest As screen:
         Fill: =RGBA(217, 255, 234, 1)
         Height: =35
         HoverFill: =ColorFade(RGBA(0, 172, 79, 1),-20%)
-        OnSelect: |-
-            =Patch(IA_Invoice_Details,{ID:selecteditem.ID,Progress_Status:"Manager Approval"});Back(ScreenTransition.Cover);
+        OnSelect: |
+            =Patch(
+                IA_Invoice_Details,
+                {
+                    ID: selecteditem.ID,
+                    Progress_Status: If(
+                        selecteditem.Progress_Status = "Maker/Checker",
+                        "Manager Approval",
+                        "Approved"
+                    )
+                }
+            );
+            Back(ScreenTransition.Cover);
         RadiusBottomLeft: =20
         RadiusBottomRight: =20
         RadiusTopLeft: =20

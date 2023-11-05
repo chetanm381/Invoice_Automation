@@ -731,13 +731,13 @@
                             =
                             Switch(
                             ThisItem.Progress_Status,
-                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-10%),"Manager Approval",ColorFade(RGBA(255, 153, 0, 1),-10%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),-10%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-10%)
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),-30%),"Manager Approval",ColorFade(RGBA(255, 153, 0, 1),-10%),"Approved",ColorFade(RGBA(133, 250, 110, 1),-30%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),-30%)
                             )
                         Fill: |-
                             =
                             Switch(
                             ThisItem.Progress_Status,
-                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Accepted",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
+                            "Maker/Checker",ColorFade(RGBA(129, 176, 252, 1),50%),"Manager Approval",ColorFade(RGBA(247, 200, 129, 1),50%),"Approved",ColorFade(RGBA(133, 250, 110, 1),50%),"Rejected",ColorFade(RGBA(255, 74, 74, 1),50%)
                             )
                         FontWeight: =FontWeight.Semibold
                         Height: =20
