@@ -1,86 +1,77 @@
 IA_Grid As screen:
     OnVisible: =
 
-    Gallery1 As gallery.galleryVertical:
-        DelayItemLoading: =true
-        Height: =132
-        Items: =IA_Invoice_Details
-        Layout: =Layout.Vertical
-        LoadingSpinner: =LoadingSpinner.Data
-        TemplateSize: =159
-        Width: =532
-        Y: =60
-        ZIndex: =1
+    Container9 As groupContainer.manualLayoutContainer:
+        Height: =300
+        Width: =490
+        X: =172
+        Y: =84
+        ZIndex: =2
 
-        Label3 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =ThisItem.Title
-            Width: =57
-            X: =51
-            Y: =28
+        Gallery1 As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =200
+            Items: =Filter(IA_Invoice_Items,Invoice_Id=selecteditem.Invoice_ID)
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            OnSelect: |+
+                =If(
+                    IsBlank(LookUp(colupdatedRows,ID=ThisItem.ID)),Collect(colupdatedRows,{ID:ThisItem.ID,Item_Name:ThisItem.Item_Name,Quantity:ThisItem.Quantity,Unit_price:ThisItem.Unit_price,Total:ThisItem.Total})
+                );
+                UpdateIf(colupdatedRows,ID=ThisItem.ID,{Item_Name:TextInput2.Text,Quantity:Value(TextInput3.Text),Unit_price:TextInput4.Text,Total:TextInput5.Text})
+                
+                
+            TemplateSize: =41
+            Width: =490
             ZIndex: =1
 
-        Label7 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =ThisItem.Progress_Status
-            Width: =96
-            X: =239
-            Y: =28
-            ZIndex: =4
+            TextInput2 As text:
+                Default: =ThisItem.Item_Name
+                Height: =28
+                OnSelect: =Select(Parent)
+                Width: =173
+                ZIndex: =1
 
-        Label8 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =ThisItem.'Billed To'
-            Width: =131
-            X: =108
-            Y: =28
-            ZIndex: =5
+            TextInput3 As text:
+                Align: =Align.Center
+                Default: =ThisItem.Quantity
+                Height: =28
+                OnSelect: =Select(Parent)
+                Width: =56
+                X: =204
+                ZIndex: =2
 
-        Label9 As label:
-            OnSelect: =Select(Parent)
-            Text: =ThisItem.Invoice_Total
-            X: =576
-            Y: =164
-            ZIndex: =6
+            TextInput4 As text:
+                Default: =ThisItem.Unit_price
+                Height: =28
+                OnSelect: =Select(Parent)
+                Width: =78
+                X: =291
+                ZIndex: =3
 
-        Label12 As label:
-            OnSelect: =Select(Parent)
-            Size: =8
-            Text: =
-            Width: =41
-            X: =51
-            Y: =80
-            ZIndex: =8
+            TextInput5 As text:
+                Default: =ThisItem.Total
+                Height: =28
+                OnSelect: =Select(Parent)
+                Width: =88
+                X: =382
+                ZIndex: =4
 
-        Icon3 As icon.DetailList:
-            Height: =28
-            Icon: =Icon.DetailList
-            OnSelect: =Select(Parent)
-            Width: =35
-            X: =335
-            Y: =34
-            ZIndex: =9
+            Rectangle5 As rectangle:
+                Height: =1
+                OnSelect: =Select(Parent)
+                Width: =480
+                Y: =39
+                ZIndex: =5
 
-    Icon2 As icon.Mail:
-        Height: =26
-        Icon: =Icon.Mail
-        Width: =29
-        X: =24
-        Y: =100
-        ZIndex: =4
-
-    Label19 As label:
-        Text: |-
-            =CountRows(
-                        Filter(
-                            IA_Invoice_Details,
-                            Year(Date) = Year(Now()) -4
-                        )
-                    )
-        X: =75
-        Y: =270
-        ZIndex: =5
+    Button5 As button:
+        OnSelect: |-
+            =Patch(IA_Invoice_Items,ShowColumns(colupdatedRows,"ID","Item_Name","Quantity","Unit_price","Total"));
+            Clear(colupdatedRows);
+            Set(varset,false);
+            Set(varset,true);
+        Text: ="Button"
+        X: =502
+        Y: =28
+        ZIndex: =3
 
