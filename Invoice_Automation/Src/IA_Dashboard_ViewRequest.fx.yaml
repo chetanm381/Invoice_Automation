@@ -82,17 +82,38 @@ IA_Dashboard_ViewRequest As screen:
                 BorderStyle: =BorderStyle.None
                 Color: =RGBA(255, 128, 87, 1)
                 Fill: =RGBA(255, 255, 255, 1)
-                Height: =21
+                Height: =20
                 HoverColor: =RGBA(255, 128, 87, 1)
                 HoverFill: =ColorFade(Self.Fill, -5%)
                 OnSelect: =SubmitForm(Form1);Notify("Values updated , You can Proceed further.")
-                Size: =10
+                Size: =8
                 Text: ="Save"
                 Visible: =If(request_status="Maker/Checker",true,false)
-                Width: =79
-                X: =462
+                Width: =54
+                X: =488
                 Y: =8
                 ZIndex: =3
+
+            Button4 As button:
+                BorderStyle: =BorderStyle.None
+                Color: =Button3.Color
+                Fill: =Button3.Fill
+                Height: =19
+                HoverColor: =Button3.HoverColor
+                HoverFill: =Button3.HoverFill
+                OnSelect: |-
+                    =ClearCollect(datavalidation,Search(IA_Invoice_Users,Customer_Id_DataCard1.Default,"Title"));
+                    
+                    
+                    If(First(datavalidation).Customer_GSTN='GSTN _DataCard1'.Default,Set(gstnValid,true),Set(gstnValid,false));
+                    If(First(datavalidation).Customer_Pan='PAN No._DataCard1'.Default,Set(panValid,true),Set(panValid,false));
+                    If(gstnValid And panValid ,Notify("Customer GSTN and Pan Are Valid.",NotificationType.Success,300))
+                Size: =8
+                Text: ="Validate"
+                Width: =79
+                X: =395
+                Y: =9
+                ZIndex: =4
 
         IA_Dashboard_leftbar_1 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(80, 65, 188, 1)
@@ -548,7 +569,7 @@ IA_Dashboard_ViewRequest As screen:
                         Text: ="Invoice Date"
                         Width: =109
                         Wrap: =false
-                        X: =19
+                        X: =30
                         Y: =5
                         ZIndex: =1
 
@@ -606,7 +627,7 @@ IA_Dashboard_ViewRequest As screen:
                         RadiusTopRight: =15
                         Size: =8
                         Width: =109
-                        X: =19
+                        X: =30
                         Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =5
 
@@ -776,7 +797,7 @@ IA_Dashboard_ViewRequest As screen:
                         Text: ="Sub-total"
                         Width: =Parent.Width - 60
                         Wrap: =false
-                        X: =19
+                        X: =30
                         ZIndex: =1
 
                     DataCardValue6 As text:
@@ -795,7 +816,7 @@ IA_Dashboard_ViewRequest As screen:
                         Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
-                        X: =19
+                        X: =30
                         Y: =DataCardKey5.Y + DataCardKey5.Height + 5
                         ZIndex: =2
 
@@ -990,11 +1011,14 @@ IA_Dashboard_ViewRequest As screen:
                         Text: ="GSTN"
                         Width: =Parent.Width - 60
                         Wrap: =false
-                        X: =16
+                        X: =30
                         ZIndex: =1
 
                     DataCardValue10 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        BorderColor: |-
+                            =If(IsBlank(gstnValid),Parent.BorderColor,If(gstnValid, Color.Green, Color.Red))
+                            
+                            //If(IsBlank(Parent.Error), Parent.BorderColor,
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
@@ -1009,8 +1033,8 @@ IA_Dashboard_ViewRequest As screen:
                         Size: =8
                         Tooltip: =Parent.DisplayName
                         Width: =Parent.Width - 60
-                        X: =16
-                        Y: =DataCardKey5.Y + DataCardKey5.Height + 8
+                        X: =30
+                        Y: =36
                         ZIndex: =2
 
                     ErrorMessage10 As label:
@@ -1037,6 +1061,20 @@ IA_Dashboard_ViewRequest As screen:
                         Wrap: =false
                         Y: =DataCardKey10.Y
                         ZIndex: =4
+
+                    Icon5_1 As icon.CheckBadge:
+                        Color: |-
+                            =If(gstnValid, Color.Green, Color.Red)
+                            
+                            //If(IsBlank(Parent.Error), Parent.BorderColor,
+                        Height: =21
+                        Icon: =If(gstnValid, Icon.CheckBadge,Icon.CancelBadge)
+                        OnSelect: =gstnValid
+                        Visible: =
+                        Width: =16
+                        X: =7
+                        Y: =38
+                        ZIndex: =5
 
                 "'PAN No._DataCard1' As typedDataCard.textualEditCard":
                     BorderStyle: =BorderStyle.Solid
@@ -1065,7 +1103,17 @@ IA_Dashboard_ViewRequest As screen:
                         ZIndex: =1
 
                     DataCardValue11 As text:
-                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        BorderColor: |-
+                            =If(
+                                IsBlank(panValid),
+                                Parent.BorderColor,
+                                If(
+                                    panValid,
+                                    Color.Green,
+                                    Color.Red
+                                )
+                            )
+                            //If(IsBlank(Parent.Error), Parent.BorderColor,
                         Default: =Parent.Default
                         DelayOutput: =true
                         DisplayMode: =Parent.DisplayMode
@@ -1109,58 +1157,31 @@ IA_Dashboard_ViewRequest As screen:
                         Y: =DataCardKey11.Y
                         ZIndex: =4
 
-        Container10 As groupContainer.manualLayoutContainer:
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =251
-            RadiusTopLeft: =15
-            RadiusTopRight: =15
-            Width: =135
-            X: =620
-            Y: =150
-            ZIndex: =7
-
-            Label14 As label:
-                Align: =Align.Center
-                Color: =RGBA(255, 255, 255, 1)
-                Fill: =RGBA(255, 128, 87, 1)
-                FontWeight: =FontWeight.Bold
-                Height: =25
-                PaddingTop: =10
-                Size: =8
-                Text: ="Data for Validation "
-                Width: =135
-                ZIndex: =1
-
-            Label15 As label:
-                Height: =21
-                Size: =5
-                Text: ="** Customer Details Corresponding to Invoice Customer"
-                Width: =135
-                Y: =230
-                ZIndex: =2
-
-            Label16 As label:
-                Height: =17
-                Size: =5
-                Text: ="Customer Name"
-                Width: =135
-                Y: =25
-                ZIndex: =3
-
-            Label17 As label:
-                Height: =16
-                Size: =8
-                Text: =
-                Width: =135
-                Y: =40
-                ZIndex: =4
+                    Icon5 As icon.CheckBadge:
+                        Color: |-
+                            =If(gstnValid, Color.Green, Color.Red)
+                            
+                            //If(IsBlank(Parent.Error), Parent.BorderColor,
+                        Height: =21
+                        Icon: |-
+                            =If(gstnValid, Icon.CheckBadge,Icon.CancelBadge)
+                            
+                            //If(IsBlank(Parent.Error), Parent.BorderColor,
+                        Visible: =If(IsBlank(panValid),false,true)
+                        Width: =16
+                        X: =7
+                        Y: =38
+                        ZIndex: =5
 
         Button2 As button:
             Fill: =RGBA(80, 65, 188, 1)
             Height: =24
             HoverColor: =RGBA(80, 65, 188, 1)
             HoverFill: =Color.White
-            OnSelect: =Back(ScreenTransition.Cover)
+            OnSelect: |-
+                =Back(ScreenTransition.Cover);
+                Set(gstnValid,Blank());
+                Set(panValid,Blank())
             Size: =10
             Text: ="Back"
             Width: =59
@@ -1174,9 +1195,9 @@ IA_Dashboard_ViewRequest As screen:
         Document: =First(selecteditem.Attachments).Value
         Fill: =RGBA(255, 255, 255, 1)
         Height: =254
-        Width: =349
-        X: =246
-        Y: =150
+        Width: =506
+        X: =238
+        Y: =148
         ZIndex: =2
         Zoom: =Zoom.FitBoth
 

@@ -13,13 +13,17 @@
           },
           "IA_Invoice_Items": {
             "tableName": "f11071d9-a071-48fe-b068-c33a7aa99ef6"
+          },
+          "IA_Invoice_Users": {
+            "tableName": "f5550e63-d2fd-491d-b5e7-a90bdb667657"
           }
         }
       }
     },
     "dataSources": [
       "IA_Invoice_Details",
-      "IA_Invoice_Items"
+      "IA_Invoice_Items",
+      "IA_Invoice_Users"
     ],
     "dependencies": {},
     "dependents": [],
