@@ -279,6 +279,7 @@
                     PaddingLeft: =10
                     Size: =10
                     Text: ="No. of Invoices received throughout Year"
+                    Visible: =false
                     Width: =497
                     X: =2
                     Y: =2
@@ -289,10 +290,42 @@
                     Height: =159
                     ItemColorSet: =
                     Items: =RandomCountsTable
+                    Visible: =false
                     Width: =497
                     X: =2
                     Y: =39
                     ZIndex: =3
+
+            CompositeLineChart1 As group:
+                Height: =5
+                Width: =5
+                X: =40
+                Y: =40
+                ZIndex: =4
+
+                Title2 As label:
+                    Align: =Align.Center
+                    Color: =RGBA(80, 65, 188, 1)
+                    Height: =25
+                    PaddingTop: =10
+                    Text: ="No. of Invoices Received "
+                    Width: =497
+                    X: =2
+                    Y: =2
+                    ZIndex: =5
+
+                LineChart1 As lineChart:
+                    Color: =RGBA(80, 65, 188, 1)
+                    GridStyle: =GridStyle.XOnly
+                    Height: =176
+                    ItemColorSet: =[RGBA(80, 65, 188, 1)]
+                    Items: =RandomCountsTable
+                    PaddingLeft: =20
+                    PaddingRight: =0
+                    Width: =489
+                    X: =10
+                    Y: =24
+                    ZIndex: =6
 
         Container3 As groupContainer.manualLayoutContainer:
             Fill: =RGBA(255, 255, 255, 1)
@@ -536,11 +569,12 @@
                     Fill: =RGBA(255, 128, 87, 1)
                     Height: =23
                     HoverFill: =ColorFade(Self.Fill, 20%)
-                    OnSelect: |-
+                    OnSelect: |+
                         =SubmitForm(Form2);
-                        ReadinformationfrominvoicesfromPowerApps.Run(Form2.LastSubmit.ID);
-                        Notify("Invoice Successfully Uploaded");
-                        ResetForm(Form2)
+                        
+                        IfError(
+                        ReadinformationfrominvoicesfromPowerApps.Run(Form2.LastSubmit.ID),Notify("An error Occured , Please try again"),Notify("Invoice Successfully Uploaded");ResetForm(Form2));
+                        
                     Size: =8
                     Text: ="Upload"
                     Width: =108
