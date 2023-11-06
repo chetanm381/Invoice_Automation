@@ -342,7 +342,7 @@
                 Items: =Search(Sort(Filter(IA_Invoice_Details,'Status '="Active"),Created,SortOrder.Descending),TextInput1_1.Text,"BilledTo")
                 Layout: =Layout.Vertical
                 LoadingSpinner: =LoadingSpinner.Data
-                OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
+                OnSelect: =Set(selecteditem,ThisItem);Set(request_status,ThisItem.Progress_Status);Set(btnShow,true);Navigate(IA_Dashboard_ViewRequest,ScreenTransition.UnCoverRight);
                 TemplateSize: =49
                 Width: =500
                 Y: =27
