@@ -16,6 +16,9 @@
           },
           "IA_Invoice_Users": {
             "tableName": "f5550e63-d2fd-491d-b5e7-a90bdb667657"
+          },
+          "Users": {
+            "tableName": "355286f8-ca4a-4a88-99ab-8f3f8a674411"
           }
         }
       }
@@ -23,7 +26,8 @@
     "dataSources": [
       "IA_Invoice_Details",
       "IA_Invoice_Items",
-      "IA_Invoice_Users"
+      "IA_Invoice_Users",
+      "Users"
     ],
     "dependencies": {},
     "dependents": [],

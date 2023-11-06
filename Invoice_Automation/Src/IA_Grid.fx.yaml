@@ -1,13 +1,3 @@
 IA_Grid As screen:
     OnVisible: =
 
-    Button5 As button:
-        OnSelect: |-
-            =Patch(IA_Invoice_Items,ShowColumns(colupdatedRows,"ID","Item_Name","Quantity","Unit_price","Total"));
-            Clear(colupdatedRows);
-            Set(varset,false);
-            Set(varset,true);
-        Text: ="Button"
-        X: =520
-        ZIndex: =3
-
