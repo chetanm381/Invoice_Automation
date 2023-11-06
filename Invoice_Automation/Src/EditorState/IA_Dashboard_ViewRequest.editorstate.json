@@ -20667,6 +20667,14 @@
           "InvariantPropertyName": "FindText",
           "IsLockable": false,
           "NameMapSourceSchema": "?"
+        },
+        {
+          "AFDDataSourceName": "",
+          "AutoRuleBindingEnabled": false,
+          "AutoRuleBindingString": "false",
+          "InvariantPropertyName": "FindNext",
+          "IsLockable": false,
+          "NameMapSourceSchema": "?"
         }
       ],
       "HasDynamicProperties": false,
@@ -20695,6 +20703,11 @@
         {
           "Category": "Data",
           "PropertyName": "FindText",
+          "RuleProviderType": "Unknown"
+        },
+        {
+          "Category": "Data",
+          "PropertyName": "FindNext",
           "RuleProviderType": "Unknown"
         },
         {

@@ -554,7 +554,7 @@ IA_Dashboard_ViewRequest As screen:
                         Height: =25
                         LineHeight: =1
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue2.Text);
+                        OnSelect: =Set(Findtext,"Customer ID");
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -669,6 +669,7 @@ IA_Dashboard_ViewRequest As screen:
                         OnSelect: |
                             =Set(
                                 Findtext,
+                                
                                 Text(DateValue(TextInput1.Text,"en-US"),"dd mmmm yyyy","en")
                             );
                             //Set(dd,
@@ -718,7 +719,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue4.Text)
+                        OnSelect: =Set(Findtext,"Billed To")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -790,7 +791,9 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue5.Text)
+                        OnSelect: |
+                            =Set(Findtext,"Total");
+                            Set(total,DataCardValue5.Text);
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -862,7 +865,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue6.Text)
+                        OnSelect: =Set(Findtext,"Subtotal")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -934,7 +937,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue7.Text)
+                        OnSelect: =Set(Findtext,"Tax")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -1007,7 +1010,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue9.Text)
+                        OnSelect: =Set(Findtext,"Invoice No.")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -1082,7 +1085,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue10.Text)
+                        OnSelect: =Set(Findtext,"GST No.")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -1178,7 +1181,7 @@ IA_Dashboard_ViewRequest As screen:
                         Fill: =If(request_status="Maker/Checker",RGBA(255, 255, 255, 1),RGBA(0,0,0,0))
                         Height: =25
                         MaxLength: =Parent.MaxLength
-                        OnSelect: =Set(Findtext,DataCardValue11.Text)
+                        OnSelect: =Set(Findtext,"PAN No.")
                         PaddingLeft: =5
                         RadiusBottomLeft: =15
                         RadiusBottomRight: =15
@@ -1254,6 +1257,7 @@ IA_Dashboard_ViewRequest As screen:
         DisplayMode: =DisplayMode.View
         Document: =First(selecteditem.Attachments).Value
         Fill: =RGBA(255, 255, 255, 1)
+        FindNext: =
         FindText: =Findtext
         Height: =254
         Width: =506
