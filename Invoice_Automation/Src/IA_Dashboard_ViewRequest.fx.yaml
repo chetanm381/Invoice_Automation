@@ -91,7 +91,6 @@ IA_Dashboard_ViewRequest As screen:
                     
                     Patch(IA_Invoice_Items,ShowColumns(colupdatedRows,"ID","Item_Name","Quantity","Unit_price","Total"));
                     Clear(colupdatedRows);
-                    
                     Notify("Values updated , You can Proceed further.",NotificationType.Success,500);
                 Size: =8
                 Text: ="Save"
