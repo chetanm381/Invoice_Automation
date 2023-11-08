@@ -1,0 +1,469 @@
+IA_Notification As screen:
+
+    IA_Dashboard_leftbar_2 As groupContainer.manualLayoutContainer:
+        Fill: =RGBA(80, 65, 188, 1)
+        Height: =1024
+        RadiusBottomRight: =40
+        RadiusTopRight: =40
+        Width: =Parent.Width*.30
+        X: =7
+        ZIndex: =1
+
+        Container4_3 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =309
+            RadiusBottomLeft: =20
+            RadiusBottomRight: =20
+            RadiusTopLeft: =20
+            RadiusTopRight: =20
+            Width: =180
+            X: =24
+            Y: =456
+            ZIndex: =2
+
+            Image1_6 As image:
+                Image: ='2625766'
+                X: =36
+                Y: =12
+                ZIndex: =1
+
+            Label1_7 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Text: ="Quick Extract"
+                Width: =180
+                Y: =122
+                ZIndex: =2
+
+            Button1_3 As button:
+                Fill: =RGBA(255, 128, 87, 1)
+                Height: =23
+                HoverFill: =ColorFade(Self.Fill, 20%)
+                OnSelect: |+
+                    =SubmitForm(Form2_2);
+                    
+                    IfError(
+                    ReadinformationfrominvoicesfromPowerApps.Run(Form2_2.LastSubmit.ID),Notify("An error Occured , Please try again"),Notify("Invoice Successfully Uploaded");ResetForm(Form2_2));
+                    
+                Size: =8
+                Text: ="Upload"
+                Width: =108
+                X: =36
+                Y: =262
+                ZIndex: =3
+
+        Container2_11 As groupContainer.manualLayoutContainer:
+            DropShadow: =If(selected="Dashboard",DropShadow.Light,DropShadow.None)
+            Fill: =Rectangle4_8.Fill
+            Height: =47
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =173
+            X: =24
+            Y: =159
+            ZIndex: =4
+
+            Rectangle4_8 As rectangle:
+                Fill: =If(selected="Dashboard",Color.White,RGBA(80, 65, 188, 1))
+                Height: =47
+                HoverFill: =
+                OnSelect: =true;Set(selected,"Dashboard")
+                PressedFill: =
+                Width: =173
+                ZIndex: =1
+
+            Icon1_9 As icon.Waffle:
+                Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                Height: =17
+                HoverBorderColor: =
+                HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                HoverFill: =RGBA(0,0,0,0)
+                Icon: =Icon.Waffle
+                OnSelect: =Select(Rectangle4_8)
+                PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                PressedFill: =
+                Width: =25
+                X: =15
+                Y: =15
+                ZIndex: =3
+
+            Label5_7 As label:
+                Color: =If(selected="Dashboard",RGBA(80, 65, 188, 1),Color.White)
+                Fill: =RGBA(0,0,0,0)
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =
+                HoverColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                HoverFill: =
+                OnSelect: =Select(Rectangle4_8);
+                PressedColor: =If(selected="Dashboard",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                PressedFill: =Rectangle4_8.PressedFill
+                Text: ="Dashboard"
+                Width: =134
+                X: =39
+                Y: =3
+                ZIndex: =4
+
+        Container2_14 As groupContainer.manualLayoutContainer:
+            DropShadow: =If(selected="Notifications",DropShadow.Light,DropShadow.None)
+            Fill: =Rectangle4_9.Fill
+            Height: =47
+            RadiusBottomLeft: =15
+            RadiusBottomRight: =15
+            RadiusTopLeft: =15
+            RadiusTopRight: =15
+            Width: =173
+            X: =24
+            Y: =224
+            ZIndex: =6
+
+            Rectangle4_9 As rectangle:
+                BorderStyle: =BorderStyle.None
+                Fill: =If(selected="Notifications",Color.White,RGBA(80, 65, 188, 1))
+                Height: =44
+                HoverFill: =
+                OnSelect: =true;Set(selected,"Notifications")
+                PressedFill: =
+                Width: =Parent.Width
+                ZIndex: =1
+
+            Icon1_10 As icon.Waffle:
+                Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
+                Height: =17
+                HoverBorderColor: =
+                HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                HoverFill: =RGBA(0,0,0,0)
+                Icon: =Icon.Bell
+                OnSelect: =Select(Rectangle4_9)
+                PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                PressedFill: =
+                Width: =25
+                X: =14
+                Y: =14
+                ZIndex: =3
+
+            Label5_8 As label:
+                Align: =Align.Center
+                BorderStyle: =BorderStyle.None
+                Color: =If(selected="Notifications",RGBA(80, 65, 188, 1),Color.White)
+                Fill: =RGBA(0,0,0,0)
+                FontWeight: =FontWeight.Semibold
+                HoverBorderColor: =
+                HoverColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                HoverFill: =
+                OnSelect: =Select(Rectangle4_9);
+                PressedColor: =If(selected="Notifications",RGBA(80,65,188,1),RGBA(255,255,255,1))
+                PressedFill: =Rectangle4_9.PressedFill
+                Text: ="Notifications"
+                Width: =134
+                X: =39
+                Y: =3
+                ZIndex: =4
+
+        Container1_4 As groupContainer.manualLayoutContainer:
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.None
+            Height: =62
+            Width: =230
+            X: =0.39999999999997726
+            ZIndex: =7
+
+            Circle1_4 As circle:
+                Fill: =RGBA(255, 127, 87, 1)
+                Height: =30
+                Width: =34
+                X: =46
+                Y: =20
+                ZIndex: =1
+
+            Circle2_3 As circle:
+                Fill: =RGBA(255, 198, 41, 1)
+                Height: =40
+                Width: =45
+                X: =58
+                Y: =15
+                ZIndex: =2
+
+            Label1_6 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                Font: =Font.Arial
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Text: ="Invoice "
+                X: =80
+                Y: =10
+                ZIndex: =3
+
+        Container2_4 As groupContainer.manualLayoutContainer:
+            BorderStyle: =BorderStyle.None
+            DropShadow: =DropShadow.None
+            Height: =77
+            RadiusBottomLeft: =25
+            RadiusBottomRight: =25
+            RadiusTopLeft: =25
+            RadiusTopRight: =25
+            Width: =180
+            X: =24
+            Y: =628
+            ZIndex: =8
+
+            Form2_2 As form:
+                DataSource: =IA_Invoice_Details
+                DefaultMode: =FormMode.New
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =77
+                NumberOfColumns: =1
+                Width: =180
+                ZIndex: =1
+
+                Attachments_DataCard3_2 As typedDataCard.attachmentsEditCard:
+                    BorderStyle: =BorderStyle.Solid
+                    DataField: ="{Attachments}"
+                    Default: =ThisItem.Attachments
+                    DisplayMode: =Parent.DisplayMode
+                    DisplayName: =DataSourceInfo([@IA_Invoice_Details],DataSourceInfo.DisplayName,"{Attachments}")
+                    Fill: =RGBA(0, 0, 0, 0)
+                    Height: =96
+                    Required: =false
+                    Update: =DataCardValue21_2.Attachments
+                    Width: =180
+                    X: =0
+                    Y: =0
+                    ZIndex: =1
+
+                    DataCardValue21_2 As attachments:
+                        BorderColor: =If(IsBlank(Parent.Error), Parent.BorderColor, Color.Red)
+                        BorderStyle: =BorderStyle.None
+                        DisplayMode: =Parent.DisplayMode
+                        Fill: =RGBA(253, 252, 255, 1)
+                        Height: =71
+                        HoverFill: =RGBA(255, 128, 87, 1)
+                        IsInDataCard: =true
+                        ItemColor: =RGBA(0, 0, 0, 0)
+                        ItemFill: =RGBA(0, 0, 0, 0)
+                        ItemHoverFill: =RGBA(0, 0, 0, 0)
+                        Items: =Parent.Default
+                        MaxAttachments: =1
+                        MaxAttachmentsText: ="You have attached file."
+                        OnAddFile: |-
+                            =If(
+                                Not(
+                                    EndsWith(
+                                        First(Self.Attachments).Name,
+                                        ".pdf"
+                                    )
+                                ) 
+                                ,
+                                Notify(
+                                    "Only Pdf files are allowed",
+                                    NotificationType.Error,300
+                                );
+                                Reset(Self)
+                            );
+                        PaddingBottom: =5
+                        PaddingLeft: =If(Self.DisplayMode = DisplayMode.Edit, 5, 0)
+                        PaddingRight: =5
+                        PaddingTop: =5
+                        PressedFill: =RGBA(255, 104, 54, 1)
+                        Size: =8
+                        Tooltip: =Parent.DisplayName
+                        Width: =158
+                        X: =22
+                        ZIndex: =2
+
+                    ErrorMessage21_2 As label:
+                        AutoHeight: =true
+                        Height: =10
+                        Live: =Live.Assertive
+                        PaddingBottom: =0
+                        PaddingLeft: =0
+                        PaddingRight: =0
+                        PaddingTop: =0
+                        Text: =Parent.Error
+                        Visible: =Parent.DisplayMode=DisplayMode.Edit
+                        Width: =Parent.Width - 60
+                        X: =30
+                        Y: =DataCardValue21_2.Y + DataCardValue21_2.Height
+                        ZIndex: =3
+
+        Container6_3 As groupContainer.manualLayoutContainer:
+            Fill: =RGBA(179, 175, 227, 1)
+            Height: =22
+            RadiusBottomLeft: =30
+            RadiusBottomRight: =25
+            RadiusTopLeft: =30
+            RadiusTopRight: =25
+            Width: =173
+            X: =24
+            Y: =99
+            ZIndex: =9
+
+            Image1_5 As image:
+                Height: =21
+                Image: =User().Image
+                RadiusBottomLeft: =20
+                RadiusBottomRight: =20
+                RadiusTopLeft: =20
+                RadiusTopRight: =20
+                Visible: =If(IsBlank(User().Image),false,true)
+                Width: =21
+                Y: =1
+                ZIndex: =2
+
+            Label6_5 As label:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =22
+                PaddingLeft: =10
+                Size: =8
+                Text: =User().FullName
+                Width: =123
+                X: =22
+                ZIndex: =3
+
+            Icon1_8 As icon.Person:
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =15
+                Icon: =Icon.Person
+                Width: =15
+                X: =150
+                Y: =3
+                ZIndex: =4
+
+            Circle1_5 As circle:
+                Fill: =RGBA(255, 198, 41, 1)
+                Height: =22
+                Visible: =If(IsBlank(User().Image),true,false)
+                Width: =22
+                ZIndex: =5
+
+            Label10_2 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =Circle1_5.Height
+                Size: =5
+                Text: |-
+                    =With(
+                            {
+                                // get the user record
+                                varRecordUser: If(
+                                    !IsBlank(User().Image),
+                                    Office365Users.UserProfileV2(User().Email)
+                                )
+                            },
+                            // find the user initials
+                            Concatenate(
+                                Left(varRecordUser.givenName, 1),
+                                Left(varRecordUser.surname, 1)
+                            )
+                        )
+                Visible: =If(IsBlank(User().Image),true,false)
+                Width: =Circle1_5.Width
+                ZIndex: =6
+
+    Container10 As groupContainer.manualLayoutContainer:
+        Height: =27
+        RadiusBottomLeft: |
+            =0
+        RadiusBottomRight: =30
+        RadiusTopLeft: =0
+        RadiusTopRight: =30
+        Width: =158
+        X: =237
+        Y: =52
+        ZIndex: =3
+
+        Rectangle9 As rectangle:
+            Fill: =RGBA(80, 65, 188, 1)
+            Height: =27
+            Width: =183
+            ZIndex: =1
+
+    TextInput7 As text:
+        BorderColor: =RGBA(255, 255, 255, 1)
+        Default: ="Today"
+        Height: =20
+        Size: =10
+        Width: =55
+        X: =237
+        Y: =108
+        ZIndex: =4
+
+    Container14 As groupContainer.manualLayoutContainer:
+        Height: =490
+        Width: =531
+        X: =237
+        Y: =153
+        ZIndex: =5
+
+        Gallery3 As gallery.galleryVertical:
+            DelayItemLoading: =true
+            Height: =490
+            Items: |-
+                =Table(
+                    {
+                        icon:Icon.AddUser,
+                        id:1,
+                        action:"Approved",
+                        Approver:"Maker/checker",
+                       // date:Today(),
+                        time:"9:30 am"
+                    },
+                    {
+                        icon:Icon.AddUser,
+                        id:5,
+                        action:"Approved",
+                        Approver:"Maker/checker",
+                       // date:DateValue(2/2/2023),
+                        time:"10:30 am"
+                    }
+                    ,{
+                        icon:Icon.AddUser,
+                        id:4,
+                        action:"Approved",
+                        Approver:"Manager",
+                       // date:DateValue(2/2/2023),
+                        time:"9:30 am"
+                    },{
+                        icon:Icon.AddUser,
+                        id:3,
+                        action:"Approved",
+                        Approver:"Manager",
+                      //  date:DateValue(2/2/2023),
+                        time:"9:30 am"
+                    },{
+                        icon:Icon.AddUser,
+                        id:2,
+                        action:"Rejected",
+                        Approver:"Maker/checker",
+                      //  date:DateValue(2/2/2023),
+                        time:"9:30 am"
+                    }
+                )
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplateSize: =89
+            Width: =531
+            ZIndex: =1
+
+            Label9 As label:
+                Color: =RGBA(80, 65, 188, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =52
+                OnSelect: =Select(Parent)
+                Text: =ThisItem.Approver & "  " & "Invoice ID"  & " " &  ThisItem.id &  "  " & "is" & " "  & ThisItem.action  & "   " & ThisItem.time
+                Width: =451
+                X: =70
+                Y: =18
+                ZIndex: =1
+
+            Icon3 As icon.Person:
+                Height: =39
+                Icon: =Icon.Person
+                OnSelect: =Select(Parent)
+                Width: =49
+                X: =5
+                Y: =24
+                ZIndex: =2
+
