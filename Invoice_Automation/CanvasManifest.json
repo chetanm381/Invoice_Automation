@@ -109,7 +109,7 @@
     "DocumentType": "App",
     "EnableInstrumentation": false,
     "FileID": "c8920931-aa65-420c-b4e6-0604d0a32984",
-    "Id": "a1ced6d7-ee59-4cc4-bcf4-df7d7e8cb8c8",
+    "Id": "47b5d965-f1ed-4366-a81e-969f833dcfec",
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
@@ -119,7 +119,7 @@
     "ShowStatusBar": false
   },
   "PublishInfo": {
-    "AppName": "Invoice_Automation_Project - copy",
+    "AppName": "Invoice_Automation_Project",
     "BackgroundColor": "RGBA(0,176,240,1)",
     "IconColor": "RGBA(255,255,255,1)",
     "IconName": "Edit",
