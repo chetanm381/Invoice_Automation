@@ -1537,6 +1537,7 @@ IA_Dashboard_ViewRequest As screen:
                         )
                     )
                 );
+                Back();
             PressedBorderColor: =IA_Approve_btn.PressedBorderColor
             PressedColor: =IA_Approve_btn.PressedColor
             PressedFill: =IA_Approve_btn.PressedFill
