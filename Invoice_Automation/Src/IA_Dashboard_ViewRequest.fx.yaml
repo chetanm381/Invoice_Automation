@@ -1528,7 +1528,8 @@ IA_Dashboard_ViewRequest As screen:
                                 IA_Invoice_Details,
                                 {
                                     ID: selecteditem.ID,
-                                    Progress_Status: "Rejected"
+                                    Progress_Status: "Rejected",
+                                    Comments:TextInput6.Text
                                 }
                             );
                             Set(
