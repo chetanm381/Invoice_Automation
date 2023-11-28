@@ -1270,7 +1270,7 @@ IA_Dashboard_ViewRequest As screen:
                 HoverFill: =ColorFade(RGBA(0, 172, 79, 1),-20%)
                 OnSelect: |+
                     =Set(labelpopup,"Approve");
-                    
+                    Reset(TextInput6);
                     Set(popshow,true);
                     
                     
@@ -1291,6 +1291,7 @@ IA_Dashboard_ViewRequest As screen:
                 HoverFill: =ColorFade(RGBA(255, 61, 0, 1), -20%)
                 OnSelect: |+
                     =Set(labelpopup,"Reject");
+                    Reset(TextInput6);
                     Set(popshow,true);
                     
                     
@@ -1498,7 +1499,7 @@ IA_Dashboard_ViewRequest As screen:
             HoverBorderColor: =IA_Approve_btn.HoverBorderColor
             HoverColor: =IA_Approve_btn.HoverColor
             HoverFill: =IA_Approve_btn.HoverFill
-            OnSelect: |
+            OnSelect: |+
                 =If(
                     labelpopup = "Approve",
                     Patch(
@@ -1509,7 +1510,8 @@ IA_Dashboard_ViewRequest As screen:
                                 selecteditem.Progress_Status = "Maker/Checker",
                                 "Manager Approval",
                                 "Approved"
-                            )
+                            ),
+                            Comments:TextInput6.Text
                         }
                     );
                     Set(
@@ -1521,7 +1523,7 @@ IA_Dashboard_ViewRequest As screen:
                         labelpopup = "Reject",
                         If(
                             IsBlank(TextInput6),
-                            Notify("You have to Provide Comment on Rejecting"),
+                            Notify("You have to Provide Comment on Rejecting",NotificationType.Error),
                             Patch(
                                 IA_Invoice_Details,
                                 {
@@ -1532,12 +1534,12 @@ IA_Dashboard_ViewRequest As screen:
                             Set(
                                 popshow,
                                 false
-                            );
+                            );Back();
                             
                         )
                     )
                 );
-                Back();
+                
             PressedBorderColor: =IA_Approve_btn.PressedBorderColor
             PressedColor: =IA_Approve_btn.PressedColor
             PressedFill: =IA_Approve_btn.PressedFill
@@ -1579,6 +1581,7 @@ IA_Dashboard_ViewRequest As screen:
             RadiusBottomRight: =10
             RadiusTopLeft: =10
             RadiusTopRight: =10
+            Reset: =true
             Size: =8
             X: =35
             Y: =112
